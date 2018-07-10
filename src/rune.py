@@ -1,3 +1,5 @@
+import math
+
 MAX_VALUES = {
     '6': {
         'hp': {'base': 360, 'up': 120, 'max': 2448},
@@ -28,6 +30,36 @@ MAX_VALUES = {
 }
 
 
+PROCS = {
+    5: {
+        'hp': {'min': 90, 'max': 300},
+        'hp%': {'min': 4, 'max': 7},
+        'atk': {'min': 8, 'max': 15},
+        'atk%': {'min': 4, 'max': 7},
+        'def': {'min': 8, 'max': 15},
+        'def%': {'min': 4, 'max': 7},
+        'spd': {'min': 3, 'max': 5},
+        'cr': {'min': 3, 'max': 5},
+        'cd': {'min': 3, 'max': 5},
+        'acc': {'min': 3, 'max': 7},
+        'res': {'min': 3, 'max': 7},
+    },
+    6: {
+        'atk%': {'min': 5, 'max': 8},
+        'atk': {'min': 10, 'max': 20},
+        'hp%': {'min': 5, 'max': 8},
+        'hp': {'min': 135, 'max': 375},
+        'def%': {'min': 5, 'max': 8},
+        'def': {'min': 10, 'max': 20},
+        'spd': {'min': 4, 'max': 6},
+        'cr': {'min': 4, 'max': 6},
+        'cd': {'min': 4, 'max': 7},
+        'acc': {'min': 4, 'max': 8},
+        'res': {'min': 4, 'max': 8},
+    }
+}
+
+
 class RuneSet(object):
 
     def __init__(self, name, size):
@@ -47,6 +79,9 @@ class RuneSet(object):
             return True
         else:
             return self._name == other.name and self._size == other.size
+
+    def __hash__(self):
+        return hash(self.name)
 
     def __repr__(self):
         return 'RuneSet {} {}'.format(self._name, self._size)
@@ -84,10 +119,12 @@ class Stats(object):
         self._subs = sub_stats
 
     def __it__(self):
-        if (self._prefix):
-            return ([self._primary, self._prefix] + self._subs.values()).__iter__()
-        else:
-            return ([self._primary] + self._subs.values()).__iter__()
+        st = [self._primary]
+        st.extend(self._subs)
+        if self._prefix:
+            st.append(self._prefix)
+
+        return st.__iter__()
 
     @property
     def primary(self):
@@ -113,6 +150,8 @@ class Stats(object):
 
         return RuneStat(name='none', value=0)
 
+    def __str__(self):
+        return str(self._primary) + ", " + ", ".join((str(s) for s in self._subs))
 
 class RuneStat(object):
     def __init__(self, name: str, value: int, grind: int = 0, switched=False):
@@ -129,9 +168,11 @@ class RuneStat(object):
     def value(self):
         return self._value
 
+    @property
     def is_switched(self):
         return self._is_switched
 
+    @property
     def is_grinded(self):
         return self._grind > 0
 
@@ -145,14 +186,32 @@ class RuneStat(object):
     def __repr__(self):
         return "RuneStat: {0} {1}".format(self._name, self._value)
 
+_procs = {
+    'L': 4,
+    'H': 3,
+    'R': 2,
+    'M': 1,
+    'C': 0,
+}
+
+class RuneCls(object):
+
+    def __init__(self, cls):
+        self._cls = cls
+
+    @property
+    def procs(self):
+        return _procs[self._cls]
+
 
 class MetaInfo(object):
 
-    def __init__(self, slot, set: RuneSet, lvl, grade):
+    def __init__(self, slot, set: RuneSet, lvl, grade, cls: RuneCls):
         self._slot = slot
         self._set = set
         self._lvl = lvl
         self._grade = grade
+        self._cls = cls
 
     @property
     def slot(self):
@@ -161,6 +220,10 @@ class MetaInfo(object):
     @property
     def set(self):
         return self._set
+
+    @property
+    def cls(self):
+        return self._cls
 
     @property
     def lvl(self):
@@ -183,9 +246,25 @@ class EquippedRune(object):
             'cr': rune_stats['cr'].value,
             'cd': rune_stats['cd'].value,
             'res': rune_stats['res'].value,
-            'acc': rune_stats['res'].value,
+            'acc': rune_stats['acc'].value,
         }
         # todo: calc possible grinds / switches
+
+        self._primary = rune_stats.primary
+
+        def _num_procs(stat):
+            return math.ceil(rune_stats[stat].value / PROCS[meta.grade][stat]['max'])
+
+        self._procs = {stat.name: _num_procs(stat.name) for stat in rune_stats.__it__() if stat != rune_stats.primary}
+
+
+    @property
+    def primary(self):
+        return self._primary
+
+    @property
+    def procs(self):
+        return self._procs
 
     def __getitem__(self, key):
         return self._stats[key]
@@ -202,6 +281,7 @@ class EquippedRune(object):
     def set(self):
         return self._meta.set
 
+
 class Rune(object):
     def __init__(self, id: int, meta: MetaInfo, stats: Stats):
         self._id = id
@@ -215,6 +295,7 @@ class Rune(object):
     def unlock(self):
         self._is_locked = False
 
+    @property
     def is_locked(self):
         return self._is_locked
 
@@ -240,6 +321,21 @@ class Rune(object):
     @property
     def set(self):
         return self._meta.set
+
+    @property
+    def lvl(self):
+        return self._meta.lvl
+
+    @property
+    def cls(self):
+        return self._meta.cls
+
+    def _num_procs(self, stat):
+        return math.ceil(self[stat] / PROCS[self.grade][stat]['max'])
+
+    @property
+    def procs(self):
+        return {stat.name: self._num_procs(stat.name) for stat in self._stats.__it__() if stat != self.primary}
 
     @property
     def primary(self):
@@ -318,6 +414,9 @@ class RuneBuilder(object):
 
     def slot(self, slot):
         self._meta['slot'] = slot
+
+    def cls(self, cls):
+        self._meta['cls'] = RuneCls(cls)
 
     def grade(self, grade):
         self._meta['grade'] = grade

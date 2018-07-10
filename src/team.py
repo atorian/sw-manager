@@ -1,40 +1,37 @@
-
-class TurnOrder(object):
-    def __init__(self, members, speed_sync=False):
-        pass
-
 class Team(object):
-
-    def __init__(self, members, turn_order=None, lead=None, speed_sync=False):
+    def __init__(self, prio, members, lead=None, speed_sync=False):
         self._members = members
-        self._order = turn_order
+        self._prio = prio
         self._lead = lead
         self._speed_sync = speed_sync
 
-    def is_ok(self, *args):
-        pass
+    @property
+    def priority(self):
+        return self._prio
 
-class AO(Team):
-    def get_prio(self):
-        return
+    @property
+    def members(self):
+        return self._members
 
-class AD(Team):
-    pass
 
-class GWO(Team):
-    pass
+class TeamManager:
 
-class GWD(Team):
-    pass
+    def __init__(self, teams=None):
+        self._teams = teams if teams is not None else []
 
-class Raid(Team):
-    pass
+    def add_team(self, *units, prio=1, lead=None, speed_sync=False):
+        self._teams.append(
+            Team(prio, units, lead=lead, speed_sync=speed_sync)
+        )
 
-class Beast(Team):
-    pass
+    def branch(self):
+        return TeamManager(self._teams)
 
-class Cairos(Team):
-    pass
+    def prioritize(self):
+        prios = {}
+        for team in self._teams:
+            for unit in team.members:
+                prios[unit] = prios.get(unit, 0) + team.priority
 
-class TOA(Team):
-    pass
+        return sorted(prios, key=prios.__getitem__, reverse=True)
+

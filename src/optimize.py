@@ -6,39 +6,38 @@ import time
 runes = load_profile('/Users/hcdeveloper/src/swop/atorian-1757319.json')
 
 manager = RuneManager(runes)
-# manager.add_monster(units.copper)
-manager.add_monster(units.searra)
 
 start = time.time()
+presets = [
+    units.searra,
+    units.theomars,
+    units.copper,
+]
 
-builds = list(manager.optimize())
+for build in manager.optimize(presets):
+    print(build.monster.name)
+    print('hp', build.stats['hp'])
+    print('atk', build.stats['atk'])
+    print('def', build.stats['def'])
+    print('spd', build.stats['spd'])
+    print('cr', build.stats['cr'])
+    print('cd', build.stats['cd'])
+    print('res', build.stats['res'])
+    print('acc', build.stats['acc'])
 
-end = time.time()
-print('time', end - start)
-# print('Copper')
-# print(builds[0])
+    for rune in sorted([r for r in build.runes if r], key=lambda r: r.slot):
+        if rune:
+            print(rune.slot, rune.grade * '\u2b50', rune.set.name)
+            print(str(rune.stats.primary))
+            if rune.stats.prefix:
+                print(str(rune.stats.prefix))
+            else:
+                print('-')
 
-build = builds[0]
-print('Searra')
-print('hp', build.hit_points)
-print('atk', build.attack)
-print('def', build.defense)
-print('spd', build.speed)
-print('cr', build.crit_rate)
-print('cd', build.crit_dmg)
-print('res', build.resistance)
-print('acc', build.accuracy)
+            for stat in rune.stats.sub_stats:
+                print(str(stat))
 
-print('')
-#
-# for rune in build.runes:
-#     print(rune.slot, rune.grade * '\u2b50', rune.set.name)
-#     print(str(rune.stats.primary))
-#     if rune.stats.prefix:
-#         print(str(rune.stats.prefix))
-#     else:
-#         print('-')
-#
-#     for stat in rune.stats.sub_stats:
-#         print(str(stat))
-
+    end = time.time()
+    print('time', end - start)
+    print('-----')
+    start = time.time()

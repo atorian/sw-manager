@@ -15,6 +15,6 @@ run:
 	python ./src/optimize.py
 
 test:
-	PYTHONPATH=src pytest
+	PYTHONPATH=src pipenv run pytest
 
 .PHONY: build

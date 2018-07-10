@@ -23,21 +23,20 @@ class Team(object):
 
 
 slow_bombers = Team(
-    members=('searra', 'galleon', 'tiana', 'malaka'),
-    turn_order=('tiana', 'galleon', 'malaka', 'searra'),
-    lead='searra',
-    speadSync=true
+    members=('tiana','galleon', 'malaka', 'searra'),
+    lead='spd_24',
+    spead_sync=True
 )
 
 fast_bombers = Team(
     members=('searra', 'kabilla', 'tiana', 'malaka'),
     turn_order=('kabilla', 'tiana', 'malaka', 'searra'),
     lead='searra',
-    speadSync=true
+    speadSync=True
 )
 
 
-def either_team(*args)
+def either_team(*args):
     pass
 
 
@@ -54,8 +53,6 @@ manager.add_unit(units.searra)
 manager.add_unit(units.theo)
 manager.add_unit(units.chasun)
 manager.add_unit(units.orion, select.MaxStat('spd'))
-
-
 
 
 manager.add_team(slow_bombers)

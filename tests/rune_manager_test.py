@@ -2,44 +2,17 @@ import unittest
 from rune_manager import RuneManager
 from preset import Preset, Stat, Min, Around
 from monster import Monster
-from team import Team
-from rune import Rune, RuneBuilder
-from turn_order import TurnOrder
-from units import copper
-from random import randint
-
-used_ids = []
-
-def make_rune(slot=1, set="Energy", grade=6, lvl=12, primary=None, prefix=None, sub_stats=None):
-    builder = RuneBuilder()
-
-    id = None
-
-    while not id:
-        _id = randint(1, 2000000)
-        if _id not in used_ids:
-            id = _id
-
-    builder.id(id)
-    builder.slot(slot)
-    builder.level(lvl)
-    builder.grade(grade)
-    builder.set(set)
-    builder.add_primary_stat(*primary)
-    if prefix:
-        builder.add_prefix_stat(*prefix)
-
-    for stat in sub_stats:
-        builder.add_sub_stat(*stat)
-
-    return builder.make()
-
+# from team import Team
+# from rune import Rune, RuneBuilder
+from tests import make_rune
+# from turn_order import TurnOrder
+# from units import copper
+# from random import randint
 
 class TestRuneManager(unittest.TestCase):
 
     @unittest.skip
     def test_manager_preserves_order(self):
-        rune_builder = RuneBuilder()
         runes = (
             make_rune(
                 slot=1,
@@ -169,7 +142,6 @@ class TestRuneManager(unittest.TestCase):
         self.assertEqual(build.speed, 98)
         self.assertEqual(build.resistance, 40)
         self.assertEqual(build.accuracy, 0)
-
 
 if __name__ == '__main__':
     unittest.main()

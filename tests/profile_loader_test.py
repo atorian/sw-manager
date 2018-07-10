@@ -9,7 +9,7 @@ class TestProfileLoader(unittest.TestCase):
 
         filtered = list([r for r in runes if r['spd'] == 27 and r.slot == 4])
         self.assertTrue(len(filtered), 1)
-        self.assertEqual(len(runes), 993)
+        self.assertEqual(1108, len(runes))
 
 
     def test_rune_parser_1(self):

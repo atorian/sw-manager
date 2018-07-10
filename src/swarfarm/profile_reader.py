@@ -39,6 +39,22 @@ rune_sets = {
     23: "Tolerance", 
 }
 
+classes = {
+    1: 'common',
+    2: 'magic',
+    3: 'rare',
+    4: 'hero',
+    5: 'legendary',
+}
+
+rune_cls = {
+    5: 'L',
+    4: 'H',
+    3: 'R',
+    2: 'M',
+    1: 'C',
+}
+
 
 def _stat_name(stat):
     stat_id = stat[0]
@@ -58,6 +74,7 @@ def map_rune(raw) -> Rune:
     builder.set(rune_sets[int(raw['set_id'])])
     builder.level(raw['upgrade_curr'])
     builder.grade(raw["class"])
+    builder.cls(rune_cls[raw["rank"]])
 
     builder.add_primary_stat(
         stat_names[raw['pri_eff'][0]],
@@ -70,7 +87,6 @@ def map_rune(raw) -> Rune:
             raw['prefix_eff'][1]
         )
 
-
     for stat in raw['sec_eff']:
         builder.add_sub_stat(
             _stat_name(stat),
@@ -79,8 +95,8 @@ def map_rune(raw) -> Rune:
             grind=int(stat[3])
         )
 
-
     return builder.make()
+
 
 def load_profile(path):
     with open(path, 'r') as f:

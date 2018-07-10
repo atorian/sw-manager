@@ -1,4 +1,4 @@
-from preset import Preset, Stat, Min, Around, Between
+from preset import Preset, Stat, Around, Between
 from rune import RUNE_SETS
 from monster import Monster
 
@@ -11,8 +11,11 @@ searra = Preset(monster=Monster(name='Searra', stats={
 }))
 searra.include(RUNE_SETS['Violent'], RUNE_SETS['Will'])
 searra.expect(
-    Stat('spd', Between(min=205, max=220)),  # 105%
-    Stat('atk', Around(2000)), # 150%
-    Stat('hp', Around(20000)), # 97%
-    Stat('acc', Between(min=60, max=85))
+    Stat('spd', Between(min=208, max=220)),
+    Stat('acc', Between(min=65, max=85)),
+    Stat('hp', Around(25000)),
+    Stat('atk', Around(2500)),
 )
+
+# find all builds where first stat is satissfied
+# then of just found find where stat 2 is collected
