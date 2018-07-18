@@ -1,15 +1,10 @@
 from preset import Preset, Stat, Around, Between
-from rune import RUNE_SETS
-from monster import Monster
+from rune import RuneSets
 
-searra = Preset(monster=Monster(name='Searra', stats={
-    'hp': 10875,
-    'atk': 801,
-    'def': 615,
-    'spd': 100,
-    'acc': 25
-}))
-searra.include(RUNE_SETS['Violent'], RUNE_SETS['Will'])
+print(RuneSets.Violent)
+
+searra = Preset('Seara')
+searra.include(RuneSets.Violent, RuneSets.Will)
 searra.expect(
     Stat('spd', Between(min=208, max=220)),
     Stat('acc', Between(min=65, max=85)),

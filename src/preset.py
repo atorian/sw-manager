@@ -1,7 +1,11 @@
 from __future__ import division
+
+import json
 from abc import abstractmethod
+from pathlib import Path
 from typing import NamedTuple, List
 from rune import Rune, RuneSet
+from monster import Monster
 
 
 class Condition(object):
@@ -90,9 +94,23 @@ class Stat(NamedTuple):
     primary: bool = False
 
 
+def load_units(path):
+    print('load units')
+    with open(path, 'r', encoding="utf8") as f:
+        units = json.load(f)
+
+    return {name: Monster(u['meta']['name'], u['stats']) for name, u in units.items()}
+
+
+units = None
+if not units:
+    units = load_units((Path() / 'units.json').absolute())
+    print('{} units loaded'.format(len(units.keys())))
+
+
 class Preset:
-    def __init__(self, monster):
-        self._monster = monster
+    def __init__(self, monster_name: str):
+        self._monster = units[monster_name]
         self._include_sets = []
         self._exclude_sets = []
         self._stats = []

@@ -1,0 +1,10734 @@
+{
+  "Lamor": {
+    "meta": {
+      "name": "Lamor",
+      "element": "fire",
+      "image": "unit_icon_0011_1_1.png"
+    },
+    "stats": {
+      "hp": 7245,
+      "atk": 538,
+      "def": 461,
+      "spd": 100,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": null,
+      "stat": "atk",
+      "area": null,
+      "value": 0.15
+    }
+  },
+  "Bremis": {
+    "meta": {
+      "name": "Bremis",
+      "element": "fire",
+      "image": "unit_icon_0003_1_0.png"
+    },
+    "stats": {
+      "hp": 7740,
+      "atk": 637,
+      "def": 494,
+      "spd": 107,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": null
+  },
+  "Cahule": {
+    "meta": {
+      "name": "Cahule",
+      "element": "fire",
+      "image": "unit_icon_0003_1_2.png"
+    },
+    "stats": {
+      "hp": 5595,
+      "atk": 659,
+      "def": 615,
+      "spd": 93,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": null
+  },
+  "Colleen": {
+    "meta": {
+      "name": "Colleen",
+      "element": "fire",
+      "image": "unit_icon_0009_1_2.png"
+    },
+    "stats": {
+      "hp": 10875,
+      "atk": 461,
+      "def": 461,
+      "spd": 106,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": null
+  },
+  "Sieq": {
+    "meta": {
+      "name": "Sieq",
+      "element": "fire",
+      "image": "unit_icon_0002_1_1.png"
+    },
+    "stats": {
+      "hp": 6255,
+      "atk": 823,
+      "def": 406,
+      "spd": 110,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": null
+  },
+  "Lala": {
+    "meta": {
+      "name": "Lala",
+      "element": "fire",
+      "image": "unit_icon_0013_1_1.png"
+    },
+    "stats": {
+      "hp": 8235,
+      "atk": 549,
+      "def": 549,
+      "spd": 99,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": null
+  },
+  "Cogma": {
+    "meta": {
+      "name": "Cogma",
+      "element": "fire",
+      "image": "unit_icon_0000_1_3.png"
+    },
+    "stats": {
+      "hp": 7740,
+      "atk": 648,
+      "def": 483,
+      "spd": 115,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": null
+  },
+  "Tatu": {
+    "meta": {
+      "name": "Tatu",
+      "element": "fire",
+      "image": "unit_icon_0001_1_0.png"
+    },
+    "stats": {
+      "hp": 6750,
+      "atk": 736,
+      "def": 461,
+      "spd": 111,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": null
+  },
+  "Ursha": {
+    "meta": {
+      "name": "Ursha",
+      "element": "fire",
+      "image": "unit_icon_0002_1_3.png"
+    },
+    "stats": {
+      "hp": 9885,
+      "atk": 549,
+      "def": 439,
+      "spd": 102,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": null
+  },
+  "Tantra": {
+    "meta": {
+      "name": "Tantra",
+      "element": "fire",
+      "image": "unit_icon_0001_1_2.png"
+    },
+    "stats": {
+      "hp": 8895,
+      "atk": 560,
+      "def": 494,
+      "spd": 101,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": null
+  },
+  "Tigresse": {
+    "meta": {
+      "name": "Tigresse",
+      "element": "water",
+      "image": "unit_icon_0011_0_1.png"
+    },
+    "stats": {
+      "hp": 6750,
+      "atk": 582,
+      "def": 450,
+      "spd": 100,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": null,
+      "stat": "hp",
+      "area": null,
+      "value": 0.15
+    }
+  },
+  "Daharenos": {
+    "meta": {
+      "name": "Daharenos",
+      "element": "water",
+      "image": "unit_icon_0003_0_0.png"
+    },
+    "stats": {
+      "hp": 7080,
+      "atk": 758,
+      "def": 417,
+      "spd": 107,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": null
+  },
+  "Konamiya": {
+    "meta": {
+      "name": "Konamiya",
+      "element": "water",
+      "image": "unit_icon_0003_0_2.png"
+    },
+    "stats": {
+      "hp": 11700,
+      "atk": 384,
+      "def": 483,
+      "spd": 91,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": null
+  },
+  "Sisroo": {
+    "meta": {
+      "name": "Sisroo",
+      "element": "water",
+      "image": "unit_icon_0009_0_2.png"
+    },
+    "stats": {
+      "hp": 7245,
+      "atk": 582,
+      "def": 582,
+      "spd": 106,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": null
+  },
+  "Tarq": {
+    "meta": {
+      "name": "Tarq",
+      "element": "water",
+      "image": "unit_icon_0002_0_1.png"
+    },
+    "stats": {
+      "hp": 8565,
+      "atk": 714,
+      "def": 362,
+      "spd": 115,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": null
+  },
+  "Lulu": {
+    "meta": {
+      "name": "Lulu",
+      "element": "water",
+      "image": "unit_icon_0013_0_1.png"
+    },
+    "stats": {
+      "hp": 8730,
+      "atk": 527,
+      "def": 538,
+      "spd": 99,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": null
+  },
+  "Fynn": {
+    "meta": {
+      "name": "Fynn",
+      "element": "water",
+      "image": "unit_icon_0000_0_3.png"
+    },
+    "stats": {
+      "hp": 5265,
+      "atk": 736,
+      "def": 560,
+      "spd": 111,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": null
+  },
+  "Kacey": {
+    "meta": {
+      "name": "Kacey",
+      "element": "water",
+      "image": "unit_icon_0001_0_0.png"
+    },
+    "stats": {
+      "hp": 9225,
+      "atk": 549,
+      "def": 483,
+      "spd": 111,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": null
+  },
+  "Kaimann": {
+    "meta": {
+      "name": "Kaimann",
+      "element": "water",
+      "image": "unit_icon_0004_0_1.png"
+    },
+    "stats": {
+      "hp": 7410,
+      "atk": 494,
+      "def": 659,
+      "spd": 99,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": null
+  },
+  "Allen": {
+    "meta": {
+      "name": "Allen",
+      "element": "water",
+      "image": "unit_icon_0021_0_0.png"
+    },
+    "stats": {
+      "hp": 10050,
+      "atk": 461,
+      "def": 516,
+      "spd": 98,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": null
+  },
+  "Kunda": {
+    "meta": {
+      "name": "Kunda",
+      "element": "water",
+      "image": "unit_icon_0001_0_2.png"
+    },
+    "stats": {
+      "hp": 10215,
+      "atk": 395,
+      "def": 571,
+      "spd": 101,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": null
+  },
+  "Samour": {
+    "meta": {
+      "name": "Samour",
+      "element": "wind",
+      "image": "unit_icon_0011_2_1.png"
+    },
+    "stats": {
+      "hp": 7410,
+      "atk": 582,
+      "def": 406,
+      "spd": 100,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": null,
+      "stat": "cr",
+      "area": null,
+      "value": 0.1
+    }
+  },
+  "Taharus": {
+    "meta": {
+      "name": "Taharus",
+      "element": "wind",
+      "image": "unit_icon_0003_2_0.png"
+    },
+    "stats": {
+      "hp": 6420,
+      "atk": 780,
+      "def": 439,
+      "spd": 107,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": null
+  },
+  "Aeilene": {
+    "meta": {
+      "name": "Aeilene",
+      "element": "wind",
+      "image": "unit_icon_0000_2_1.png"
+    },
+    "stats": {
+      "hp": 7905,
+      "atk": 604,
+      "def": 516,
+      "spd": 104,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": null
+  },
+  "Lindermen": {
+    "meta": {
+      "name": "Lindermen",
+      "element": "wind",
+      "image": "unit_icon_0003_2_2.png"
+    },
+    "stats": {
+      "hp": 7905,
+      "atk": 483,
+      "def": 637,
+      "spd": 91,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": null
+  },
+  "Seal": {
+    "meta": {
+      "name": "Seal",
+      "element": "wind",
+      "image": "unit_icon_0009_2_2.png"
+    },
+    "stats": {
+      "hp": 8070,
+      "atk": 615,
+      "def": 494,
+      "spd": 108,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": null
+  },
+  "Gamir": {
+    "meta": {
+      "name": "Gamir",
+      "element": "wind",
+      "image": "unit_icon_0002_2_1.png"
+    },
+    "stats": {
+      "hp": 6915,
+      "atk": 790,
+      "def": 395,
+      "spd": 113,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": null
+  },
+  "Chichi": {
+    "meta": {
+      "name": "Chichi",
+      "element": "wind",
+      "image": "unit_icon_0013_2_1.png"
+    },
+    "stats": {
+      "hp": 7905,
+      "atk": 516,
+      "def": 604,
+      "spd": 99,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": null
+  },
+  "Ralph": {
+    "meta": {
+      "name": "Ralph",
+      "element": "wind",
+      "image": "unit_icon_0000_2_3.png"
+    },
+    "stats": {
+      "hp": 5595,
+      "atk": 790,
+      "def": 483,
+      "spd": 113,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": null
+  },
+  "Shannon": {
+    "meta": {
+      "name": "Shannon",
+      "element": "wind",
+      "image": "unit_icon_0001_2_0.png"
+    },
+    "stats": {
+      "hp": 8730,
+      "atk": 505,
+      "def": 560,
+      "spd": 111,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": null
+  },
+  "Lukan": {
+    "meta": {
+      "name": "Lukan",
+      "element": "wind",
+      "image": "unit_icon_0004_2_1.png"
+    },
+    "stats": {
+      "hp": 7245,
+      "atk": 582,
+      "def": 582,
+      "spd": 99,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": null
+  },
+  "Roid": {
+    "meta": {
+      "name": "Roid",
+      "element": "wind",
+      "image": "unit_icon_0021_2_0.png"
+    },
+    "stats": {
+      "hp": 10215,
+      "atk": 483,
+      "def": 483,
+      "spd": 98,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": null
+  },
+  "Ramagos": {
+    "meta": {
+      "name": "Ramagos",
+      "element": "wind",
+      "image": "unit_icon_0002_2_3.png"
+    },
+    "stats": {
+      "hp": 10545,
+      "atk": 384,
+      "def": 560,
+      "spd": 102,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": null
+  },
+  "Rakaja": {
+    "meta": {
+      "name": "Rakaja",
+      "element": "wind",
+      "image": "unit_icon_0001_2_2.png"
+    },
+    "stats": {
+      "hp": 8235,
+      "atk": 483,
+      "def": 615,
+      "spd": 101,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": null
+  },
+  "Havana": {
+    "meta": {
+      "name": "Havana",
+      "element": "dark",
+      "image": "unit_icon_0011_4_1.png"
+    },
+    "stats": {
+      "hp": 7080,
+      "atk": 527,
+      "def": 483,
+      "spd": 100,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": null,
+      "stat": "acc",
+      "area": null,
+      "value": 0.15
+    }
+  },
+  "Sorin": {
+    "meta": {
+      "name": "Sorin",
+      "element": "dark",
+      "image": "unit_icon_0000_4_1.png"
+    },
+    "stats": {
+      "hp": 7740,
+      "atk": 615,
+      "def": 516,
+      "spd": 102,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": null
+  },
+  "Rizak": {
+    "meta": {
+      "name": "Rizak",
+      "element": "dark",
+      "image": "unit_icon_0003_4_2.png"
+    },
+    "stats": {
+      "hp": 8400,
+      "atk": 527,
+      "def": 560,
+      "spd": 93,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": null
+  },
+  "Chacha": {
+    "meta": {
+      "name": "Chacha",
+      "element": "dark",
+      "image": "unit_icon_0013_4_1.png"
+    },
+    "stats": {
+      "hp": 8400,
+      "atk": 549,
+      "def": 538,
+      "spd": 99,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": null
+  },
+  "Garok": {
+    "meta": {
+      "name": "Garok",
+      "element": "dark",
+      "image": "unit_icon_0000_4_3.png"
+    },
+    "stats": {
+      "hp": 7410,
+      "atk": 725,
+      "def": 428,
+      "spd": 112,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": null
+  },
+  "Camaryn": {
+    "meta": {
+      "name": "Camaryn",
+      "element": "dark",
+      "image": "unit_icon_0001_4_0.png"
+    },
+    "stats": {
+      "hp": 7410,
+      "atk": 703,
+      "def": 450,
+      "spd": 111,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": null
+  },
+  "Decamaron": {
+    "meta": {
+      "name": "Decamaron",
+      "element": "dark",
+      "image": "unit_icon_0004_4_1.png"
+    },
+    "stats": {
+      "hp": 7575,
+      "atk": 516,
+      "def": 626,
+      "spd": 99,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": null
+  },
+  "Gorgo": {
+    "meta": {
+      "name": "Gorgo",
+      "element": "dark",
+      "image": "unit_icon_0002_4_3.png"
+    },
+    "stats": {
+      "hp": 11205,
+      "atk": 351,
+      "def": 549,
+      "spd": 102,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": null
+  },
+  "Shamar": {
+    "meta": {
+      "name": "Shamar",
+      "element": "light",
+      "image": "unit_icon_0002_3_1.png"
+    },
+    "stats": {
+      "hp": 8235,
+      "atk": 725,
+      "def": 373,
+      "spd": 111,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": null
+  },
+  "Shushu": {
+    "meta": {
+      "name": "Shushu",
+      "element": "light",
+      "image": "unit_icon_0013_3_1.png"
+    },
+    "stats": {
+      "hp": 9060,
+      "atk": 450,
+      "def": 593,
+      "spd": 99,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": null
+  },
+  "Taru": {
+    "meta": {
+      "name": "Taru",
+      "element": "light",
+      "image": "unit_icon_0000_3_3.png"
+    },
+    "stats": {
+      "hp": 7905,
+      "atk": 604,
+      "def": 516,
+      "spd": 114,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": null
+  },
+  "Cheryl": {
+    "meta": {
+      "name": "Cheryl",
+      "element": "light",
+      "image": "unit_icon_0001_3_0.png"
+    },
+    "stats": {
+      "hp": 8400,
+      "atk": 582,
+      "def": 505,
+      "spd": 111,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": null
+  },
+  "Sharman": {
+    "meta": {
+      "name": "Sharman",
+      "element": "light",
+      "image": "unit_icon_0004_3_1.png"
+    },
+    "stats": {
+      "hp": 8400,
+      "atk": 505,
+      "def": 582,
+      "spd": 99,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": null
+  },
+  "Jansson": {
+    "meta": {
+      "name": "Jansson",
+      "element": "light",
+      "image": "unit_icon_0017_3_1.png"
+    },
+    "stats": {
+      "hp": 8400,
+      "atk": 472,
+      "def": 615,
+      "spd": 97,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": null
+  },
+  "Arkajan": {
+    "meta": {
+      "name": "Arkajan",
+      "element": "light",
+      "image": "unit_icon_0001_3_2.png"
+    },
+    "stats": {
+      "hp": 8565,
+      "atk": 417,
+      "def": 659,
+      "spd": 101,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": null
+  },
+  "Varis": {
+    "meta": {
+      "name": "Varis",
+      "element": "light",
+      "image": "unit_icon_0011_3_1.png"
+    },
+    "stats": {
+      "hp": 6420,
+      "atk": 659,
+      "def": 395,
+      "spd": 100,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": null,
+      "stat": "res",
+      "area": null,
+      "value": 0.15
+    }
+  },
+  "Ceres": {
+    "meta": {
+      "name": "Ceres",
+      "element": "fire",
+      "image": "unit_icon_0018_1_0.png"
+    },
+    "stats": {
+      "hp": 10050,
+      "atk": 801,
+      "def": 340,
+      "spd": 102,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": null,
+      "stat": "spd",
+      "area": "guild",
+      "value": 0.16
+    }
+  },
+  "Granite": {
+    "meta": {
+      "name": "Granite",
+      "element": "fire",
+      "image": "unit_icon_0033_1_1.png"
+    },
+    "stats": {
+      "hp": 11535,
+      "atk": 472,
+      "def": 571,
+      "spd": 99,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": "fire",
+      "stat": "def",
+      "area": "element",
+      "value": 0.3
+    }
+  },
+  "Kungen": {
+    "meta": {
+      "name": "Kungen",
+      "element": "fire",
+      "image": "unit_icon_0014_1_0.png"
+    },
+    "stats": {
+      "hp": 12345,
+      "atk": 384,
+      "def": 604,
+      "spd": 101,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": "fire",
+      "stat": "def",
+      "area": "element",
+      "value": 0.3
+    }
+  },
+  "Nangrim": {
+    "meta": {
+      "name": "Nangrim",
+      "element": "fire",
+      "image": "unit_icon_0030_1_4.png"
+    },
+    "stats": {
+      "hp": 8565,
+      "atk": 725,
+      "def": 516,
+      "spd": 100,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": null,
+      "stat": "acc",
+      "area": "dungeon",
+      "value": 0.26
+    }
+  },
+  "Randy": {
+    "meta": {
+      "name": "Randy",
+      "element": "fire",
+      "image": "unit_icon_0021_1_2.png"
+    },
+    "stats": {
+      "hp": 9060,
+      "atk": 626,
+      "def": 582,
+      "spd": 110,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": null,
+      "stat": "spd",
+      "area": "guild",
+      "value": 0.16
+    }
+  },
+  "Anne": {
+    "meta": {
+      "name": "Anne",
+      "element": "fire",
+      "image": "unit_icon_0032_1_4.png"
+    },
+    "stats": {
+      "hp": 8895,
+      "atk": 703,
+      "def": 516,
+      "spd": 102,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 25
+    },
+    "lead": {
+      "element": null,
+      "stat": "atk",
+      "area": "arena",
+      "value": 0.21
+    }
+  },
+  "Xiao Chun": {
+    "meta": {
+      "name": "Xiao Chun",
+      "element": "fire",
+      "image": "unit_icon_0026_1_3.png"
+    },
+    "stats": {
+      "hp": 8565,
+      "atk": 747,
+      "def": 494,
+      "spd": 99,
+      "cr": 30,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": null,
+      "stat": "atk",
+      "area": "guild",
+      "value": 0.21
+    }
+  },
+  "Iselia": {
+    "meta": {
+      "name": "Iselia",
+      "element": "fire",
+      "image": "unit_icon_0000_1_1.png"
+    },
+    "stats": {
+      "hp": 8400,
+      "atk": 725,
+      "def": 527,
+      "spd": 102,
+      "cr": 30,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": null
+  },
+  "Kugo": {
+    "meta": {
+      "name": "Kugo",
+      "element": "fire",
+      "image": "unit_icon_0005_1_2.png"
+    },
+    "stats": {
+      "hp": 10545,
+      "atk": 384,
+      "def": 725,
+      "spd": 89,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 25
+    },
+    "lead": null
+  },
+  "Spectra": {
+    "meta": {
+      "name": "Spectra",
+      "element": "fire",
+      "image": "unit_icon_0005_1_4.png"
+    },
+    "stats": {
+      "hp": 9060,
+      "atk": 571,
+      "def": 637,
+      "spd": 126,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": null
+  },
+  "Sath": {
+    "meta": {
+      "name": "Sath",
+      "element": "fire",
+      "image": "unit_icon_0018_1_4.png"
+    },
+    "stats": {
+      "hp": 8565,
+      "atk": 823,
+      "def": 417,
+      "spd": 91,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": "fire",
+      "stat": "atk",
+      "area": "element",
+      "value": 0.3
+    }
+  },
+  "Lucasha": {
+    "meta": {
+      "name": "Lucasha",
+      "element": "fire",
+      "image": "unit_icon_0001_1_4.png"
+    },
+    "stats": {
+      "hp": 6915,
+      "atk": 889,
+      "def": 461,
+      "spd": 103,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": "fire",
+      "stat": "atk",
+      "area": "element",
+      "value": 0.3
+    }
+  },
+  "Kahli": {
+    "meta": {
+      "name": "Kahli",
+      "element": "fire",
+      "image": "unit_icon_0007_1_4.png"
+    },
+    "stats": {
+      "hp": 6255,
+      "atk": 878,
+      "def": 516,
+      "spd": 102,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": "fire",
+      "stat": "cr",
+      "area": "element",
+      "value": 0.23
+    }
+  },
+  "Fairo": {
+    "meta": {
+      "name": "Fairo",
+      "element": "fire",
+      "image": "unit_icon_0007_1_1.png"
+    },
+    "stats": {
+      "hp": 8565,
+      "atk": 703,
+      "def": 538,
+      "spd": 102,
+      "cr": 30,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": null
+  },
+  "Tagaros": {
+    "meta": {
+      "name": "Tagaros",
+      "element": "fire",
+      "image": "unit_icon_0006_1_3.png"
+    },
+    "stats": {
+      "hp": 7740,
+      "atk": 911,
+      "def": 384,
+      "spd": 95,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": "fire",
+      "stat": "cr",
+      "area": "element",
+      "value": 0.23
+    }
+  },
+  "Raoq": {
+    "meta": {
+      "name": "Raoq",
+      "element": "fire",
+      "image": "unit_icon_0003_1_4.png"
+    },
+    "stats": {
+      "hp": 9060,
+      "atk": 681,
+      "def": 527,
+      "spd": 108,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": null
+  },
+  "Iron": {
+    "meta": {
+      "name": "Iron",
+      "element": "fire",
+      "image": "unit_icon_0025_1_2.png"
+    },
+    "stats": {
+      "hp": 9390,
+      "atk": 472,
+      "def": 714,
+      "spd": 98,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 25
+    },
+    "lead": null
+  },
+  "Igmanodon": {
+    "meta": {
+      "name": "Igmanodon",
+      "element": "fire",
+      "image": "unit_icon_0028_1_2.png"
+    },
+    "stats": {
+      "hp": 8730,
+      "atk": 582,
+      "def": 648,
+      "spd": 103,
+      "cr": 30,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": null
+  },
+  "Cassandra": {
+    "meta": {
+      "name": "Cassandra",
+      "element": "fire",
+      "image": "unit_icon_0020_1_3.png"
+    },
+    "stats": {
+      "hp": 9060,
+      "atk": 790,
+      "def": 417,
+      "spd": 105,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": "fire",
+      "stat": "atk",
+      "area": "element",
+      "value": 0.35
+    }
+  },
+  "Mei": {
+    "meta": {
+      "name": "Mei",
+      "element": "fire",
+      "image": "unit_icon_0018_1_2.png"
+    },
+    "stats": {
+      "hp": 8235,
+      "atk": 747,
+      "def": 516,
+      "spd": 104,
+      "cr": 15,
+      "cd": 50,
+      "res": 40,
+      "acc": 0
+    },
+    "lead": {
+      "element": null,
+      "stat": "hp",
+      "area": "guild",
+      "value": 0.21
+    }
+  },
+  "Burentau": {
+    "meta": {
+      "name": "Burentau",
+      "element": "fire",
+      "image": "unit_icon_0027_1_4.png"
+    },
+    "stats": {
+      "hp": 9720,
+      "atk": 615,
+      "def": 549,
+      "spd": 99,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": "fire",
+      "stat": "hp",
+      "area": "element",
+      "value": 0.3
+    }
+  },
+  "Rebecca": {
+    "meta": {
+      "name": "Rebecca",
+      "element": "fire",
+      "image": "unit_icon_0023_1_3.png"
+    },
+    "stats": {
+      "hp": 9555,
+      "atk": 626,
+      "def": 549,
+      "spd": 97,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": null,
+      "stat": "acc",
+      "area": "arena",
+      "value": 0.26
+    }
+  },
+  "Naki": {
+    "meta": {
+      "name": "Naki",
+      "element": "fire",
+      "image": "unit_icon_0031_1_3.png"
+    },
+    "stats": {
+      "hp": 11700,
+      "atk": 560,
+      "def": 472,
+      "spd": 105,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": "fire",
+      "stat": "hp",
+      "area": "element",
+      "value": 0.3
+    }
+  },
+  "Krakdon": {
+    "meta": {
+      "name": "Krakdon",
+      "element": "fire",
+      "image": "unit_icon_0004_1_1.png"
+    },
+    "stats": {
+      "hp": 8235,
+      "atk": 615,
+      "def": 648,
+      "spd": 99,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": null
+  },
+  "Fao": {
+    "meta": {
+      "name": "Fao",
+      "element": "fire",
+      "image": "unit_icon_0005_1_0.png"
+    },
+    "stats": {
+      "hp": 12015,
+      "atk": 549,
+      "def": 461,
+      "spd": 100,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": null,
+      "stat": "hp",
+      "area": "arena",
+      "value": 0.21
+    }
+  },
+  "Gunpyeong": {
+    "meta": {
+      "name": "Gunpyeong",
+      "element": "fire",
+      "image": "unit_icon_0030_1_0.png"
+    },
+    "stats": {
+      "hp": 8400,
+      "atk": 692,
+      "def": 560,
+      "spd": 104,
+      "cr": 30,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": null
+  },
+  "Kai'en": {
+    "meta": {
+      "name": "Kai'en",
+      "element": "fire",
+      "image": "unit_icon_0021_1_0.png"
+    },
+    "stats": {
+      "hp": 10215,
+      "atk": 516,
+      "def": 615,
+      "spd": 98,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": null,
+      "stat": "hp",
+      "area": "dungeon",
+      "value": 0.18
+    }
+  },
+  "Geoffrey": {
+    "meta": {
+      "name": "Geoffrey",
+      "element": "fire",
+      "image": "unit_icon_0017_1_1.png"
+    },
+    "stats": {
+      "hp": 8565,
+      "atk": 571,
+      "def": 670,
+      "spd": 97,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": null,
+      "stat": "atk",
+      "area": null,
+      "value": 0.15
+    }
+  },
+  "Garoche": {
+    "meta": {
+      "name": "Garoche",
+      "element": "fire",
+      "image": "unit_icon_0015_1_1.png"
+    },
+    "stats": {
+      "hp": 12015,
+      "atk": 516,
+      "def": 494,
+      "spd": 115,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": null,
+      "stat": "acc",
+      "area": "guild",
+      "value": 0.26
+    }
+  },
+  "Surtr": {
+    "meta": {
+      "name": "Surtr",
+      "element": "fire",
+      "image": "unit_icon_0032_1_0.png"
+    },
+    "stats": {
+      "hp": 9390,
+      "atk": 758,
+      "def": 593,
+      "spd": 103,
+      "cr": 30,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": null,
+      "stat": "def",
+      "area": "guild",
+      "value": 0.33
+    }
+  },
+  "Draco": {
+    "meta": {
+      "name": "Draco",
+      "element": "fire",
+      "image": "unit_icon_0028_1_4.png"
+    },
+    "stats": {
+      "hp": 10050,
+      "atk": 659,
+      "def": 648,
+      "spd": 106,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": null,
+      "stat": "hp",
+      "area": null,
+      "value": 0.25
+    }
+  },
+  "Arnold": {
+    "meta": {
+      "name": "Arnold",
+      "element": "fire",
+      "image": "unit_icon_0024_1_3.png"
+    },
+    "stats": {
+      "hp": 11700,
+      "atk": 604,
+      "def": 593,
+      "spd": 101,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 25
+    },
+    "lead": {
+      "element": null,
+      "stat": "def",
+      "area": null,
+      "value": 0.25
+    }
+  },
+  "Chloe": {
+    "meta": {
+      "name": "Chloe",
+      "element": "fire",
+      "image": "unit_icon_0020_1_1.png"
+    },
+    "stats": {
+      "hp": 11700,
+      "atk": 549,
+      "def": 648,
+      "spd": 111,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": null,
+      "stat": "def",
+      "area": "arena",
+      "value": 0.27
+    }
+  },
+  "Jojo": {
+    "meta": {
+      "name": "Jojo",
+      "element": "fire",
+      "image": "unit_icon_0011_1_2.png"
+    },
+    "stats": {
+      "hp": 9555,
+      "atk": 659,
+      "def": 681,
+      "spd": 103,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": null,
+      "stat": "def",
+      "area": "dungeon",
+      "value": 0.33
+    }
+  },
+  "Zibrolta": {
+    "meta": {
+      "name": "Zibrolta",
+      "element": "fire",
+      "image": "unit_icon_0029_1_1.png"
+    },
+    "stats": {
+      "hp": 8895,
+      "atk": 823,
+      "def": 560,
+      "spd": 99,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": "fire",
+      "stat": "acc",
+      "area": "element",
+      "value": 0.5
+    }
+  },
+  "Hong Hua": {
+    "meta": {
+      "name": "Hong Hua",
+      "element": "fire",
+      "image": "unit_icon_0008_1_4.png"
+    },
+    "stats": {
+      "hp": 11370,
+      "atk": 648,
+      "def": 571,
+      "spd": 102,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": null,
+      "stat": "atk",
+      "area": "arena",
+      "value": 0.33
+    }
+  },
+  "Antares": {
+    "meta": {
+      "name": "Antares",
+      "element": "fire",
+      "image": "unit_icon_0024_1_1.png"
+    },
+    "stats": {
+      "hp": 9720,
+      "atk": 790,
+      "def": 538,
+      "spd": 96,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": null,
+      "stat": "cr",
+      "area": "arena",
+      "value": 0.24
+    }
+  },
+  "Shihwa": {
+    "meta": {
+      "name": "Shihwa",
+      "element": "fire",
+      "image": "unit_icon_0004_1_3.png"
+    },
+    "stats": {
+      "hp": 9555,
+      "atk": 714,
+      "def": 626,
+      "spd": 102,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": "fire",
+      "stat": "atk",
+      "area": "element",
+      "value": 0.4
+    }
+  },
+  "Garo": {
+    "meta": {
+      "name": "Garo",
+      "element": "fire",
+      "image": "unit_icon_0013_1_3.png"
+    },
+    "stats": {
+      "hp": 8235,
+      "atk": 878,
+      "def": 549,
+      "spd": 107,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": "fire",
+      "stat": "spd",
+      "area": "element",
+      "value": 0.3
+    }
+  },
+  "Jean": {
+    "meta": {
+      "name": "Jean",
+      "element": "fire",
+      "image": "unit_icon_0015_1_3.png"
+    },
+    "stats": {
+      "hp": 9060,
+      "atk": 889,
+      "def": 483,
+      "spd": 105,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": null,
+      "stat": "res",
+      "area": "arena",
+      "value": 0.4
+    }
+  },
+  "Clara": {
+    "meta": {
+      "name": "Clara",
+      "element": "fire",
+      "image": "unit_icon_0014_1_4.png"
+    },
+    "stats": {
+      "hp": 11205,
+      "atk": 769,
+      "def": 461,
+      "spd": 103,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": null,
+      "stat": "res",
+      "area": null,
+      "value": 0.3
+    }
+  },
+  "Hwa": {
+    "meta": {
+      "name": "Hwa",
+      "element": "fire",
+      "image": "unit_icon_0021_1_4.png"
+    },
+    "stats": {
+      "hp": 9720,
+      "atk": 758,
+      "def": 571,
+      "spd": 104,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 25
+    },
+    "lead": {
+      "element": null,
+      "stat": "cr",
+      "area": null,
+      "value": 0.19
+    }
+  },
+  "Jun": {
+    "meta": {
+      "name": "Jun",
+      "element": "fire",
+      "image": "unit_icon_0026_1_1.png"
+    },
+    "stats": {
+      "hp": 8400,
+      "atk": 878,
+      "def": 538,
+      "spd": 103,
+      "cr": 30,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": null
+  },
+  "Hwahee": {
+    "meta": {
+      "name": "Hwahee",
+      "element": "fire",
+      "image": "unit_icon_0029_1_3.png"
+    },
+    "stats": {
+      "hp": 9555,
+      "atk": 769,
+      "def": 571,
+      "spd": 101,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": null
+  },
+  "Akia": {
+    "meta": {
+      "name": "Akia",
+      "element": "fire",
+      "image": "unit_icon_0011_1_3.png"
+    },
+    "stats": {
+      "hp": 10380,
+      "atk": 758,
+      "def": 527,
+      "spd": 106,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": null,
+      "stat": "acc",
+      "area": "arena",
+      "value": 0.4
+    }
+  },
+  "Baretta": {
+    "meta": {
+      "name": "Baretta",
+      "element": "fire",
+      "image": "unit_icon_0007_1_0.png"
+    },
+    "stats": {
+      "hp": 11205,
+      "atk": 681,
+      "def": 549,
+      "spd": 105,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": null,
+      "stat": "spd",
+      "area": null,
+      "value": 0.19
+    }
+  },
+  "Fria": {
+    "meta": {
+      "name": "Fria",
+      "element": "fire",
+      "image": "unit_icon_0009_1_4.png"
+    },
+    "stats": {
+      "hp": 8565,
+      "atk": 769,
+      "def": 637,
+      "spd": 103,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": "fire",
+      "stat": "res",
+      "area": "element",
+      "value": 0.5
+    }
+  },
+  "Atenai": {
+    "meta": {
+      "name": "Atenai",
+      "element": "fire",
+      "image": "unit_icon_0006_1_1.png"
+    },
+    "stats": {
+      "hp": 12510,
+      "atk": 527,
+      "def": 615,
+      "spd": 96,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": "fire",
+      "stat": "def",
+      "area": "element",
+      "value": 0.4
+    }
+  },
+  "Verdehile": {
+    "meta": {
+      "name": "Verdehile",
+      "element": "fire",
+      "image": "unit_icon_0016_1_2.png"
+    },
+    "stats": {
+      "hp": 9885,
+      "atk": 812,
+      "def": 505,
+      "spd": 99,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": null,
+      "stat": "spd",
+      "area": "dungeon",
+      "value": 0.28
+    }
+  },
+  "Velajuel": {
+    "meta": {
+      "name": "Velajuel",
+      "element": "fire",
+      "image": "unit_icon_0019_1_2.png"
+    },
+    "stats": {
+      "hp": 10050,
+      "atk": 681,
+      "def": 790,
+      "spd": 95,
+      "cr": 30,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": "fire",
+      "stat": "hp",
+      "area": "element",
+      "value": 0.5
+    }
+  },
+  "Kumar": {
+    "meta": {
+      "name": "Kumar",
+      "element": "fire",
+      "image": "unit_icon_0027_1_1.png"
+    },
+    "stats": {
+      "hp": 13005,
+      "atk": 593,
+      "def": 681,
+      "spd": 96,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": null,
+      "stat": "cr",
+      "area": "dungeon",
+      "value": 0.33
+    }
+  },
+  "Rakan": {
+    "meta": {
+      "name": "Rakan",
+      "element": "fire",
+      "image": "unit_icon_0017_1_2.png"
+    },
+    "stats": {
+      "hp": 11700,
+      "atk": 725,
+      "def": 637,
+      "spd": 95,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 25
+    },
+    "lead": {
+      "element": "fire",
+      "stat": "hp",
+      "area": "element",
+      "value": 0.5
+    }
+  },
+  "Zaiross": {
+    "meta": {
+      "name": "Zaiross",
+      "element": "fire",
+      "image": "unit_icon_0016_1_0.png"
+    },
+    "stats": {
+      "hp": 9720,
+      "atk": 911,
+      "def": 582,
+      "spd": 94,
+      "cr": 30,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": null,
+      "stat": "atk",
+      "area": null,
+      "value": 0.33
+    }
+  },
+  "Laika": {
+    "meta": {
+      "name": "Laika",
+      "element": "fire",
+      "image": "unit_icon_0025_1_0.png"
+    },
+    "stats": {
+      "hp": 11040,
+      "atk": 834,
+      "def": 571,
+      "spd": 100,
+      "cr": 15,
+      "cd": 50,
+      "res": 40,
+      "acc": 0
+    },
+    "lead": {
+      "element": "fire",
+      "stat": "def",
+      "area": "element",
+      "value": 0.5
+    }
+  },
+  "Raki": {
+    "meta": {
+      "name": "Raki",
+      "element": "fire",
+      "image": "unit_icon_0023_1_1.png"
+    },
+    "stats": {
+      "hp": 10050,
+      "atk": 856,
+      "def": 615,
+      "spd": 104,
+      "cr": 30,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": null,
+      "stat": "atk",
+      "area": "arena",
+      "value": 0.44
+    }
+  },
+  "Tesarion": {
+    "meta": {
+      "name": "Tesarion",
+      "element": "fire",
+      "image": "unit_icon_0019_1_4.png"
+    },
+    "stats": {
+      "hp": 14985,
+      "atk": 571,
+      "def": 571,
+      "spd": 100,
+      "cr": 15,
+      "cd": 50,
+      "res": 40,
+      "acc": 0
+    },
+    "lead": {
+      "element": null,
+      "stat": "hp",
+      "area": "arena",
+      "value": 0.44
+    }
+  },
+  "Mei Hou Wang": {
+    "meta": {
+      "name": "Mei Hou Wang",
+      "element": "fire",
+      "image": "unit_icon_0025_1_4.png"
+    },
+    "stats": {
+      "hp": 10545,
+      "atk": 692,
+      "def": 747,
+      "spd": 116,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": null,
+      "stat": "def",
+      "area": null,
+      "value": 0.33
+    }
+  },
+  "Rica": {
+    "meta": {
+      "name": "Rica",
+      "element": "fire",
+      "image": "unit_icon_0022_1_4.png"
+    },
+    "stats": {
+      "hp": 10215,
+      "atk": 823,
+      "def": 637,
+      "spd": 105,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 25
+    },
+    "lead": {
+      "element": "fire",
+      "stat": "cr",
+      "area": "element",
+      "value": 0.38
+    }
+  },
+  "Juno": {
+    "meta": {
+      "name": "Juno",
+      "element": "fire",
+      "image": "unit_icon_0022_1_1.png"
+    },
+    "stats": {
+      "hp": 11370,
+      "atk": 703,
+      "def": 681,
+      "spd": 100,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 25
+    },
+    "lead": {
+      "element": null,
+      "stat": "cr",
+      "area": null,
+      "value": 0.24
+    }
+  },
+  "Perna": {
+    "meta": {
+      "name": "Perna",
+      "element": "fire",
+      "image": "unit_icon_0017_1_3.png"
+    },
+    "stats": {
+      "hp": 12345,
+      "atk": 878,
+      "def": 439,
+      "spd": 109,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": null,
+      "stat": "atk",
+      "area": "dungeon",
+      "value": 0.44
+    }
+  },
+  "Chiwu": {
+    "meta": {
+      "name": "Chiwu",
+      "element": "fire",
+      "image": "unit_icon_0031_1_1.png"
+    },
+    "stats": {
+      "hp": 12180,
+      "atk": 780,
+      "def": 549,
+      "spd": 103,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 25
+    },
+    "lead": {
+      "element": null,
+      "stat": "spd",
+      "area": null,
+      "value": 0.24
+    }
+  },
+  "Brandia": {
+    "meta": {
+      "name": "Brandia",
+      "element": "fire",
+      "image": "unit_icon_0033_1_3.png"
+    },
+    "stats": {
+      "hp": 10545,
+      "atk": 823,
+      "def": 615,
+      "spd": 111,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": null,
+      "stat": "hp",
+      "area": "arena",
+      "value": 0.44
+    }
+  },
+  "Vanessa": {
+    "meta": {
+      "name": "Vanessa",
+      "element": "fire",
+      "image": "unit_icon_0014_1_2.png"
+    },
+    "stats": {
+      "hp": 10875,
+      "atk": 703,
+      "def": 714,
+      "spd": 101,
+      "cr": 15,
+      "cd": 50,
+      "res": 40,
+      "acc": 0
+    },
+    "lead": {
+      "element": null,
+      "stat": "spd",
+      "area": "arena",
+      "value": 0.33
+    }
+  },
+  "Ellin": {
+    "meta": {
+      "name": "Ellin",
+      "element": "water",
+      "image": "unit_icon_0018_0_0.png"
+    },
+    "stats": {
+      "hp": 9060,
+      "atk": 823,
+      "def": 384,
+      "spd": 102,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": null,
+      "stat": "acc",
+      "area": "guild",
+      "value": 0.26
+    }
+  },
+  "Talc": {
+    "meta": {
+      "name": "Talc",
+      "element": "water",
+      "image": "unit_icon_0033_0_1.png"
+    },
+    "stats": {
+      "hp": 10875,
+      "atk": 516,
+      "def": 571,
+      "spd": 99,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": "water",
+      "stat": "def",
+      "area": "element",
+      "value": 0.3
+    }
+  },
+  "Gruda": {
+    "meta": {
+      "name": "Gruda",
+      "element": "water",
+      "image": "unit_icon_0014_0_0.png"
+    },
+    "stats": {
+      "hp": 11700,
+      "atk": 351,
+      "def": 681,
+      "spd": 101,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": "water",
+      "stat": "def",
+      "area": "element",
+      "value": 0.3
+    }
+  },
+  "Gangchun": {
+    "meta": {
+      "name": "Gangchun",
+      "element": "water",
+      "image": "unit_icon_0030_0_4.png"
+    },
+    "stats": {
+      "hp": 8400,
+      "atk": 703,
+      "def": 549,
+      "spd": 100,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": null,
+      "stat": "hp",
+      "area": "arena",
+      "value": 0.21
+    }
+  },
+  "Wayne": {
+    "meta": {
+      "name": "Wayne",
+      "element": "water",
+      "image": "unit_icon_0021_0_2.png"
+    },
+    "stats": {
+      "hp": 8565,
+      "atk": 648,
+      "def": 593,
+      "spd": 110,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": "water",
+      "stat": "atk",
+      "area": "element",
+      "value": 0.3
+    }
+  },
+  "Sera": {
+    "meta": {
+      "name": "Sera",
+      "element": "water",
+      "image": "unit_icon_0032_0_4.png"
+    },
+    "stats": {
+      "hp": 8400,
+      "atk": 747,
+      "def": 505,
+      "spd": 102,
+      "cr": 30,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": null,
+      "stat": "atk",
+      "area": "dungeon",
+      "value": 0.21
+    }
+  },
+  "Mao": {
+    "meta": {
+      "name": "Mao",
+      "element": "water",
+      "image": "unit_icon_0026_0_3.png"
+    },
+    "stats": {
+      "hp": 8400,
+      "atk": 714,
+      "def": 538,
+      "spd": 99,
+      "cr": 30,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": null,
+      "stat": "hp",
+      "area": "guild",
+      "value": 0.21
+    }
+  },
+  "Rina": {
+    "meta": {
+      "name": "Rina",
+      "element": "water",
+      "image": "unit_icon_0020_0_1.png"
+    },
+    "stats": {
+      "hp": 10710,
+      "atk": 439,
+      "def": 659,
+      "spd": 96,
+      "cr": 15,
+      "cd": 50,
+      "res": 40,
+      "acc": 0
+    },
+    "lead": null
+  },
+  "Elucia": {
+    "meta": {
+      "name": "Elucia",
+      "element": "water",
+      "image": "unit_icon_0000_0_1.png"
+    },
+    "stats": {
+      "hp": 9060,
+      "atk": 626,
+      "def": 582,
+      "spd": 104,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": null,
+      "stat": "res",
+      "area": null,
+      "value": 0.2
+    }
+  },
+  "Kuhn": {
+    "meta": {
+      "name": "Kuhn",
+      "element": "water",
+      "image": "unit_icon_0005_0_2.png"
+    },
+    "stats": {
+      "hp": 10710,
+      "atk": 351,
+      "def": 747,
+      "spd": 87,
+      "cr": 15,
+      "cd": 50,
+      "res": 40,
+      "acc": 0
+    },
+    "lead": null
+  },
+  "Kahn": {
+    "meta": {
+      "name": "Kahn",
+      "element": "water",
+      "image": "unit_icon_0005_0_4.png"
+    },
+    "stats": {
+      "hp": 12840,
+      "atk": 351,
+      "def": 604,
+      "spd": 111,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": "water",
+      "stat": "atk",
+      "area": "element",
+      "value": 0.3
+    }
+  },
+  "Hemos": {
+    "meta": {
+      "name": "Hemos",
+      "element": "water",
+      "image": "unit_icon_0018_0_4.png"
+    },
+    "stats": {
+      "hp": 8070,
+      "atk": 801,
+      "def": 472,
+      "spd": 91,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": "water",
+      "stat": "atk",
+      "area": "element",
+      "value": 0.3
+    }
+  },
+  "Ramira": {
+    "meta": {
+      "name": "Ramira",
+      "element": "water",
+      "image": "unit_icon_0001_0_4.png"
+    },
+    "stats": {
+      "hp": 8565,
+      "atk": 736,
+      "def": 505,
+      "spd": 105,
+      "cr": 15,
+      "cd": 50,
+      "res": 40,
+      "acc": 0
+    },
+    "lead": null
+  },
+  "Ellena": {
+    "meta": {
+      "name": "Ellena",
+      "element": "water",
+      "image": "unit_icon_0007_0_4.png"
+    },
+    "stats": {
+      "hp": 5925,
+      "atk": 812,
+      "def": 604,
+      "spd": 103,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": "water",
+      "stat": "cr",
+      "area": "element",
+      "value": 0.23
+    }
+  },
+  "Yaku": {
+    "meta": {
+      "name": "Yaku",
+      "element": "water",
+      "image": "unit_icon_0007_0_1.png"
+    },
+    "stats": {
+      "hp": 8235,
+      "atk": 714,
+      "def": 549,
+      "spd": 102,
+      "cr": 30,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": null
+  },
+  "Purian": {
+    "meta": {
+      "name": "Purian",
+      "element": "water",
+      "image": "unit_icon_0006_0_3.png"
+    },
+    "stats": {
+      "hp": 7410,
+      "atk": 780,
+      "def": 538,
+      "spd": 97,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": "water",
+      "stat": "cr",
+      "area": "element",
+      "value": 0.23
+    }
+  },
+  "Icaru": {
+    "meta": {
+      "name": "Icaru",
+      "element": "water",
+      "image": "unit_icon_0003_0_4.png"
+    },
+    "stats": {
+      "hp": 9390,
+      "atk": 549,
+      "def": 637,
+      "spd": 108,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": "water",
+      "stat": "spd",
+      "area": "element",
+      "value": 0.23
+    }
+  },
+  "Nickel": {
+    "meta": {
+      "name": "Nickel",
+      "element": "water",
+      "image": "unit_icon_0025_0_2.png"
+    },
+    "stats": {
+      "hp": 9060,
+      "atk": 516,
+      "def": 692,
+      "spd": 98,
+      "cr": 30,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": null
+  },
+  "Kernodon": {
+    "meta": {
+      "name": "Kernodon",
+      "element": "water",
+      "image": "unit_icon_0028_0_2.png"
+    },
+    "stats": {
+      "hp": 8565,
+      "atk": 571,
+      "def": 670,
+      "spd": 103,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 25
+    },
+    "lead": null
+  },
+  "Sharron": {
+    "meta": {
+      "name": "Sharron",
+      "element": "water",
+      "image": "unit_icon_0020_0_3.png"
+    },
+    "stats": {
+      "hp": 8235,
+      "atk": 823,
+      "def": 439,
+      "spd": 105,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": "water",
+      "stat": "atk",
+      "area": "element",
+      "value": 0.35
+    }
+  },
+  "Mina": {
+    "meta": {
+      "name": "Mina",
+      "element": "water",
+      "image": "unit_icon_0018_0_2.png"
+    },
+    "stats": {
+      "hp": 7905,
+      "atk": 790,
+      "def": 494,
+      "spd": 119,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": null,
+      "stat": "cr",
+      "area": "guild",
+      "value": 0.16
+    }
+  },
+  "Urtau": {
+    "meta": {
+      "name": "Urtau",
+      "element": "water",
+      "image": "unit_icon_0027_0_4.png"
+    },
+    "stats": {
+      "hp": 10710,
+      "atk": 582,
+      "def": 516,
+      "spd": 99,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": "water",
+      "stat": "hp",
+      "area": "element",
+      "value": 0.3
+    }
+  },
+  "Megan": {
+    "meta": {
+      "name": "Megan",
+      "element": "water",
+      "image": "unit_icon_0023_0_3.png"
+    },
+    "stats": {
+      "hp": 9885,
+      "atk": 582,
+      "def": 571,
+      "spd": 97,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": null,
+      "stat": "atk",
+      "area": "arena",
+      "value": 0.21
+    }
+  },
+  "Toma": {
+    "meta": {
+      "name": "Toma",
+      "element": "water",
+      "image": "unit_icon_0031_0_3.png"
+    },
+    "stats": {
+      "hp": 8895,
+      "atk": 703,
+      "def": 516,
+      "spd": 105,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": "water",
+      "stat": "hp",
+      "area": "element",
+      "value": 0.3
+    }
+  },
+  "Shailoq": {
+    "meta": {
+      "name": "Shailoq",
+      "element": "water",
+      "image": "unit_icon_0005_0_0.png"
+    },
+    "stats": {
+      "hp": 9720,
+      "atk": 560,
+      "def": 604,
+      "spd": 115,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": null
+  },
+  "Dagora": {
+    "meta": {
+      "name": "Dagora",
+      "element": "water",
+      "image": "unit_icon_0002_0_3.png"
+    },
+    "stats": {
+      "hp": 11850,
+      "atk": 417,
+      "def": 604,
+      "spd": 102,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": null,
+      "stat": "hp",
+      "area": null,
+      "value": 0.15
+    }
+  },
+  "Vigor": {
+    "meta": {
+      "name": "Vigor",
+      "element": "water",
+      "image": "unit_icon_0015_0_1.png"
+    },
+    "stats": {
+      "hp": 11535,
+      "atk": 582,
+      "def": 461,
+      "spd": 115,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": null,
+      "stat": "atk",
+      "area": "guild",
+      "value": 0.21
+    }
+  },
+  "Hina": {
+    "meta": {
+      "name": "Hina",
+      "element": "wind",
+      "image": "unit_icon_0018_2_0.png"
+    },
+    "stats": {
+      "hp": 9225,
+      "atk": 845,
+      "def": 351,
+      "spd": 102,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": null,
+      "stat": "cr",
+      "area": "guild",
+      "value": 0.16
+    }
+  },
+  "Olivine": {
+    "meta": {
+      "name": "Olivine",
+      "element": "wind",
+      "image": "unit_icon_0033_2_1.png"
+    },
+    "stats": {
+      "hp": 10050,
+      "atk": 461,
+      "def": 681,
+      "spd": 99,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": "wind",
+      "stat": "def",
+      "area": "element",
+      "value": 0.3
+    }
+  },
+  "Dagorr": {
+    "meta": {
+      "name": "Dagorr",
+      "element": "wind",
+      "image": "unit_icon_0014_2_0.png"
+    },
+    "stats": {
+      "hp": 9885,
+      "atk": 692,
+      "def": 461,
+      "spd": 101,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": "wind",
+      "stat": "def",
+      "area": "element",
+      "value": 0.3
+    }
+  },
+  "Suri": {
+    "meta": {
+      "name": "Suri",
+      "element": "wind",
+      "image": "unit_icon_0030_2_4.png"
+    },
+    "stats": {
+      "hp": 8895,
+      "atk": 714,
+      "def": 505,
+      "spd": 100,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": null,
+      "stat": "spd",
+      "area": "arena",
+      "value": 0.16
+    }
+  },
+  "Roger": {
+    "meta": {
+      "name": "Roger",
+      "element": "wind",
+      "image": "unit_icon_0021_2_2.png"
+    },
+    "stats": {
+      "hp": 8565,
+      "atk": 670,
+      "def": 571,
+      "spd": 110,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": null,
+      "stat": "acc",
+      "area": "guild",
+      "value": 0.26
+    }
+  },
+  "Hannah": {
+    "meta": {
+      "name": "Hannah",
+      "element": "wind",
+      "image": "unit_icon_0032_2_4.png"
+    },
+    "stats": {
+      "hp": 8400,
+      "atk": 725,
+      "def": 527,
+      "spd": 117,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": null,
+      "stat": "atk",
+      "area": "guild",
+      "value": 0.21
+    }
+  },
+  "Huan": {
+    "meta": {
+      "name": "Huan",
+      "element": "wind",
+      "image": "unit_icon_0026_2_3.png"
+    },
+    "stats": {
+      "hp": 8235,
+      "atk": 736,
+      "def": 527,
+      "spd": 99,
+      "cr": 30,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": null,
+      "stat": "acc",
+      "area": "guild",
+      "value": 0.26
+    }
+  },
+  "Michelle": {
+    "meta": {
+      "name": "Michelle",
+      "element": "wind",
+      "image": "unit_icon_0020_2_1.png"
+    },
+    "stats": {
+      "hp": 11205,
+      "atk": 549,
+      "def": 516,
+      "spd": 96,
+      "cr": 15,
+      "cd": 50,
+      "res": 40,
+      "acc": 0
+    },
+    "lead": null
+  },
+  "Ragion": {
+    "meta": {
+      "name": "Ragion",
+      "element": "wind",
+      "image": "unit_icon_0005_2_2.png"
+    },
+    "stats": {
+      "hp": 10215,
+      "atk": 428,
+      "def": 703,
+      "spd": 92,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": "wind",
+      "stat": "hp",
+      "area": "element",
+      "value": 0.3
+    }
+  },
+  "Bernard": {
+    "meta": {
+      "name": "Bernard",
+      "element": "wind",
+      "image": "unit_icon_0005_2_4.png"
+    },
+    "stats": {
+      "hp": 10380,
+      "atk": 417,
+      "def": 703,
+      "spd": 111,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": "wind",
+      "stat": "atk",
+      "area": "element",
+      "value": 0.3
+    }
+  },
+  "Hiva": {
+    "meta": {
+      "name": "Hiva",
+      "element": "wind",
+      "image": "unit_icon_0018_2_4.png"
+    },
+    "stats": {
+      "hp": 8895,
+      "atk": 758,
+      "def": 461,
+      "spd": 91,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": "wind",
+      "stat": "atk",
+      "area": "element",
+      "value": 0.3
+    }
+  },
+  "Prilea": {
+    "meta": {
+      "name": "Prilea",
+      "element": "wind",
+      "image": "unit_icon_0001_2_4.png"
+    },
+    "stats": {
+      "hp": 8235,
+      "atk": 736,
+      "def": 527,
+      "spd": 105,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 25
+    },
+    "lead": null
+  },
+  "Moria": {
+    "meta": {
+      "name": "Moria",
+      "element": "wind",
+      "image": "unit_icon_0007_2_4.png"
+    },
+    "stats": {
+      "hp": 5595,
+      "atk": 933,
+      "def": 505,
+      "spd": 105,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": "wind",
+      "stat": "cr",
+      "area": "element",
+      "value": 0.23
+    }
+  },
+  "Pigma": {
+    "meta": {
+      "name": "Pigma",
+      "element": "wind",
+      "image": "unit_icon_0007_2_1.png"
+    },
+    "stats": {
+      "hp": 9060,
+      "atk": 593,
+      "def": 615,
+      "spd": 102,
+      "cr": 30,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": null
+  },
+  "Anduril": {
+    "meta": {
+      "name": "Anduril",
+      "element": "wind",
+      "image": "unit_icon_0006_2_3.png"
+    },
+    "stats": {
+      "hp": 7080,
+      "atk": 823,
+      "def": 516,
+      "spd": 98,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": "wind",
+      "stat": "cr",
+      "area": "element",
+      "value": 0.23
+    }
+  },
+  "Ramahan": {
+    "meta": {
+      "name": "Ramahan",
+      "element": "wind",
+      "image": "unit_icon_0003_2_4.png"
+    },
+    "stats": {
+      "hp": 9555,
+      "atk": 472,
+      "def": 703,
+      "spd": 108,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": "wind",
+      "stat": "spd",
+      "area": "element",
+      "value": 0.23
+    }
+  },
+  "Copper": {
+    "meta": {
+      "name": "Copper",
+      "element": "wind",
+      "image": "unit_icon_0025_2_2.png"
+    },
+    "stats": {
+      "hp": 9555,
+      "atk": 483,
+      "def": 692,
+      "spd": 98,
+      "cr": 15,
+      "cd": 50,
+      "res": 40,
+      "acc": 0
+    },
+    "lead": null
+  },
+  "Velfinodon": {
+    "meta": {
+      "name": "Velfinodon",
+      "element": "wind",
+      "image": "unit_icon_0028_2_2.png"
+    },
+    "stats": {
+      "hp": 8895,
+      "atk": 560,
+      "def": 659,
+      "spd": 103,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 25
+    },
+    "lead": null
+  },
+  "Ardella": {
+    "meta": {
+      "name": "Ardella",
+      "element": "wind",
+      "image": "unit_icon_0020_2_3.png"
+    },
+    "stats": {
+      "hp": 7575,
+      "atk": 845,
+      "def": 461,
+      "spd": 105,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": "wind",
+      "stat": "atk",
+      "area": "element",
+      "value": 0.35
+    }
+  },
+  "Naomi": {
+    "meta": {
+      "name": "Naomi",
+      "element": "wind",
+      "image": "unit_icon_0018_2_2.png"
+    },
+    "stats": {
+      "hp": 8895,
+      "atk": 681,
+      "def": 538,
+      "spd": 119,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": null,
+      "stat": "spd",
+      "area": "guild",
+      "value": 0.16
+    }
+  },
+  "Eintau": {
+    "meta": {
+      "name": "Eintau",
+      "element": "wind",
+      "image": "unit_icon_0027_2_4.png"
+    },
+    "stats": {
+      "hp": 10380,
+      "atk": 593,
+      "def": 527,
+      "spd": 99,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": "wind",
+      "stat": "hp",
+      "area": "element",
+      "value": 0.3
+    }
+  },
+  "Silia": {
+    "meta": {
+      "name": "Silia",
+      "element": "wind",
+      "image": "unit_icon_0023_2_3.png"
+    },
+    "stats": {
+      "hp": 9060,
+      "atk": 681,
+      "def": 527,
+      "spd": 97,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": null,
+      "stat": "res",
+      "area": "arena",
+      "value": 0.26
+    }
+  },
+  "Mav": {
+    "meta": {
+      "name": "Mav",
+      "element": "wind",
+      "image": "unit_icon_0031_2_3.png"
+    },
+    "stats": {
+      "hp": 10215,
+      "atk": 637,
+      "def": 494,
+      "spd": 105,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": "wind",
+      "stat": "hp",
+      "area": "element",
+      "value": 0.3
+    }
+  },
+  "Ermeda": {
+    "meta": {
+      "name": "Ermeda",
+      "element": "wind",
+      "image": "unit_icon_0005_2_0.png"
+    },
+    "stats": {
+      "hp": 11370,
+      "atk": 582,
+      "def": 472,
+      "spd": 100,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": null
+  },
+  "Shakan": {
+    "meta": {
+      "name": "Shakan",
+      "element": "wind",
+      "image": "unit_icon_0015_2_1.png"
+    },
+    "stats": {
+      "hp": 8565,
+      "atk": 582,
+      "def": 659,
+      "spd": 115,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": null,
+      "stat": "res",
+      "area": "guild",
+      "value": 0.26
+    }
+  },
+  "Lyn": {
+    "meta": {
+      "name": "Lyn",
+      "element": "light",
+      "image": "unit_icon_0018_3_0.png"
+    },
+    "stats": {
+      "hp": 10380,
+      "atk": 790,
+      "def": 329,
+      "spd": 102,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": null,
+      "stat": "atk",
+      "area": "guild",
+      "value": 0.21
+    }
+  },
+  "Marble": {
+    "meta": {
+      "name": "Marble",
+      "element": "light",
+      "image": "unit_icon_0033_3_1.png"
+    },
+    "stats": {
+      "hp": 11205,
+      "atk": 505,
+      "def": 560,
+      "spd": 99,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": "light",
+      "stat": "def",
+      "area": "element",
+      "value": 0.3
+    }
+  },
+  "Ahman": {
+    "meta": {
+      "name": "Ahman",
+      "element": "light",
+      "image": "unit_icon_0014_3_0.png"
+    },
+    "stats": {
+      "hp": 10710,
+      "atk": 549,
+      "def": 549,
+      "spd": 101,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": "light",
+      "stat": "def",
+      "area": "element",
+      "value": 0.3
+    }
+  },
+  "Baekdu": {
+    "meta": {
+      "name": "Baekdu",
+      "element": "light",
+      "image": "unit_icon_0030_3_4.png"
+    },
+    "stats": {
+      "hp": 9060,
+      "atk": 670,
+      "def": 538,
+      "spd": 100,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": null,
+      "stat": "hp",
+      "area": "dungeon",
+      "value": 0.21
+    }
+  },
+  "Walkers": {
+    "meta": {
+      "name": "Walkers",
+      "element": "light",
+      "image": "unit_icon_0021_3_2.png"
+    },
+    "stats": {
+      "hp": 8895,
+      "atk": 637,
+      "def": 582,
+      "spd": 110,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": "light",
+      "stat": "spd",
+      "area": "element",
+      "value": 0.23
+    }
+  },
+  "Loren": {
+    "meta": {
+      "name": "Loren",
+      "element": "light",
+      "image": "unit_icon_0032_3_4.png"
+    },
+    "stats": {
+      "hp": 9225,
+      "atk": 681,
+      "def": 516,
+      "spd": 102,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 25
+    },
+    "lead": {
+      "element": null,
+      "stat": "atk",
+      "area": null,
+      "value": 0.18
+    }
+  },
+  "Tien Qin": {
+    "meta": {
+      "name": "Tien Qin",
+      "element": "light",
+      "image": "unit_icon_0026_3_3.png"
+    },
+    "stats": {
+      "hp": 9060,
+      "atk": 659,
+      "def": 549,
+      "spd": 99,
+      "cr": 30,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": null,
+      "stat": "spd",
+      "area": "guild",
+      "value": 0.16
+    }
+  },
+  "Priz": {
+    "meta": {
+      "name": "Priz",
+      "element": "light",
+      "image": "unit_icon_0003_3_0.png"
+    },
+    "stats": {
+      "hp": 8235,
+      "atk": 692,
+      "def": 571,
+      "spd": 107,
+      "cr": 30,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": null
+  },
+  "Neal": {
+    "meta": {
+      "name": "Neal",
+      "element": "light",
+      "image": "unit_icon_0000_3_1.png"
+    },
+    "stats": {
+      "hp": 10545,
+      "atk": 681,
+      "def": 428,
+      "spd": 101,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": null,
+      "stat": "res",
+      "area": null,
+      "value": 0.2
+    }
+  },
+  "Fran": {
+    "meta": {
+      "name": "Fran",
+      "element": "light",
+      "image": "unit_icon_0028_4_0.png"
+    },
+    "stats": {
+      "hp": 10215,
+      "atk": 670,
+      "def": 461,
+      "spd": 103,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": null,
+      "stat": "spd",
+      "area": null,
+      "value": 0.1
+    }
+  },
+  "Teon": {
+    "meta": {
+      "name": "Teon",
+      "element": "light",
+      "image": "unit_icon_0003_3_2.png"
+    },
+    "stats": {
+      "hp": 9555,
+      "atk": 571,
+      "def": 604,
+      "spd": 95,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": null,
+      "stat": "hp",
+      "area": "dungeon",
+      "value": 0.17
+    }
+  },
+  "Groggo": {
+    "meta": {
+      "name": "Groggo",
+      "element": "light",
+      "image": "unit_icon_0005_3_2.png"
+    },
+    "stats": {
+      "hp": 10875,
+      "atk": 362,
+      "def": 725,
+      "spd": 91,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": "light",
+      "stat": "hp",
+      "area": "element",
+      "value": 0.3
+    }
+  },
+  "Shamann": {
+    "meta": {
+      "name": "Shamann",
+      "element": "light",
+      "image": "unit_icon_0005_3_4.png"
+    },
+    "stats": {
+      "hp": 11040,
+      "atk": 472,
+      "def": 604,
+      "spd": 111,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": "light",
+      "stat": "atk",
+      "area": "element",
+      "value": 0.3
+    }
+  },
+  "Prom": {
+    "meta": {
+      "name": "Prom",
+      "element": "light",
+      "image": "unit_icon_0018_3_4.png"
+    },
+    "stats": {
+      "hp": 7905,
+      "atk": 911,
+      "def": 373,
+      "spd": 91,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": "light",
+      "stat": "atk",
+      "area": "element",
+      "value": 0.3
+    }
+  },
+  "Sia": {
+    "meta": {
+      "name": "Sia",
+      "element": "light",
+      "image": "unit_icon_0009_3_2.png"
+    },
+    "stats": {
+      "hp": 9225,
+      "atk": 670,
+      "def": 527,
+      "spd": 105,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": "light",
+      "stat": "def",
+      "area": "element",
+      "value": 0.25
+    }
+  },
+  "Kabilla": {
+    "meta": {
+      "name": "Kabilla",
+      "element": "light",
+      "image": "unit_icon_0001_3_4.png"
+    },
+    "stats": {
+      "hp": 7410,
+      "atk": 780,
+      "def": 538,
+      "spd": 120,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": null
+  },
+  "Shren": {
+    "meta": {
+      "name": "Shren",
+      "element": "light",
+      "image": "unit_icon_0007_3_4.png"
+    },
+    "stats": {
+      "hp": 10380,
+      "atk": 725,
+      "def": 395,
+      "spd": 104,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": "light",
+      "stat": "cr",
+      "area": "element",
+      "value": 0.23
+    }
+  },
+  "Shaffron": {
+    "meta": {
+      "name": "Shaffron",
+      "element": "light",
+      "image": "unit_icon_0007_3_1.png"
+    },
+    "stats": {
+      "hp": 8895,
+      "atk": 604,
+      "def": 615,
+      "spd": 102,
+      "cr": 30,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": null
+  },
+  "Eludain": {
+    "meta": {
+      "name": "Eludain",
+      "element": "light",
+      "image": "unit_icon_0006_3_3.png"
+    },
+    "stats": {
+      "hp": 7740,
+      "atk": 867,
+      "def": 428,
+      "spd": 95,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": "light",
+      "stat": "cr",
+      "area": "element",
+      "value": 0.23
+    }
+  },
+  "Belladeon": {
+    "meta": {
+      "name": "Belladeon",
+      "element": "light",
+      "image": "unit_icon_0003_3_4.png"
+    },
+    "stats": {
+      "hp": 9885,
+      "atk": 472,
+      "def": 681,
+      "spd": 108,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": null
+  },
+  "Silver": {
+    "meta": {
+      "name": "Silver",
+      "element": "light",
+      "image": "unit_icon_0025_3_2.png"
+    },
+    "stats": {
+      "hp": 9720,
+      "atk": 461,
+      "def": 703,
+      "spd": 98,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 25
+    },
+    "lead": null
+  },
+  "Glinodon": {
+    "meta": {
+      "name": "Glinodon",
+      "element": "light",
+      "image": "unit_icon_0028_3_2.png"
+    },
+    "stats": {
+      "hp": 8730,
+      "atk": 604,
+      "def": 626,
+      "spd": 103,
+      "cr": 30,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": null
+  },
+  "Xiao Ling": {
+    "meta": {
+      "name": "Xiao Ling",
+      "element": "light",
+      "image": "unit_icon_0018_3_2.png"
+    },
+    "stats": {
+      "hp": 8565,
+      "atk": 769,
+      "def": 472,
+      "spd": 104,
+      "cr": 15,
+      "cd": 50,
+      "res": 40,
+      "acc": 0
+    },
+    "lead": {
+      "element": null,
+      "stat": "atk",
+      "area": "guild",
+      "value": 0.21
+    }
+  },
+  "Grotau": {
+    "meta": {
+      "name": "Grotau",
+      "element": "light",
+      "image": "unit_icon_0027_3_4.png"
+    },
+    "stats": {
+      "hp": 10215,
+      "atk": 571,
+      "def": 560,
+      "spd": 99,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": "light",
+      "stat": "hp",
+      "area": "element",
+      "value": 0.3
+    }
+  },
+  "Linda": {
+    "meta": {
+      "name": "Linda",
+      "element": "light",
+      "image": "unit_icon_0023_3_3.png"
+    },
+    "stats": {
+      "hp": 7905,
+      "atk": 714,
+      "def": 571,
+      "spd": 97,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": null,
+      "stat": "acc",
+      "area": "arena",
+      "value": 0.26
+    }
+  },
+  "Dona": {
+    "meta": {
+      "name": "Dona",
+      "element": "light",
+      "image": "unit_icon_0031_3_3.png"
+    },
+    "stats": {
+      "hp": 9720,
+      "atk": 615,
+      "def": 549,
+      "spd": 105,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": "light",
+      "stat": "hp",
+      "area": "element",
+      "value": 0.3
+    }
+  },
+  "Elpuria": {
+    "meta": {
+      "name": "Elpuria",
+      "element": "light",
+      "image": "unit_icon_0005_3_0.png"
+    },
+    "stats": {
+      "hp": 10545,
+      "atk": 538,
+      "def": 571,
+      "spd": 100,
+      "cr": 30,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": null
+  },
+  "Darion": {
+    "meta": {
+      "name": "Darion",
+      "element": "light",
+      "image": "unit_icon_0021_3_0.png"
+    },
+    "stats": {
+      "hp": 10710,
+      "atk": 549,
+      "def": 549,
+      "spd": 98,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 25
+    },
+    "lead": null
+  },
+  "Lusha": {
+    "meta": {
+      "name": "Lusha",
+      "element": "light",
+      "image": "unit_icon_0002_3_3.png"
+    },
+    "stats": {
+      "hp": 11370,
+      "atk": 340,
+      "def": 714,
+      "spd": 102,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": null,
+      "stat": "hp",
+      "area": null,
+      "value": 0.15
+    }
+  },
+  "Eshir": {
+    "meta": {
+      "name": "Eshir",
+      "element": "light",
+      "image": "unit_icon_0015_3_1.png"
+    },
+    "stats": {
+      "hp": 12840,
+      "atk": 472,
+      "def": 483,
+      "spd": 115,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": null,
+      "stat": "hp",
+      "area": "guild",
+      "value": 0.21
+    }
+  },
+  "Mara": {
+    "meta": {
+      "name": "Mara",
+      "element": "dark",
+      "image": "unit_icon_0018_4_0.png"
+    },
+    "stats": {
+      "hp": 7740,
+      "atk": 911,
+      "def": 384,
+      "spd": 102,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": null,
+      "stat": "atk",
+      "area": "guild",
+      "value": 0.21
+    }
+  },
+  "Basalt": {
+    "meta": {
+      "name": "Basalt",
+      "element": "dark",
+      "image": "unit_icon_0033_4_1.png"
+    },
+    "stats": {
+      "hp": 9885,
+      "atk": 439,
+      "def": 714,
+      "spd": 99,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": "dark",
+      "stat": "def",
+      "area": "element",
+      "value": 0.3
+    }
+  },
+  "Haken": {
+    "meta": {
+      "name": "Haken",
+      "element": "dark",
+      "image": "unit_icon_0014_4_0.png"
+    },
+    "stats": {
+      "hp": 11205,
+      "atk": 461,
+      "def": 604,
+      "spd": 101,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": "dark",
+      "stat": "def",
+      "area": "element",
+      "value": 0.3
+    }
+  },
+  "Hannam": {
+    "meta": {
+      "name": "Hannam",
+      "element": "dark",
+      "image": "unit_icon_0030_4_4.png"
+    },
+    "stats": {
+      "hp": 8730,
+      "atk": 747,
+      "def": 483,
+      "spd": 100,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": null,
+      "stat": "cr",
+      "area": "arena",
+      "value": 0.16
+    }
+  },
+  "Jamie": {
+    "meta": {
+      "name": "Jamie",
+      "element": "dark",
+      "image": "unit_icon_0021_4_2.png"
+    },
+    "stats": {
+      "hp": 8400,
+      "atk": 703,
+      "def": 549,
+      "spd": 110,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": null,
+      "stat": "cr",
+      "area": "guild",
+      "value": 0.16
+    }
+  },
+  "Cassie": {
+    "meta": {
+      "name": "Cassie",
+      "element": "dark",
+      "image": "unit_icon_0032_4_4.png"
+    },
+    "stats": {
+      "hp": 8565,
+      "atk": 769,
+      "def": 472,
+      "spd": 102,
+      "cr": 30,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": null,
+      "stat": "atk",
+      "area": null,
+      "value": 0.18
+    }
+  },
+  "Wei Shin": {
+    "meta": {
+      "name": "Wei Shin",
+      "element": "dark",
+      "image": "unit_icon_0026_4_3.png"
+    },
+    "stats": {
+      "hp": 7905,
+      "atk": 769,
+      "def": 516,
+      "spd": 99,
+      "cr": 30,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": null,
+      "stat": "cr",
+      "area": "guild",
+      "value": 0.16
+    }
+  },
+  "Camules": {
+    "meta": {
+      "name": "Camules",
+      "element": "dark",
+      "image": "unit_icon_0003_4_0.png"
+    },
+    "stats": {
+      "hp": 8565,
+      "atk": 747,
+      "def": 494,
+      "spd": 122,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": null
+  },
+  "Rasheed": {
+    "meta": {
+      "name": "Rasheed",
+      "element": "dark",
+      "image": "unit_icon_0020_4_1.png"
+    },
+    "stats": {
+      "hp": 10875,
+      "atk": 538,
+      "def": 549,
+      "spd": 96,
+      "cr": 15,
+      "cd": 50,
+      "res": 40,
+      "acc": 0
+    },
+    "lead": null
+  },
+  "Maggi": {
+    "meta": {
+      "name": "Maggi",
+      "element": "dark",
+      "image": "unit_icon_0005_4_2.png"
+    },
+    "stats": {
+      "hp": 9885,
+      "atk": 384,
+      "def": 769,
+      "spd": 104,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": null
+  },
+  "Varus": {
+    "meta": {
+      "name": "Varus",
+      "element": "dark",
+      "image": "unit_icon_0005_4_4.png"
+    },
+    "stats": {
+      "hp": 11700,
+      "atk": 483,
+      "def": 549,
+      "spd": 111,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": null
+  },
+  "Thrain": {
+    "meta": {
+      "name": "Thrain",
+      "element": "dark",
+      "image": "unit_icon_0018_4_4.png"
+    },
+    "stats": {
+      "hp": 10215,
+      "atk": 823,
+      "def": 307,
+      "spd": 91,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": "dark",
+      "stat": "atk",
+      "area": "element",
+      "value": 0.3
+    }
+  },
+  "Seren": {
+    "meta": {
+      "name": "Seren",
+      "element": "dark",
+      "image": "unit_icon_0009_4_2.png"
+    },
+    "stats": {
+      "hp": 8895,
+      "atk": 659,
+      "def": 560,
+      "spd": 104,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": "dark",
+      "stat": "def",
+      "area": "element",
+      "value": 0.25
+    }
+  },
+  "Hellea": {
+    "meta": {
+      "name": "Hellea",
+      "element": "dark",
+      "image": "unit_icon_0001_4_4.png"
+    },
+    "stats": {
+      "hp": 7575,
+      "atk": 801,
+      "def": 505,
+      "spd": 104,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": "dark",
+      "stat": "atk",
+      "area": "element",
+      "value": 0.3
+    }
+  },
+  "Shumar": {
+    "meta": {
+      "name": "Shumar",
+      "element": "dark",
+      "image": "unit_icon_0002_4_1.png"
+    },
+    "stats": {
+      "hp": 7575,
+      "atk": 834,
+      "def": 472,
+      "spd": 113,
+      "cr": 30,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": null
+  },
+  "Jumaline": {
+    "meta": {
+      "name": "Jumaline",
+      "element": "dark",
+      "image": "unit_icon_0007_4_4.png"
+    },
+    "stats": {
+      "hp": 7245,
+      "atk": 867,
+      "def": 461,
+      "spd": 104,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": "dark",
+      "stat": "cr",
+      "area": "element",
+      "value": 0.23
+    }
+  },
+  "Loque": {
+    "meta": {
+      "name": "Loque",
+      "element": "dark",
+      "image": "unit_icon_0007_4_1.png"
+    },
+    "stats": {
+      "hp": 8070,
+      "atk": 747,
+      "def": 527,
+      "spd": 102,
+      "cr": 30,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": null
+  },
+  "Drogan": {
+    "meta": {
+      "name": "Drogan",
+      "element": "dark",
+      "image": "unit_icon_0006_4_3.png"
+    },
+    "stats": {
+      "hp": 8400,
+      "atk": 878,
+      "def": 373,
+      "spd": 95,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": "dark",
+      "stat": "cr",
+      "area": "element",
+      "value": 0.23
+    }
+  },
+  "Kro": {
+    "meta": {
+      "name": "Kro",
+      "element": "dark",
+      "image": "unit_icon_0003_4_4.png"
+    },
+    "stats": {
+      "hp": 9060,
+      "atk": 626,
+      "def": 582,
+      "spd": 108,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": null
+  },
+  "Zinc": {
+    "meta": {
+      "name": "Zinc",
+      "element": "dark",
+      "image": "unit_icon_0025_4_2.png"
+    },
+    "stats": {
+      "hp": 9885,
+      "atk": 483,
+      "def": 670,
+      "spd": 98,
+      "cr": 30,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": null
+  },
+  "Devinodon": {
+    "meta": {
+      "name": "Devinodon",
+      "element": "dark",
+      "image": "unit_icon_0028_4_2.png"
+    },
+    "stats": {
+      "hp": 9060,
+      "atk": 593,
+      "def": 615,
+      "spd": 103,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 25
+    },
+    "lead": null
+  },
+  "Miho": {
+    "meta": {
+      "name": "Miho",
+      "element": "dark",
+      "image": "unit_icon_0018_4_2.png"
+    },
+    "stats": {
+      "hp": 9060,
+      "atk": 703,
+      "def": 505,
+      "spd": 119,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": null,
+      "stat": "def",
+      "area": "guild",
+      "value": 0.21
+    }
+  },
+  "Kamatau": {
+    "meta": {
+      "name": "Kamatau",
+      "element": "dark",
+      "image": "unit_icon_0027_4_4.png"
+    },
+    "stats": {
+      "hp": 10050,
+      "atk": 593,
+      "def": 549,
+      "spd": 99,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": "dark",
+      "stat": "hp",
+      "area": "element",
+      "value": 0.3
+    }
+  },
+  "Gina": {
+    "meta": {
+      "name": "Gina",
+      "element": "dark",
+      "image": "unit_icon_0023_4_3.png"
+    },
+    "stats": {
+      "hp": 9555,
+      "atk": 692,
+      "def": 483,
+      "spd": 97,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": null,
+      "stat": "res",
+      "area": "arena",
+      "value": 0.26
+    }
+  },
+  "Mantura": {
+    "meta": {
+      "name": "Mantura",
+      "element": "dark",
+      "image": "unit_icon_0005_4_0.png"
+    },
+    "stats": {
+      "hp": 9885,
+      "atk": 604,
+      "def": 549,
+      "spd": 100,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": null,
+      "stat": "hp",
+      "area": "arena",
+      "value": 0.21
+    }
+  },
+  "Woonhak": {
+    "meta": {
+      "name": "Woonhak",
+      "element": "dark",
+      "image": "unit_icon_0030_4_0.png"
+    },
+    "stats": {
+      "hp": 9885,
+      "atk": 637,
+      "def": 516,
+      "spd": 104,
+      "cr": 30,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": null
+  },
+  "Jubelle": {
+    "meta": {
+      "name": "Jubelle",
+      "element": "dark",
+      "image": "unit_icon_0021_4_0.png"
+    },
+    "stats": {
+      "hp": 9885,
+      "atk": 494,
+      "def": 659,
+      "spd": 113,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": null
+  },
+  "Janssen": {
+    "meta": {
+      "name": "Janssen",
+      "element": "dark",
+      "image": "unit_icon_0017_4_1.png"
+    },
+    "stats": {
+      "hp": 11700,
+      "atk": 483,
+      "def": 549,
+      "spd": 97,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": null,
+      "stat": "spd",
+      "area": null,
+      "value": 0.1
+    }
+  },
+  "Jultan": {
+    "meta": {
+      "name": "Jultan",
+      "element": "dark",
+      "image": "unit_icon_0015_4_1.png"
+    },
+    "stats": {
+      "hp": 11370,
+      "atk": 560,
+      "def": 494,
+      "spd": 115,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": null,
+      "stat": "spd",
+      "area": "guild",
+      "value": 0.16
+    }
+  },
+  "Hraesvelg": {
+    "meta": {
+      "name": "Hraesvelg",
+      "element": "wind",
+      "image": "unit_icon_0032_2_0.png"
+    },
+    "stats": {
+      "hp": 10215,
+      "atk": 747,
+      "def": 549,
+      "spd": 103,
+      "cr": 15,
+      "cd": 50,
+      "res": 40,
+      "acc": 0
+    },
+    "lead": {
+      "element": null,
+      "stat": "atk",
+      "area": "guild",
+      "value": 0.33
+    }
+  },
+  "Aquila": {
+    "meta": {
+      "name": "Aquila",
+      "element": "wind",
+      "image": "unit_icon_0028_2_4.png"
+    },
+    "stats": {
+      "hp": 9555,
+      "atk": 747,
+      "def": 593,
+      "spd": 106,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": null,
+      "stat": "acc",
+      "area": null,
+      "value": 0.3
+    }
+  },
+  "Briand": {
+    "meta": {
+      "name": "Briand",
+      "element": "wind",
+      "image": "unit_icon_0024_2_3.png"
+    },
+    "stats": {
+      "hp": 12840,
+      "atk": 527,
+      "def": 593,
+      "spd": 116,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": null,
+      "stat": "res",
+      "area": null,
+      "value": 0.3
+    }
+  },
+  "Lushen": {
+    "meta": {
+      "name": "Lushen",
+      "element": "wind",
+      "image": "unit_icon_0011_2_2.png"
+    },
+    "stats": {
+      "hp": 9225,
+      "atk": 900,
+      "def": 461,
+      "spd": 103,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": null,
+      "stat": "atk",
+      "area": "dungeon",
+      "value": 0.33
+    }
+  },
+  "Taurus": {
+    "meta": {
+      "name": "Taurus",
+      "element": "wind",
+      "image": "unit_icon_0029_2_1.png"
+    },
+    "stats": {
+      "hp": 9225,
+      "atk": 790,
+      "def": 571,
+      "spd": 99,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": "wind",
+      "stat": "acc",
+      "area": "element",
+      "value": 0.5
+    }
+  },
+  "Ling Ling": {
+    "meta": {
+      "name": "Ling Ling",
+      "element": "wind",
+      "image": "unit_icon_0008_2_4.png"
+    },
+    "stats": {
+      "hp": 8895,
+      "atk": 758,
+      "def": 626,
+      "spd": 102,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": null,
+      "stat": "acc",
+      "area": "arena",
+      "value": 0.4
+    }
+  },
+  "Fuco": {
+    "meta": {
+      "name": "Fuco",
+      "element": "wind",
+      "image": "unit_icon_0024_2_1.png"
+    },
+    "stats": {
+      "hp": 10875,
+      "atk": 703,
+      "def": 549,
+      "spd": 96,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": null,
+      "stat": "atk",
+      "area": "arena",
+      "value": 0.33
+    }
+  },
+  "Arang": {
+    "meta": {
+      "name": "Arang",
+      "element": "wind",
+      "image": "unit_icon_0004_2_3.png"
+    },
+    "stats": {
+      "hp": 9885,
+      "atk": 944,
+      "def": 373,
+      "spd": 102,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": "wind",
+      "stat": "atk",
+      "area": "element",
+      "value": 0.4
+    }
+  },
+  "Orochi": {
+    "meta": {
+      "name": "Orochi",
+      "element": "wind",
+      "image": "unit_icon_0013_2_3.png"
+    },
+    "stats": {
+      "hp": 11535,
+      "atk": 769,
+      "def": 439,
+      "spd": 107,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": "wind",
+      "stat": "spd",
+      "area": "element",
+      "value": 0.3
+    }
+  },
+  "Julien": {
+    "meta": {
+      "name": "Julien",
+      "element": "wind",
+      "image": "unit_icon_0015_2_3.png"
+    },
+    "stats": {
+      "hp": 7740,
+      "atk": 944,
+      "def": 516,
+      "spd": 105,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": null,
+      "stat": "hp",
+      "area": "arena",
+      "value": 0.33
+    }
+  },
+  "Sophia": {
+    "meta": {
+      "name": "Sophia",
+      "element": "wind",
+      "image": "unit_icon_0014_2_4.png"
+    },
+    "stats": {
+      "hp": 9555,
+      "atk": 900,
+      "def": 439,
+      "spd": 103,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": null,
+      "stat": "res",
+      "area": null,
+      "value": 0.3
+    }
+  },
+  "Yen": {
+    "meta": {
+      "name": "Yen",
+      "element": "wind",
+      "image": "unit_icon_0021_2_4.png"
+    },
+    "stats": {
+      "hp": 10215,
+      "atk": 780,
+      "def": 516,
+      "spd": 104,
+      "cr": 30,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": null,
+      "stat": "atk",
+      "area": null,
+      "value": 0.25
+    }
+  },
+  "Kaito": {
+    "meta": {
+      "name": "Kaito",
+      "element": "wind",
+      "image": "unit_icon_0026_2_1.png"
+    },
+    "stats": {
+      "hp": 9060,
+      "atk": 867,
+      "def": 505,
+      "spd": 103,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 25
+    },
+    "lead": null
+  },
+  "Chasun": {
+    "meta": {
+      "name": "Chasun",
+      "element": "wind",
+      "image": "unit_icon_0029_2_3.png"
+    },
+    "stats": {
+      "hp": 11040,
+      "atk": 659,
+      "def": 582,
+      "spd": 101,
+      "cr": 15,
+      "cd": 50,
+      "res": 40,
+      "acc": 0
+    },
+    "lead": null
+  },
+  "Shimitae": {
+    "meta": {
+      "name": "Shimitae",
+      "element": "wind",
+      "image": "unit_icon_0007_2_0.png"
+    },
+    "stats": {
+      "hp": 10215,
+      "atk": 834,
+      "def": 461,
+      "spd": 106,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": null,
+      "stat": "spd",
+      "area": "arena",
+      "value": 0.24
+    }
+  },
+  "Acasis": {
+    "meta": {
+      "name": "Acasis",
+      "element": "wind",
+      "image": "unit_icon_0009_2_4.png"
+    },
+    "stats": {
+      "hp": 11370,
+      "atk": 571,
+      "def": 648,
+      "spd": 104,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": "wind",
+      "stat": "res",
+      "area": "element",
+      "value": 0.5
+    }
+  },
+  "Woochi": {
+    "meta": {
+      "name": "Woochi",
+      "element": "wind",
+      "image": "unit_icon_0030_2_0.png"
+    },
+    "stats": {
+      "hp": 9225,
+      "atk": 670,
+      "def": 692,
+      "spd": 104,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 25
+    },
+    "lead": {
+      "element": null,
+      "stat": "res",
+      "area": null,
+      "value": 0.28
+    }
+  },
+  "Delphoi": {
+    "meta": {
+      "name": "Delphoi",
+      "element": "wind",
+      "image": "unit_icon_0006_2_1.png"
+    },
+    "stats": {
+      "hp": 10875,
+      "atk": 549,
+      "def": 703,
+      "spd": 96,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": "wind",
+      "stat": "def",
+      "area": "element",
+      "value": 0.4
+    }
+  },
+  "Argen": {
+    "meta": {
+      "name": "Argen",
+      "element": "wind",
+      "image": "unit_icon_0016_2_2.png"
+    },
+    "stats": {
+      "hp": 9555,
+      "atk": 790,
+      "def": 549,
+      "spd": 99,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": null,
+      "stat": "res",
+      "area": "dungeon",
+      "value": 0.48
+    }
+  },
+  "Eladriel": {
+    "meta": {
+      "name": "Eladriel",
+      "element": "wind",
+      "image": "unit_icon_0019_2_2.png"
+    },
+    "stats": {
+      "hp": 12015,
+      "atk": 626,
+      "def": 714,
+      "spd": 110,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": "wind",
+      "stat": "hp",
+      "area": "element",
+      "value": 0.5
+    }
+  },
+  "Ritesh": {
+    "meta": {
+      "name": "Ritesh",
+      "element": "wind",
+      "image": "unit_icon_0027_2_1.png"
+    },
+    "stats": {
+      "hp": 13500,
+      "atk": 637,
+      "def": 604,
+      "spd": 96,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": null,
+      "stat": "acc",
+      "area": "dungeon",
+      "value": 0.55
+    }
+  },
+  "Lagmaron": {
+    "meta": {
+      "name": "Lagmaron",
+      "element": "wind",
+      "image": "unit_icon_0017_2_2.png"
+    },
+    "stats": {
+      "hp": 11535,
+      "atk": 801,
+      "def": 571,
+      "spd": 110,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": "wind",
+      "stat": "hp",
+      "area": "element",
+      "value": 0.5
+    }
+  },
+  "Jamire": {
+    "meta": {
+      "name": "Jamire",
+      "element": "wind",
+      "image": "unit_icon_0016_2_0.png"
+    },
+    "stats": {
+      "hp": 10710,
+      "atk": 714,
+      "def": 714,
+      "spd": 113,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": null,
+      "stat": "spd",
+      "area": null,
+      "value": 0.24
+    }
+  },
+  "Leo": {
+    "meta": {
+      "name": "Leo",
+      "element": "wind",
+      "image": "unit_icon_0025_2_0.png"
+    },
+    "stats": {
+      "hp": 11850,
+      "atk": 714,
+      "def": 637,
+      "spd": 100,
+      "cr": 15,
+      "cd": 50,
+      "res": 40,
+      "acc": 0
+    },
+    "lead": {
+      "element": "wind",
+      "stat": "def",
+      "area": "element",
+      "value": 0.5
+    }
+  },
+  "Ethna": {
+    "meta": {
+      "name": "Ethna",
+      "element": "wind",
+      "image": "unit_icon_0023_2_1.png"
+    },
+    "stats": {
+      "hp": 10380,
+      "atk": 845,
+      "def": 604,
+      "spd": 119,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": null,
+      "stat": "cr",
+      "area": "arena",
+      "value": 0.33
+    }
+  },
+  "Akhamamir": {
+    "meta": {
+      "name": "Akhamamir",
+      "element": "wind",
+      "image": "unit_icon_0019_2_4.png"
+    },
+    "stats": {
+      "hp": 11850,
+      "atk": 933,
+      "def": 417,
+      "spd": 100,
+      "cr": 30,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": null,
+      "stat": "atk",
+      "area": "arena",
+      "value": 0.44
+    }
+  },
+  "Xing Zhe": {
+    "meta": {
+      "name": "Xing Zhe",
+      "element": "wind",
+      "image": "unit_icon_0025_2_4.png"
+    },
+    "stats": {
+      "hp": 11700,
+      "atk": 703,
+      "def": 659,
+      "spd": 117,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": null,
+      "stat": "hp",
+      "area": null,
+      "value": 0.33
+    }
+  },
+  "Charlotte": {
+    "meta": {
+      "name": "Charlotte",
+      "element": "wind",
+      "image": "unit_icon_0022_2_4.png"
+    },
+    "stats": {
+      "hp": 10380,
+      "atk": 845,
+      "def": 604,
+      "spd": 105,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 25
+    },
+    "lead": {
+      "element": "wind",
+      "stat": "cr",
+      "area": "element",
+      "value": 0.38
+    }
+  },
+  "Seara": {
+    "meta": {
+      "name": "Seara",
+      "element": "wind",
+      "image": "unit_icon_0022_2_1.png"
+    },
+    "stats": {
+      "hp": 10875,
+      "atk": 801,
+      "def": 615,
+      "spd": 100,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 25
+    },
+    "lead": {
+      "element": null,
+      "stat": "spd",
+      "area": null,
+      "value": 0.24
+    }
+  },
+  "Teshar": {
+    "meta": {
+      "name": "Teshar",
+      "element": "wind",
+      "image": "unit_icon_0017_2_3.png"
+    },
+    "stats": {
+      "hp": 7410,
+      "atk": 1098,
+      "def": 549,
+      "spd": 109,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": null,
+      "stat": "cr",
+      "area": "dungeon",
+      "value": 0.33
+    }
+  },
+  "Pungbaek": {
+    "meta": {
+      "name": "Pungbaek",
+      "element": "wind",
+      "image": "unit_icon_0031_2_1.png"
+    },
+    "stats": {
+      "hp": 11850,
+      "atk": 769,
+      "def": 582,
+      "spd": 103,
+      "cr": 30,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": null,
+      "stat": "cr",
+      "area": null,
+      "value": 0.24
+    }
+  },
+  "Tiana": {
+    "meta": {
+      "name": "Tiana",
+      "element": "wind",
+      "image": "unit_icon_0033_2_3.png"
+    },
+    "stats": {
+      "hp": 11850,
+      "atk": 725,
+      "def": 626,
+      "spd": 96,
+      "cr": 15,
+      "cd": 50,
+      "res": 40,
+      "acc": 0
+    },
+    "lead": {
+      "element": null,
+      "stat": "def",
+      "area": "arena",
+      "value": 0.44
+    }
+  },
+  "Katarina": {
+    "meta": {
+      "name": "Katarina",
+      "element": "wind",
+      "image": "unit_icon_0014_2_2.png"
+    },
+    "stats": {
+      "hp": 11205,
+      "atk": 801,
+      "def": 593,
+      "spd": 116,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": null,
+      "stat": "res",
+      "area": "arena",
+      "value": 0.55
+    }
+  },
+  "Aegir": {
+    "meta": {
+      "name": "Aegir",
+      "element": "water",
+      "image": "unit_icon_0032_0_0.png"
+    },
+    "stats": {
+      "hp": 10215,
+      "atk": 725,
+      "def": 571,
+      "spd": 103,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 25
+    },
+    "lead": {
+      "element": null,
+      "stat": "hp",
+      "area": "guild",
+      "value": 0.33
+    }
+  },
+  "Orion": {
+    "meta": {
+      "name": "Orion",
+      "element": "water",
+      "image": "unit_icon_0028_0_4.png"
+    },
+    "stats": {
+      "hp": 10215,
+      "atk": 637,
+      "def": 659,
+      "spd": 106,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": null,
+      "stat": "def",
+      "area": null,
+      "value": 0.25
+    }
+  },
+  "Fedora": {
+    "meta": {
+      "name": "Fedora",
+      "element": "water",
+      "image": "unit_icon_0024_0_3.png"
+    },
+    "stats": {
+      "hp": 9885,
+      "atk": 659,
+      "def": 659,
+      "spd": 101,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 25
+    },
+    "lead": {
+      "element": null,
+      "stat": "def",
+      "area": null,
+      "value": 0.25
+    }
+  },
+  "Sian": {
+    "meta": {
+      "name": "Sian",
+      "element": "water",
+      "image": "unit_icon_0011_0_2.png"
+    },
+    "stats": {
+      "hp": 10545,
+      "atk": 834,
+      "def": 439,
+      "spd": 103,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": null,
+      "stat": "hp",
+      "area": "dungeon",
+      "value": 0.33
+    }
+  },
+  "Malaka": {
+    "meta": {
+      "name": "Malaka",
+      "element": "water",
+      "image": "unit_icon_0029_0_1.png"
+    },
+    "stats": {
+      "hp": 8565,
+      "atk": 812,
+      "def": 593,
+      "spd": 99,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": "water",
+      "stat": "acc",
+      "area": "element",
+      "value": 0.5
+    }
+  },
+  "Xiao Lin": {
+    "meta": {
+      "name": "Xiao Lin",
+      "element": "water",
+      "image": "unit_icon_0008_0_4.png"
+    },
+    "stats": {
+      "hp": 8730,
+      "atk": 736,
+      "def": 659,
+      "spd": 102,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": null,
+      "stat": "def",
+      "area": "arena",
+      "value": 0.33
+    }
+  },
+  "Rigel": {
+    "meta": {
+      "name": "Rigel",
+      "element": "water",
+      "image": "unit_icon_0024_0_1.png"
+    },
+    "stats": {
+      "hp": 9885,
+      "atk": 725,
+      "def": 593,
+      "spd": 96,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": null,
+      "stat": "hp",
+      "area": "arena",
+      "value": 0.33
+    }
+  },
+  "Soha": {
+    "meta": {
+      "name": "Soha",
+      "element": "water",
+      "image": "unit_icon_0004_0_3.png"
+    },
+    "stats": {
+      "hp": 8235,
+      "atk": 878,
+      "def": 549,
+      "spd": 102,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": "water",
+      "stat": "atk",
+      "area": "element",
+      "value": 0.4
+    }
+  },
+  "Susano": {
+    "meta": {
+      "name": "Susano",
+      "element": "water",
+      "image": "unit_icon_0013_0_3.png"
+    },
+    "stats": {
+      "hp": 8070,
+      "atk": 911,
+      "def": 527,
+      "spd": 107,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": "water",
+      "stat": "spd",
+      "area": "element",
+      "value": 0.3
+    }
+  },
+  "Luer": {
+    "meta": {
+      "name": "Luer",
+      "element": "water",
+      "image": "unit_icon_0015_0_3.png"
+    },
+    "stats": {
+      "hp": 10710,
+      "atk": 659,
+      "def": 604,
+      "spd": 105,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": null,
+      "stat": "acc",
+      "area": "arena",
+      "value": 0.4
+    }
+  },
+  "Julie": {
+    "meta": {
+      "name": "Julie",
+      "element": "water",
+      "image": "unit_icon_0014_0_4.png"
+    },
+    "stats": {
+      "hp": 10545,
+      "atk": 834,
+      "def": 439,
+      "spd": 103,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": null,
+      "stat": "acc",
+      "area": null,
+      "value": 0.3
+    }
+  },
+  "Su": {
+    "meta": {
+      "name": "Su",
+      "element": "water",
+      "image": "unit_icon_0021_0_4.png"
+    },
+    "stats": {
+      "hp": 9885,
+      "atk": 769,
+      "def": 549,
+      "spd": 104,
+      "cr": 30,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": null,
+      "stat": "atk",
+      "area": null,
+      "value": 0.25
+    }
+  },
+  "Kaz": {
+    "meta": {
+      "name": "Kaz",
+      "element": "water",
+      "image": "unit_icon_0026_0_1.png"
+    },
+    "stats": {
+      "hp": 8565,
+      "atk": 856,
+      "def": 549,
+      "spd": 103,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 25
+    },
+    "lead": null
+  },
+  "Mihyang": {
+    "meta": {
+      "name": "Mihyang",
+      "element": "water",
+      "image": "unit_icon_0029_0_3.png"
+    },
+    "stats": {
+      "hp": 11205,
+      "atk": 670,
+      "def": 560,
+      "spd": 101,
+      "cr": 15,
+      "cd": 50,
+      "res": 40,
+      "acc": 0
+    },
+    "lead": null
+  },
+  "Izaria": {
+    "meta": {
+      "name": "Izaria",
+      "element": "water",
+      "image": "unit_icon_0011_0_3.png"
+    },
+    "stats": {
+      "hp": 10050,
+      "atk": 747,
+      "def": 560,
+      "spd": 106,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": null,
+      "stat": "spd",
+      "area": "arena",
+      "value": 0.24
+    }
+  },
+  "Tyron": {
+    "meta": {
+      "name": "Tyron",
+      "element": "water",
+      "image": "unit_icon_0007_0_0.png"
+    },
+    "stats": {
+      "hp": 10875,
+      "atk": 725,
+      "def": 527,
+      "spd": 105,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": null,
+      "stat": "spd",
+      "area": null,
+      "value": 0.19
+    }
+  },
+  "Lumirecia": {
+    "meta": {
+      "name": "Lumirecia",
+      "element": "water",
+      "image": "unit_icon_0009_0_4.png"
+    },
+    "stats": {
+      "hp": 12840,
+      "atk": 439,
+      "def": 681,
+      "spd": 103,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": "water",
+      "stat": "res",
+      "area": "element",
+      "value": 0.5
+    }
+  },
+  "Gildong": {
+    "meta": {
+      "name": "Gildong",
+      "element": "water",
+      "image": "unit_icon_0030_0_0.png"
+    },
+    "stats": {
+      "hp": 8730,
+      "atk": 845,
+      "def": 549,
+      "spd": 104,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 25
+    },
+    "lead": {
+      "element": null,
+      "stat": "atk",
+      "area": null,
+      "value": 0.22
+    }
+  },
+  "Mikene": {
+    "meta": {
+      "name": "Mikene",
+      "element": "water",
+      "image": "unit_icon_0006_0_1.png"
+    },
+    "stats": {
+      "hp": 8895,
+      "atk": 790,
+      "def": 593,
+      "spd": 96,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": "water",
+      "stat": "def",
+      "area": "element",
+      "value": 0.4
+    }
+  },
+  "Liesel": {
+    "meta": {
+      "name": "Liesel",
+      "element": "water",
+      "image": "unit_icon_0016_0_2.png"
+    },
+    "stats": {
+      "hp": 11535,
+      "atk": 670,
+      "def": 538,
+      "spd": 99,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": null,
+      "stat": "hp",
+      "area": "dungeon",
+      "value": 0.38
+    }
+  },
+  "Ariel": {
+    "meta": {
+      "name": "Ariel",
+      "element": "water",
+      "image": "unit_icon_0019_0_2.png"
+    },
+    "stats": {
+      "hp": 11850,
+      "atk": 604,
+      "def": 747,
+      "spd": 95,
+      "cr": 15,
+      "cd": 50,
+      "res": 40,
+      "acc": 0
+    },
+    "lead": {
+      "element": "water",
+      "stat": "hp",
+      "area": "element",
+      "value": 0.5
+    }
+  },
+  "Chandra": {
+    "meta": {
+      "name": "Chandra",
+      "element": "water",
+      "image": "unit_icon_0027_0_1.png"
+    },
+    "stats": {
+      "hp": 13170,
+      "atk": 604,
+      "def": 659,
+      "spd": 96,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": null,
+      "stat": "def",
+      "area": "dungeon",
+      "value": 0.44
+    }
+  },
+  "Taor": {
+    "meta": {
+      "name": "Taor",
+      "element": "water",
+      "image": "unit_icon_0017_0_2.png"
+    },
+    "stats": {
+      "hp": 9885,
+      "atk": 911,
+      "def": 571,
+      "spd": 95,
+      "cr": 30,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": "water",
+      "stat": "hp",
+      "area": "element",
+      "value": 0.5
+    }
+  },
+  "Verad": {
+    "meta": {
+      "name": "Verad",
+      "element": "water",
+      "image": "unit_icon_0016_0_0.png"
+    },
+    "stats": {
+      "hp": 11535,
+      "atk": 571,
+      "def": 801,
+      "spd": 93,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 25
+    },
+    "lead": {
+      "element": null,
+      "stat": "hp",
+      "area": null,
+      "value": 0.33
+    }
+  },
+  "Chow": {
+    "meta": {
+      "name": "Chow",
+      "element": "water",
+      "image": "unit_icon_0025_0_0.png"
+    },
+    "stats": {
+      "hp": 13005,
+      "atk": 681,
+      "def": 593,
+      "spd": 100,
+      "cr": 30,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": "water",
+      "stat": "def",
+      "area": "element",
+      "value": 0.5
+    }
+  },
+  "Beth": {
+    "meta": {
+      "name": "Beth",
+      "element": "water",
+      "image": "unit_icon_0023_0_1.png"
+    },
+    "stats": {
+      "hp": 10215,
+      "atk": 834,
+      "def": 626,
+      "spd": 104,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 25
+    },
+    "lead": {
+      "element": null,
+      "stat": "hp",
+      "area": "arena",
+      "value": 0.44
+    }
+  },
+  "Theomars": {
+    "meta": {
+      "name": "Theomars",
+      "element": "water",
+      "image": "unit_icon_0019_0_4.png"
+    },
+    "stats": {
+      "hp": 13995,
+      "atk": 604,
+      "def": 604,
+      "spd": 115,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": null,
+      "stat": "def",
+      "area": "arena",
+      "value": 0.44
+    }
+  },
+  "Shi Hou": {
+    "meta": {
+      "name": "Shi Hou",
+      "element": "water",
+      "image": "unit_icon_0025_0_4.png"
+    },
+    "stats": {
+      "hp": 9885,
+      "atk": 845,
+      "def": 637,
+      "spd": 115,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": null,
+      "stat": "atk",
+      "area": null,
+      "value": 0.33
+    }
+  },
+  "Anavel": {
+    "meta": {
+      "name": "Anavel",
+      "element": "water",
+      "image": "unit_icon_0022_0_4.png"
+    },
+    "stats": {
+      "hp": 10710,
+      "atk": 769,
+      "def": 659,
+      "spd": 105,
+      "cr": 15,
+      "cd": 50,
+      "res": 40,
+      "acc": 0
+    },
+    "lead": {
+      "element": "water",
+      "stat": "cr",
+      "area": "element",
+      "value": 0.38
+    }
+  },
+  "Praha": {
+    "meta": {
+      "name": "Praha",
+      "element": "water",
+      "image": "unit_icon_0022_0_1.png"
+    },
+    "stats": {
+      "hp": 11040,
+      "atk": 692,
+      "def": 714,
+      "spd": 100,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 25
+    },
+    "lead": {
+      "element": null,
+      "stat": "res",
+      "area": null,
+      "value": 0.41
+    }
+  },
+  "Sigmarus": {
+    "meta": {
+      "name": "Sigmarus",
+      "element": "water",
+      "image": "unit_icon_0017_0_3.png"
+    },
+    "stats": {
+      "hp": 8730,
+      "atk": 988,
+      "def": 571,
+      "spd": 94,
+      "cr": 30,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": null,
+      "stat": "hp",
+      "area": "dungeon",
+      "value": 0.44
+    }
+  },
+  "Woosa": {
+    "meta": {
+      "name": "Woosa",
+      "element": "water",
+      "image": "unit_icon_0031_0_1.png"
+    },
+    "stats": {
+      "hp": 12015,
+      "atk": 659,
+      "def": 681,
+      "spd": 118,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": null,
+      "stat": "acc",
+      "area": null,
+      "value": 0.41
+    }
+  },
+  "Alicia": {
+    "meta": {
+      "name": "Alicia",
+      "element": "water",
+      "image": "unit_icon_0033_0_3.png"
+    },
+    "stats": {
+      "hp": 9885,
+      "atk": 790,
+      "def": 692,
+      "spd": 96,
+      "cr": 30,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": null,
+      "stat": "atk",
+      "area": "arena",
+      "value": 0.44
+    }
+  },
+  "Camilla": {
+    "meta": {
+      "name": "Camilla",
+      "element": "water",
+      "image": "unit_icon_0014_0_2.png"
+    },
+    "stats": {
+      "hp": 12015,
+      "atk": 714,
+      "def": 626,
+      "spd": 101,
+      "cr": 30,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": null,
+      "stat": "cr",
+      "area": "arena",
+      "value": 0.33
+    }
+  },
+  "Mimirr": {
+    "meta": {
+      "name": "Mimirr",
+      "element": "light",
+      "image": "unit_icon_0032_3_0.png"
+    },
+    "stats": {
+      "hp": 10380,
+      "atk": 703,
+      "def": 582,
+      "spd": 103,
+      "cr": 30,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": null,
+      "stat": "spd",
+      "area": "guild",
+      "value": 0.24
+    }
+  },
+  "Gemini": {
+    "meta": {
+      "name": "Gemini",
+      "element": "light",
+      "image": "unit_icon_0028_3_4.png"
+    },
+    "stats": {
+      "hp": 9225,
+      "atk": 780,
+      "def": 582,
+      "spd": 106,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": null,
+      "stat": "spd",
+      "area": null,
+      "value": 0.19
+    }
+  },
+  "Conrad": {
+    "meta": {
+      "name": "Conrad",
+      "element": "light",
+      "image": "unit_icon_0024_3_3.png"
+    },
+    "stats": {
+      "hp": 9720,
+      "atk": 769,
+      "def": 560,
+      "spd": 101,
+      "cr": 30,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": null,
+      "stat": "spd",
+      "area": null,
+      "value": 0.19
+    }
+  },
+  "Iona": {
+    "meta": {
+      "name": "Iona",
+      "element": "light",
+      "image": "unit_icon_0020_3_1.png"
+    },
+    "stats": {
+      "hp": 12675,
+      "atk": 516,
+      "def": 615,
+      "spd": 111,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": null,
+      "stat": "res",
+      "area": "dungeon",
+      "value": 0.33
+    }
+  },
+  "Figaro": {
+    "meta": {
+      "name": "Figaro",
+      "element": "light",
+      "image": "unit_icon_0011_3_2.png"
+    },
+    "stats": {
+      "hp": 11700,
+      "atk": 703,
+      "def": 494,
+      "spd": 103,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": null,
+      "stat": "res",
+      "area": "dungeon",
+      "value": 0.4
+    }
+  },
+  "Dover": {
+    "meta": {
+      "name": "Dover",
+      "element": "light",
+      "image": "unit_icon_0029_3_1.png"
+    },
+    "stats": {
+      "hp": 8565,
+      "atk": 801,
+      "def": 604,
+      "spd": 99,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": "light",
+      "stat": "acc",
+      "area": "element",
+      "value": 0.5
+    }
+  },
+  "Liu Mei": {
+    "meta": {
+      "name": "Liu Mei",
+      "element": "light",
+      "image": "unit_icon_0008_3_4.png"
+    },
+    "stats": {
+      "hp": 10710,
+      "atk": 626,
+      "def": 637,
+      "spd": 102,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": null,
+      "stat": "cr",
+      "area": "arena",
+      "value": 0.24
+    }
+  },
+  "Halphas": {
+    "meta": {
+      "name": "Halphas",
+      "element": "light",
+      "image": "unit_icon_0024_3_1.png"
+    },
+    "stats": {
+      "hp": 9720,
+      "atk": 648,
+      "def": 681,
+      "spd": 96,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": null,
+      "stat": "spd",
+      "area": "arena",
+      "value": 0.24
+    }
+  },
+  "Chris": {
+    "meta": {
+      "name": "Chris",
+      "element": "light",
+      "image": "unit_icon_0020_3_3.png"
+    },
+    "stats": {
+      "hp": 10380,
+      "atk": 878,
+      "def": 406,
+      "spd": 105,
+      "cr": 30,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": "light",
+      "stat": "atk",
+      "area": "element",
+      "value": 0.35
+    }
+  },
+  "Chamie": {
+    "meta": {
+      "name": "Chamie",
+      "element": "light",
+      "image": "unit_icon_0004_3_3.png"
+    },
+    "stats": {
+      "hp": 10380,
+      "atk": 747,
+      "def": 538,
+      "spd": 102,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": "light",
+      "stat": "atk",
+      "area": "element",
+      "value": 0.4
+    }
+  },
+  "Gin": {
+    "meta": {
+      "name": "Gin",
+      "element": "light",
+      "image": "unit_icon_0013_3_3.png"
+    },
+    "stats": {
+      "hp": 9390,
+      "atk": 834,
+      "def": 516,
+      "spd": 107,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": "light",
+      "stat": "spd",
+      "area": "element",
+      "value": 0.3
+    }
+  },
+  "Louis": {
+    "meta": {
+      "name": "Louis",
+      "element": "light",
+      "image": "unit_icon_0015_3_3.png"
+    },
+    "stats": {
+      "hp": 10380,
+      "atk": 604,
+      "def": 681,
+      "spd": 105,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": null,
+      "stat": "def",
+      "area": "arena",
+      "value": 0.33
+    }
+  },
+  "Eva": {
+    "meta": {
+      "name": "Eva",
+      "element": "light",
+      "image": "unit_icon_0014_3_4.png"
+    },
+    "stats": {
+      "hp": 10710,
+      "atk": 714,
+      "def": 549,
+      "spd": 103,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": null,
+      "stat": "res",
+      "area": null,
+      "value": 0.3
+    }
+  },
+  "Pang": {
+    "meta": {
+      "name": "Pang",
+      "element": "light",
+      "image": "unit_icon_0021_3_4.png"
+    },
+    "stats": {
+      "hp": 9885,
+      "atk": 736,
+      "def": 582,
+      "spd": 104,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 25
+    },
+    "lead": {
+      "element": null,
+      "stat": "cr",
+      "area": null,
+      "value": 0.19
+    }
+  },
+  "Tosi": {
+    "meta": {
+      "name": "Tosi",
+      "element": "light",
+      "image": "unit_icon_0026_3_1.png"
+    },
+    "stats": {
+      "hp": 8235,
+      "atk": 889,
+      "def": 538,
+      "spd": 105,
+      "cr": 15,
+      "cd": 50,
+      "res": 40,
+      "acc": 0
+    },
+    "lead": null
+  },
+  "Aria": {
+    "meta": {
+      "name": "Aria",
+      "element": "light",
+      "image": "unit_icon_0011_3_3.png"
+    },
+    "stats": {
+      "hp": 9390,
+      "atk": 747,
+      "def": 604,
+      "spd": 106,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": null,
+      "stat": "hp",
+      "area": "arena",
+      "value": 0.33
+    }
+  },
+  "Eredas": {
+    "meta": {
+      "name": "Eredas",
+      "element": "light",
+      "image": "unit_icon_0007_3_0.png"
+    },
+    "stats": {
+      "hp": 11535,
+      "atk": 703,
+      "def": 505,
+      "spd": 105,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 25
+    },
+    "lead": {
+      "element": null,
+      "stat": "spd",
+      "area": "dungeon",
+      "value": 0.24
+    }
+  },
+  "Mihael": {
+    "meta": {
+      "name": "Mihael",
+      "element": "light",
+      "image": "unit_icon_0009_3_4.png"
+    },
+    "stats": {
+      "hp": 11850,
+      "atk": 593,
+      "def": 593,
+      "spd": 103,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": "light",
+      "stat": "res",
+      "area": "element",
+      "value": 0.5
+    }
+  },
+  "Hwadam": {
+    "meta": {
+      "name": "Hwadam",
+      "element": "light",
+      "image": "unit_icon_0030_3_0.png"
+    },
+    "stats": {
+      "hp": 11535,
+      "atk": 637,
+      "def": 571,
+      "spd": 104,
+      "cr": 15,
+      "cd": 50,
+      "res": 40,
+      "acc": 0
+    },
+    "lead": {
+      "element": null,
+      "stat": "cr",
+      "area": null,
+      "value": 0.17
+    }
+  },
+  "Icasha": {
+    "meta": {
+      "name": "Icasha",
+      "element": "light",
+      "image": "unit_icon_0006_3_1.png"
+    },
+    "stats": {
+      "hp": 9225,
+      "atk": 615,
+      "def": 747,
+      "spd": 96,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": "light",
+      "stat": "def",
+      "area": "element",
+      "value": 0.4
+    }
+  },
+  "Artamiel": {
+    "meta": {
+      "name": "Artamiel",
+      "element": "light",
+      "image": "unit_icon_0019_3_2.png"
+    },
+    "stats": {
+      "hp": 11535,
+      "atk": 604,
+      "def": 769,
+      "spd": 95,
+      "cr": 15,
+      "cd": 50,
+      "res": 40,
+      "acc": 0
+    },
+    "lead": {
+      "element": "light",
+      "stat": "hp",
+      "area": "element",
+      "value": 0.5
+    }
+  },
+  "Shazam": {
+    "meta": {
+      "name": "Shazam",
+      "element": "light",
+      "image": "unit_icon_0027_3_1.png"
+    },
+    "stats": {
+      "hp": 12675,
+      "atk": 604,
+      "def": 692,
+      "spd": 96,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": null,
+      "stat": "acc",
+      "area": "dungeon",
+      "value": 0.55
+    }
+  },
+  "Shan": {
+    "meta": {
+      "name": "Shan",
+      "element": "light",
+      "image": "unit_icon_0017_3_2.png"
+    },
+    "stats": {
+      "hp": 10215,
+      "atk": 812,
+      "def": 648,
+      "spd": 95,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 25
+    },
+    "lead": {
+      "element": "light",
+      "stat": "hp",
+      "area": "element",
+      "value": 0.5
+    }
+  },
+  "Zerath": {
+    "meta": {
+      "name": "Zerath",
+      "element": "light",
+      "image": "unit_icon_0016_3_0.png"
+    },
+    "stats": {
+      "hp": 15315,
+      "atk": 560,
+      "def": 560,
+      "spd": 96,
+      "cr": 15,
+      "cd": 50,
+      "res": 40,
+      "acc": 0
+    },
+    "lead": {
+      "element": null,
+      "stat": "cr",
+      "area": null,
+      "value": 0.24
+    }
+  },
+  "Jager": {
+    "meta": {
+      "name": "Jager",
+      "element": "light",
+      "image": "unit_icon_0025_3_0.png"
+    },
+    "stats": {
+      "hp": 12675,
+      "atk": 670,
+      "def": 626,
+      "spd": 100,
+      "cr": 30,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": "light",
+      "stat": "def",
+      "area": "element",
+      "value": 0.5
+    }
+  },
+  "Asima": {
+    "meta": {
+      "name": "Asima",
+      "element": "light",
+      "image": "unit_icon_0023_3_1.png"
+    },
+    "stats": {
+      "hp": 10710,
+      "atk": 812,
+      "def": 615,
+      "spd": 104,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 25
+    },
+    "lead": {
+      "element": null,
+      "stat": "acc",
+      "area": "arena",
+      "value": 0.55
+    }
+  },
+  "Elsharion": {
+    "meta": {
+      "name": "Elsharion",
+      "element": "light",
+      "image": "unit_icon_0019_3_4.png"
+    },
+    "stats": {
+      "hp": 10215,
+      "atk": 988,
+      "def": 472,
+      "spd": 100,
+      "cr": 15,
+      "cd": 50,
+      "res": 40,
+      "acc": 0
+    },
+    "lead": {
+      "element": null,
+      "stat": "spd",
+      "area": "arena",
+      "value": 0.33
+    }
+  },
+  "Qitian Dasheng": {
+    "meta": {
+      "name": "Qitian Dasheng",
+      "element": "light",
+      "image": "unit_icon_0025_3_4.png"
+    },
+    "stats": {
+      "hp": 10710,
+      "atk": 714,
+      "def": 714,
+      "spd": 114,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": null,
+      "stat": "res",
+      "area": null,
+      "value": 0.41
+    }
+  },
+  "Lora": {
+    "meta": {
+      "name": "Lora",
+      "element": "light",
+      "image": "unit_icon_0022_3_4.png"
+    },
+    "stats": {
+      "hp": 11850,
+      "atk": 692,
+      "def": 659,
+      "spd": 105,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 25
+    },
+    "lead": {
+      "element": "light",
+      "stat": "cr",
+      "area": "element",
+      "value": 0.38
+    }
+  },
+  "Laima": {
+    "meta": {
+      "name": "Laima",
+      "element": "light",
+      "image": "unit_icon_0022_3_1.png"
+    },
+    "stats": {
+      "hp": 12015,
+      "atk": 714,
+      "def": 626,
+      "spd": 100,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 25
+    },
+    "lead": {
+      "element": null,
+      "stat": "acc",
+      "area": null,
+      "value": 0.41
+    }
+  },
+  "Eludia": {
+    "meta": {
+      "name": "Eludia",
+      "element": "light",
+      "image": "unit_icon_0017_3_3.png"
+    },
+    "stats": {
+      "hp": 9390,
+      "atk": 1054,
+      "def": 461,
+      "spd": 94,
+      "cr": 15,
+      "cd": 50,
+      "res": 40,
+      "acc": 0
+    },
+    "lead": {
+      "element": null,
+      "stat": "def",
+      "area": "dungeon",
+      "value": 0.44
+    }
+  },
+  "Nigong": {
+    "meta": {
+      "name": "Nigong",
+      "element": "light",
+      "image": "unit_icon_0031_3_1.png"
+    },
+    "stats": {
+      "hp": 12840,
+      "atk": 670,
+      "def": 615,
+      "spd": 103,
+      "cr": 15,
+      "cd": 50,
+      "res": 40,
+      "acc": 0
+    },
+    "lead": {
+      "element": null,
+      "stat": "hp",
+      "area": null,
+      "value": 0.33
+    }
+  },
+  "Elenoa": {
+    "meta": {
+      "name": "Elenoa",
+      "element": "light",
+      "image": "unit_icon_0033_3_3.png"
+    },
+    "stats": {
+      "hp": 11040,
+      "atk": 692,
+      "def": 714,
+      "spd": 111,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": null,
+      "stat": "res",
+      "area": "arena",
+      "value": 0.55
+    }
+  },
+  "Yeonhong": {
+    "meta": {
+      "name": "Yeonhong",
+      "element": "light",
+      "image": "unit_icon_0029_3_3.png"
+    },
+    "stats": {
+      "hp": 11700,
+      "atk": 736,
+      "def": 626,
+      "spd": 116,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": null,
+      "stat": "res",
+      "area": "arena",
+      "value": 0.48
+    }
+  },
+  "Akroma": {
+    "meta": {
+      "name": "Akroma",
+      "element": "light",
+      "image": "unit_icon_0014_3_2.png"
+    },
+    "stats": {
+      "hp": 10710,
+      "atk": 681,
+      "def": 747,
+      "spd": 116,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": null,
+      "stat": "hp",
+      "area": "arena",
+      "value": 0.44
+    }
+  },
+  "Julianne": {
+    "meta": {
+      "name": "Julianne",
+      "element": "light",
+      "image": "unit_icon_0016_3_2.png"
+    },
+    "stats": {
+      "hp": 12345,
+      "atk": 823,
+      "def": 494,
+      "spd": 99,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": null,
+      "stat": "atk",
+      "area": "dungeon",
+      "value": 0.38
+    }
+  },
+  "Hrungnir": {
+    "meta": {
+      "name": "Hrungnir",
+      "element": "dark",
+      "image": "unit_icon_0032_4_0.png"
+    },
+    "stats": {
+      "hp": 9555,
+      "atk": 769,
+      "def": 571,
+      "spd": 103,
+      "cr": 15,
+      "cd": 50,
+      "res": 40,
+      "acc": 0
+    },
+    "lead": {
+      "element": null,
+      "stat": "res",
+      "area": "guild",
+      "value": 0.4
+    }
+  },
+  "Korona": {
+    "meta": {
+      "name": "Korona",
+      "element": "dark",
+      "image": "unit_icon_0028_4_4.png"
+    },
+    "stats": {
+      "hp": 10050,
+      "atk": 681,
+      "def": 626,
+      "spd": 106,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": null,
+      "stat": "cr",
+      "area": null,
+      "value": 0.19
+    }
+  },
+  "Dias": {
+    "meta": {
+      "name": "Dias",
+      "element": "dark",
+      "image": "unit_icon_0024_4_3.png"
+    },
+    "stats": {
+      "hp": 9885,
+      "atk": 637,
+      "def": 681,
+      "spd": 101,
+      "cr": 15,
+      "cd": 50,
+      "res": 40,
+      "acc": 0
+    },
+    "lead": {
+      "element": null,
+      "stat": "res",
+      "area": null,
+      "value": 0.3
+    }
+  },
+  "Liebli": {
+    "meta": {
+      "name": "Liebli",
+      "element": "dark",
+      "image": "unit_icon_0011_4_2.png"
+    },
+    "stats": {
+      "hp": 8235,
+      "atk": 878,
+      "def": 549,
+      "spd": 103,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": null,
+      "stat": "acc",
+      "area": "dungeon",
+      "value": 0.4
+    }
+  },
+  "Bering": {
+    "meta": {
+      "name": "Bering",
+      "element": "dark",
+      "image": "unit_icon_0029_4_1.png"
+    },
+    "stats": {
+      "hp": 9225,
+      "atk": 790,
+      "def": 571,
+      "spd": 99,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": "dark",
+      "stat": "acc",
+      "area": "element",
+      "value": 0.5
+    }
+  },
+  "Fei": {
+    "meta": {
+      "name": "Fei",
+      "element": "dark",
+      "image": "unit_icon_0008_4_4.png"
+    },
+    "stats": {
+      "hp": 10215,
+      "atk": 714,
+      "def": 582,
+      "spd": 102,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": null,
+      "stat": "spd",
+      "area": "arena",
+      "value": 0.24
+    }
+  },
+  "Grego": {
+    "meta": {
+      "name": "Grego",
+      "element": "dark",
+      "image": "unit_icon_0024_4_1.png"
+    },
+    "stats": {
+      "hp": 12015,
+      "atk": 615,
+      "def": 560,
+      "spd": 96,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": null,
+      "stat": "res",
+      "area": "arena",
+      "value": 0.4
+    }
+  },
+  "Bethony": {
+    "meta": {
+      "name": "Bethony",
+      "element": "dark",
+      "image": "unit_icon_0020_4_3.png"
+    },
+    "stats": {
+      "hp": 9060,
+      "atk": 922,
+      "def": 450,
+      "spd": 120,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": "dark",
+      "stat": "atk",
+      "area": "element",
+      "value": 0.35
+    }
+  },
+  "Kamiya": {
+    "meta": {
+      "name": "Kamiya",
+      "element": "dark",
+      "image": "unit_icon_0004_4_3.png"
+    },
+    "stats": {
+      "hp": 8895,
+      "atk": 900,
+      "def": 483,
+      "spd": 102,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": "dark",
+      "stat": "atk",
+      "area": "element",
+      "value": 0.4
+    }
+  },
+  "Guillaume": {
+    "meta": {
+      "name": "Guillaume",
+      "element": "dark",
+      "image": "unit_icon_0015_4_3.png"
+    },
+    "stats": {
+      "hp": 8895,
+      "atk": 900,
+      "def": 483,
+      "spd": 105,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": null,
+      "stat": "atk",
+      "area": "arena",
+      "value": 0.33
+    }
+  },
+  "Luna": {
+    "meta": {
+      "name": "Luna",
+      "element": "dark",
+      "image": "unit_icon_0014_4_4.png"
+    },
+    "stats": {
+      "hp": 8235,
+      "atk": 878,
+      "def": 549,
+      "spd": 103,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": null,
+      "stat": "acc",
+      "area": null,
+      "value": 0.3
+    }
+  },
+  "Ran": {
+    "meta": {
+      "name": "Ran",
+      "element": "dark",
+      "image": "unit_icon_0021_4_4.png"
+    },
+    "stats": {
+      "hp": 10545,
+      "atk": 747,
+      "def": 527,
+      "spd": 104,
+      "cr": 30,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": null,
+      "stat": "atk",
+      "area": null,
+      "value": 0.25
+    }
+  },
+  "Sige": {
+    "meta": {
+      "name": "Sige",
+      "element": "dark",
+      "image": "unit_icon_0026_4_1.png"
+    },
+    "stats": {
+      "hp": 8730,
+      "atk": 911,
+      "def": 483,
+      "spd": 105,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 25
+    },
+    "lead": null
+  },
+  "Wolyung": {
+    "meta": {
+      "name": "Wolyung",
+      "element": "dark",
+      "image": "unit_icon_0029_4_3.png"
+    },
+    "stats": {
+      "hp": 10710,
+      "atk": 823,
+      "def": 604,
+      "spd": 101,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": null,
+      "stat": "spd",
+      "area": "arena",
+      "value": 0.28
+    }
+  },
+  "Isael": {
+    "meta": {
+      "name": "Isael",
+      "element": "dark",
+      "image": "unit_icon_0011_4_3.png"
+    },
+    "stats": {
+      "hp": 9885,
+      "atk": 769,
+      "def": 549,
+      "spd": 106,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": null,
+      "stat": "def",
+      "area": "arena",
+      "value": 0.33
+    }
+  },
+  "Aschubel": {
+    "meta": {
+      "name": "Aschubel",
+      "element": "dark",
+      "image": "unit_icon_0007_4_0.png"
+    },
+    "stats": {
+      "hp": 11205,
+      "atk": 736,
+      "def": 494,
+      "spd": 105,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": null,
+      "stat": "spd",
+      "area": "dungeon",
+      "value": 0.24
+    }
+  },
+  "Icares": {
+    "meta": {
+      "name": "Icares",
+      "element": "dark",
+      "image": "unit_icon_0009_4_4.png"
+    },
+    "stats": {
+      "hp": 9885,
+      "atk": 790,
+      "def": 527,
+      "spd": 103,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": "dark",
+      "stat": "res",
+      "area": "element",
+      "value": 0.5
+    }
+  },
+  "Tilasha": {
+    "meta": {
+      "name": "Tilasha",
+      "element": "dark",
+      "image": "unit_icon_0006_4_1.png"
+    },
+    "stats": {
+      "hp": 9555,
+      "atk": 703,
+      "def": 637,
+      "spd": 96,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": "dark",
+      "stat": "def",
+      "area": "element",
+      "value": 0.4
+    }
+  },
+  "Rahul": {
+    "meta": {
+      "name": "Rahul",
+      "element": "dark",
+      "image": "unit_icon_0027_4_1.png"
+    },
+    "stats": {
+      "hp": 12840,
+      "atk": 659,
+      "def": 626,
+      "spd": 96,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": null,
+      "stat": "atk",
+      "area": "dungeon",
+      "value": 0.44
+    }
+  },
+  "Zeratu": {
+    "meta": {
+      "name": "Zeratu",
+      "element": "dark",
+      "image": "unit_icon_0017_4_2.png"
+    },
+    "stats": {
+      "hp": 10710,
+      "atk": 790,
+      "def": 637,
+      "spd": 95,
+      "cr": 15,
+      "cd": 50,
+      "res": 40,
+      "acc": 0
+    },
+    "lead": {
+      "element": "dark",
+      "stat": "hp",
+      "area": "element",
+      "value": 0.5
+    }
+  },
+  "Grogen": {
+    "meta": {
+      "name": "Grogen",
+      "element": "dark",
+      "image": "unit_icon_0016_4_0.png"
+    },
+    "stats": {
+      "hp": 10380,
+      "atk": 801,
+      "def": 648,
+      "spd": 95,
+      "cr": 15,
+      "cd": 50,
+      "res": 40,
+      "acc": 0
+    },
+    "lead": {
+      "element": null,
+      "stat": "res",
+      "area": null,
+      "value": 0.41
+    }
+  },
+  "Ragdoll": {
+    "meta": {
+      "name": "Ragdoll",
+      "element": "dark",
+      "image": "unit_icon_0025_4_0.png"
+    },
+    "stats": {
+      "hp": 11535,
+      "atk": 714,
+      "def": 659,
+      "spd": 100,
+      "cr": 30,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": "dark",
+      "stat": "def",
+      "area": "element",
+      "value": 0.5
+    }
+  },
+  "Craka": {
+    "meta": {
+      "name": "Craka",
+      "element": "dark",
+      "image": "unit_icon_0023_4_1.png"
+    },
+    "stats": {
+      "hp": 11535,
+      "atk": 769,
+      "def": 604,
+      "spd": 104,
+      "cr": 15,
+      "cd": 50,
+      "res": 40,
+      "acc": 0
+    },
+    "lead": {
+      "element": null,
+      "stat": "def",
+      "area": "arena",
+      "value": 0.44
+    }
+  },
+  "Veromos": {
+    "meta": {
+      "name": "Veromos",
+      "element": "dark",
+      "image": "unit_icon_0019_4_4.png"
+    },
+    "stats": {
+      "hp": 11700,
+      "atk": 681,
+      "def": 681,
+      "spd": 115,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": null,
+      "stat": "res",
+      "area": "arena",
+      "value": 0.55
+    }
+  },
+  "Son Zhang Lao": {
+    "meta": {
+      "name": "Son Zhang Lao",
+      "element": "dark",
+      "image": "unit_icon_0025_4_4.png"
+    },
+    "stats": {
+      "hp": 12180,
+      "atk": 692,
+      "def": 637,
+      "spd": 118,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": null,
+      "stat": "acc",
+      "area": null,
+      "value": 0.41
+    }
+  },
+  "Han": {
+    "meta": {
+      "name": "Han",
+      "element": "dark",
+      "image": "unit_icon_0013_4_3.png"
+    },
+    "stats": {
+      "hp": 12015,
+      "atk": 780,
+      "def": 560,
+      "spd": 107,
+      "cr": 30,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": "dark",
+      "stat": "spd",
+      "area": "element",
+      "value": 0.3
+    }
+  },
+  "Nicki": {
+    "meta": {
+      "name": "Nicki",
+      "element": "dark",
+      "image": "unit_icon_0022_4_4.png"
+    },
+    "stats": {
+      "hp": 10215,
+      "atk": 812,
+      "def": 648,
+      "spd": 105,
+      "cr": 15,
+      "cd": 50,
+      "res": 40,
+      "acc": 0
+    },
+    "lead": {
+      "element": "dark",
+      "stat": "cr",
+      "area": "element",
+      "value": 0.38
+    }
+  },
+  "Giana": {
+    "meta": {
+      "name": "Giana",
+      "element": "dark",
+      "image": "unit_icon_0022_4_1.png"
+    },
+    "stats": {
+      "hp": 10545,
+      "atk": 790,
+      "def": 648,
+      "spd": 100,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 25
+    },
+    "lead": {
+      "element": null,
+      "stat": "atk",
+      "area": null,
+      "value": 0.33
+    }
+  },
+  "Jaara": {
+    "meta": {
+      "name": "Jaara",
+      "element": "dark",
+      "image": "unit_icon_0017_4_3.png"
+    },
+    "stats": {
+      "hp": 10215,
+      "atk": 1021,
+      "def": 439,
+      "spd": 94,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 25
+    },
+    "lead": {
+      "element": null,
+      "stat": "res",
+      "area": "dungeon",
+      "value": 0.55
+    }
+  },
+  "Woonsa": {
+    "meta": {
+      "name": "Woonsa",
+      "element": "dark",
+      "image": "unit_icon_0031_4_1.png"
+    },
+    "stats": {
+      "hp": 12015,
+      "atk": 703,
+      "def": 637,
+      "spd": 118,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": null,
+      "stat": "def",
+      "area": null,
+      "value": 0.33
+    }
+  },
+  "Lydia": {
+    "meta": {
+      "name": "Lydia",
+      "element": "dark",
+      "image": "unit_icon_0033_4_3.png"
+    },
+    "stats": {
+      "hp": 10545,
+      "atk": 790,
+      "def": 648,
+      "spd": 96,
+      "cr": 30,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": null,
+      "stat": "acc",
+      "area": "arena",
+      "value": 0.55
+    }
+  },
+  "Trinity": {
+    "meta": {
+      "name": "Trinity",
+      "element": "dark",
+      "image": "unit_icon_0014_4_2.png"
+    },
+    "stats": {
+      "hp": 12345,
+      "atk": 659,
+      "def": 659,
+      "spd": 101,
+      "cr": 15,
+      "cd": 50,
+      "res": 40,
+      "acc": 0
+    },
+    "lead": {
+      "element": null,
+      "stat": "spd",
+      "area": "arena",
+      "value": 0.33
+    }
+  },
+  "Cadiz": {
+    "meta": {
+      "name": "Cadiz",
+      "element": "dark",
+      "image": "unit_icon_0016_4_2.png"
+    },
+    "stats": {
+      "hp": 11205,
+      "atk": 856,
+      "def": 538,
+      "spd": 99,
+      "cr": 30,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": null,
+      "stat": "cr",
+      "area": "dungeon",
+      "value": 0.28
+    }
+  },
+  "Walter": {
+    "meta": {
+      "name": "Walter",
+      "element": "wind",
+      "image": "unit_icon_0017_2_1.png"
+    },
+    "stats": {
+      "hp": 10380,
+      "atk": 450,
+      "def": 505,
+      "spd": 97,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": null
+  },
+  "Fermion": {
+    "meta": {
+      "name": "Fermion",
+      "element": "dark",
+      "image": "unit_icon_0019_4_2.png"
+    },
+    "stats": {
+      "hp": 10215,
+      "atk": 582,
+      "def": 878,
+      "spd": 95,
+      "cr": 30,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": "dark",
+      "stat": "hp",
+      "area": "element",
+      "value": 0.5
+    }
+  },
+  "Kuna": {
+    "meta": {
+      "name": "Kuna",
+      "element": "dark",
+      "image": "unit_icon_0031_4_3.png"
+    },
+    "stats": {
+      "hp": 10050,
+      "atk": 626,
+      "def": 516,
+      "spd": 105,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": "dark",
+      "stat": "hp",
+      "area": "element",
+      "value": 0.3
+    }
+  },
+  "Selena": {
+    "meta": {
+      "name": "Selena",
+      "element": "wind",
+      "image": "unit_icon_0011_2_3.png"
+    },
+    "stats": {
+      "hp": 9555,
+      "atk": 790,
+      "def": 549,
+      "spd": 106,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": null,
+      "stat": "res",
+      "area": "arena",
+      "value": 0.4
+    }
+  },
+  "Huga": {
+    "meta": {
+      "name": "Huga",
+      "element": "water",
+      "image": "unit_icon_0017_0_1.png"
+    },
+    "stats": {
+      "hp": 6255,
+      "atk": 758,
+      "def": 472,
+      "spd": 97,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": null
+  },
+  "Kumae": {
+    "meta": {
+      "name": "Kumae",
+      "element": "dark",
+      "image": "unit_icon_0001_4_2.png"
+    },
+    "stats": {
+      "hp": 11205,
+      "atk": 494,
+      "def": 571,
+      "spd": 101,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": "dark",
+      "stat": "hp",
+      "area": "element",
+      "value": 0.25
+    }
+  },
+  "Ignicus": {
+    "meta": {
+      "name": "Ignicus",
+      "element": "fire",
+      "image": "unit_icon_0034_1_2.png"
+    },
+    "stats": {
+      "hp": 9885,
+      "atk": 637,
+      "def": 516,
+      "spd": 105,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": "fire",
+      "stat": "spd",
+      "area": "element",
+      "value": 0.23
+    }
+  },
+  "Aqcus": {
+    "meta": {
+      "name": "Aqcus",
+      "element": "water",
+      "image": "unit_icon_0034_0_2.png"
+    },
+    "stats": {
+      "hp": 9060,
+      "atk": 714,
+      "def": 494,
+      "spd": 105,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": "water",
+      "stat": "spd",
+      "area": "element",
+      "value": 0.23
+    }
+  },
+  "Zephicus": {
+    "meta": {
+      "name": "Zephicus",
+      "element": "wind",
+      "image": "unit_icon_0034_2_2.png"
+    },
+    "stats": {
+      "hp": 10215,
+      "atk": 604,
+      "def": 527,
+      "spd": 105,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": "wind",
+      "stat": "spd",
+      "area": "element",
+      "value": 0.23
+    }
+  },
+  "Calicus": {
+    "meta": {
+      "name": "Calicus",
+      "element": "dark",
+      "image": "unit_icon_0034_4_2.png"
+    },
+    "stats": {
+      "hp": 9720,
+      "atk": 670,
+      "def": 494,
+      "spd": 105,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": "dark",
+      "stat": "spd",
+      "area": "element",
+      "value": 0.23
+    }
+  },
+  "Rumicus": {
+    "meta": {
+      "name": "Rumicus",
+      "element": "light",
+      "image": "unit_icon_0034_3_2.png"
+    },
+    "stats": {
+      "hp": 9555,
+      "atk": 692,
+      "def": 483,
+      "spd": 105,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": "light",
+      "stat": "spd",
+      "area": "element",
+      "value": 0.23
+    }
+  },
+  "Carrack": {
+    "meta": {
+      "name": "Carrack",
+      "element": "fire",
+      "image": "unit_icon_0034_1_0.png"
+    },
+    "stats": {
+      "hp": 10545,
+      "atk": 823,
+      "def": 450,
+      "spd": 108,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": null,
+      "stat": "atk",
+      "area": "guild",
+      "value": 0.33
+    }
+  },
+  "Galleon": {
+    "meta": {
+      "name": "Galleon",
+      "element": "water",
+      "image": "unit_icon_0034_0_0.png"
+    },
+    "stats": {
+      "hp": 11535,
+      "atk": 714,
+      "def": 494,
+      "spd": 108,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": null,
+      "stat": "spd",
+      "area": "guild",
+      "value": 0.24
+    }
+  },
+  "Barque": {
+    "meta": {
+      "name": "Barque",
+      "element": "wind",
+      "image": "unit_icon_0034_2_0.png"
+    },
+    "stats": {
+      "hp": 9885,
+      "atk": 769,
+      "def": 549,
+      "spd": 108,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": null,
+      "stat": "cr",
+      "area": "guild",
+      "value": 0.24
+    }
+  },
+  "Brig": {
+    "meta": {
+      "name": "Brig",
+      "element": "light",
+      "image": "unit_icon_0034_3_0.png"
+    },
+    "stats": {
+      "hp": 9390,
+      "atk": 790,
+      "def": 560,
+      "spd": 108,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": null,
+      "stat": "acc",
+      "area": "guild",
+      "value": 0.4
+    }
+  },
+  "Frigate": {
+    "meta": {
+      "name": "Frigate",
+      "element": "dark",
+      "image": "unit_icon_0034_4_0.png"
+    },
+    "stats": {
+      "hp": 11370,
+      "atk": 593,
+      "def": 626,
+      "spd": 108,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": null,
+      "stat": "atk",
+      "area": "guild",
+      "value": 0.33
+    }
+  },
+  "Platy": {
+    "meta": {
+      "name": "Platy",
+      "element": "fire",
+      "image": "unit_icon_0035_1_0.png"
+    },
+    "stats": {
+      "hp": 11205,
+      "atk": 604,
+      "def": 626,
+      "spd": 95,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": null
+  },
+  "Tetra": {
+    "meta": {
+      "name": "Tetra",
+      "element": "water",
+      "image": "unit_icon_0035_0_0.png"
+    },
+    "stats": {
+      "hp": 10545,
+      "atk": 582,
+      "def": 692,
+      "spd": 110,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": null
+  },
+  "Cichlid": {
+    "meta": {
+      "name": "Cichlid",
+      "element": "wind",
+      "image": "unit_icon_0035_2_0.png"
+    },
+    "stats": {
+      "hp": 11535,
+      "atk": 648,
+      "def": 560,
+      "spd": 95,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": null
+  },
+  "Molly": {
+    "meta": {
+      "name": "Molly",
+      "element": "light",
+      "image": "unit_icon_0035_3_0.png"
+    },
+    "stats": {
+      "hp": 11205,
+      "atk": 494,
+      "def": 736,
+      "spd": 95,
+      "cr": 15,
+      "cd": 50,
+      "res": 40,
+      "acc": 0
+    },
+    "lead": null
+  },
+  "Betta": {
+    "meta": {
+      "name": "Betta",
+      "element": "dark",
+      "image": "unit_icon_0035_4_0.png"
+    },
+    "stats": {
+      "hp": 11205,
+      "atk": 516,
+      "def": 714,
+      "spd": 110,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": null
+  },
+  "Okeanos": {
+    "meta": {
+      "name": "Okeanos",
+      "element": "fire",
+      "image": "unit_icon_0035_1_3.png"
+    },
+    "stats": {
+      "hp": 10710,
+      "atk": 769,
+      "def": 659,
+      "spd": 101,
+      "cr": 30,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": null,
+      "stat": "acc",
+      "area": null,
+      "value": 0.41
+    }
+  },
+  "Poseidon": {
+    "meta": {
+      "name": "Poseidon",
+      "element": "water",
+      "image": "unit_icon_0035_0_3.png"
+    },
+    "stats": {
+      "hp": 11040,
+      "atk": 714,
+      "def": 692,
+      "spd": 101,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 25
+    },
+    "lead": {
+      "element": null,
+      "stat": "atk",
+      "area": null,
+      "value": 0.33
+    }
+  },
+  "Triton": {
+    "meta": {
+      "name": "Triton",
+      "element": "wind",
+      "image": "unit_icon_0035_2_3.png"
+    },
+    "stats": {
+      "hp": 10875,
+      "atk": 681,
+      "def": 736,
+      "spd": 101,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 25
+    },
+    "lead": {
+      "element": null,
+      "stat": "def",
+      "area": null,
+      "value": 0.33
+    }
+  },
+  "Pontos": {
+    "meta": {
+      "name": "Pontos",
+      "element": "light",
+      "image": "unit_icon_0035_3_3.png"
+    },
+    "stats": {
+      "hp": 12345,
+      "atk": 604,
+      "def": 714,
+      "spd": 101,
+      "cr": 15,
+      "cd": 50,
+      "res": 40,
+      "acc": 0
+    },
+    "lead": {
+      "element": null,
+      "stat": "spd",
+      "area": null,
+      "value": 0.24
+    }
+  },
+  "Manannan": {
+    "meta": {
+      "name": "Manannan",
+      "element": "dark",
+      "image": "unit_icon_0035_4_3.png"
+    },
+    "stats": {
+      "hp": 10215,
+      "atk": 856,
+      "def": 604,
+      "spd": 101,
+      "cr": 30,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": null,
+      "stat": "cr",
+      "area": null,
+      "value": 0.24
+    }
+  },
+  "Astar": {
+    "meta": {
+      "name": "Astar",
+      "element": "fire",
+      "image": "unit_icon_0036_1_4.png"
+    },
+    "stats": {
+      "hp": 8895,
+      "atk": 834,
+      "def": 549,
+      "spd": 105,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": null,
+      "stat": "hp",
+      "area": null,
+      "value": 0.25
+    }
+  },
+  "Lapis": {
+    "meta": {
+      "name": "Lapis",
+      "element": "water",
+      "image": "unit_icon_0036_0_4.png"
+    },
+    "stats": {
+      "hp": 9885,
+      "atk": 736,
+      "def": 582,
+      "spd": 90,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": null,
+      "stat": "atk",
+      "area": null,
+      "value": 0.25
+    }
+  },
+  "Lupinus": {
+    "meta": {
+      "name": "Lupinus",
+      "element": "wind",
+      "image": "unit_icon_0036_2_4.png"
+    },
+    "stats": {
+      "hp": 10875,
+      "atk": 670,
+      "def": 582,
+      "spd": 90,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": null,
+      "stat": "cr",
+      "area": null,
+      "value": 0.19
+    }
+  },
+  "Iris": {
+    "meta": {
+      "name": "Iris",
+      "element": "light",
+      "image": "unit_icon_0036_3_4.png"
+    },
+    "stats": {
+      "hp": 9885,
+      "atk": 790,
+      "def": 527,
+      "spd": 105,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": null,
+      "stat": "acc",
+      "area": null,
+      "value": 0.3
+    }
+  },
+  "Lanett": {
+    "meta": {
+      "name": "Lanett",
+      "element": "dark",
+      "image": "unit_icon_0036_4_4.png"
+    },
+    "stats": {
+      "hp": 10050,
+      "atk": 615,
+      "def": 692,
+      "spd": 90,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": null,
+      "stat": "spd",
+      "area": null,
+      "value": 0.19
+    }
+  },
+  "Fami": {
+    "meta": {
+      "name": "Fami",
+      "element": "light",
+      "image": "unit_icon_0023_4_4.png"
+    },
+    "stats": {
+      "hp": 8895,
+      "atk": 747,
+      "def": 472,
+      "spd": 105,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": null,
+      "stat": "cd",
+      "area": null,
+      "value": 0.25
+    }
+  },
+  "Lexy": {
+    "meta": {
+      "name": "Lexy",
+      "element": "fire",
+      "image": "unit_icon_0036_1_2.png"
+    },
+    "stats": {
+      "hp": 8895,
+      "atk": 801,
+      "def": 582,
+      "spd": 117,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": null
+  },
+  "Stella": {
+    "meta": {
+      "name": "Stella",
+      "element": "water",
+      "image": "unit_icon_0036_0_2.png"
+    },
+    "stats": {
+      "hp": 10545,
+      "atk": 790,
+      "def": 483,
+      "spd": 102,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 25
+    },
+    "lead": null
+  },
+  "Tanya": {
+    "meta": {
+      "name": "Tanya",
+      "element": "wind",
+      "image": "unit_icon_0036_2_2.png"
+    },
+    "stats": {
+      "hp": 9390,
+      "atk": 747,
+      "def": 604,
+      "spd": 102,
+      "cr": 15,
+      "cd": 50,
+      "res": 40,
+      "acc": 0
+    },
+    "lead": null
+  },
+  "Natalie": {
+    "meta": {
+      "name": "Natalie",
+      "element": "light",
+      "image": "unit_icon_0036_3_2.png"
+    },
+    "stats": {
+      "hp": 9225,
+      "atk": 845,
+      "def": 516,
+      "spd": 102,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 25
+    },
+    "lead": null
+  },
+  "Isabelle": {
+    "meta": {
+      "name": "Isabelle",
+      "element": "dark",
+      "image": "unit_icon_0036_4_2.png"
+    },
+    "stats": {
+      "hp": 9390,
+      "atk": 823,
+      "def": 527,
+      "spd": 102,
+      "cr": 30,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": null
+  },
+  "Lisa": {
+    "meta": {
+      "name": "Lisa",
+      "element": "fire",
+      "image": "unit_icon_0037_1_1.png"
+    },
+    "stats": {
+      "hp": 11535,
+      "atk": 714,
+      "def": 494,
+      "spd": 104,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": null,
+      "stat": "cr",
+      "area": "guild",
+      "value": 0.24
+    }
+  },
+  "Emma": {
+    "meta": {
+      "name": "Emma",
+      "element": "water",
+      "image": "unit_icon_0037_0_1.png"
+    },
+    "stats": {
+      "hp": 10215,
+      "atk": 626,
+      "def": 670,
+      "spd": 104,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": null,
+      "stat": "res",
+      "area": "guild",
+      "value": 0.4
+    }
+  },
+  "Olivia": {
+    "meta": {
+      "name": "Olivia",
+      "element": "wind",
+      "image": "unit_icon_0037_2_1.png"
+    },
+    "stats": {
+      "hp": 10380,
+      "atk": 681,
+      "def": 604,
+      "spd": 104,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": null,
+      "stat": "def",
+      "area": "guild",
+      "value": 0.33
+    }
+  },
+  "Illianna": {
+    "meta": {
+      "name": "Illianna",
+      "element": "light",
+      "image": "unit_icon_0037_3_1.png"
+    },
+    "stats": {
+      "hp": 11040,
+      "atk": 538,
+      "def": 703,
+      "spd": 104,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": null,
+      "stat": "atk",
+      "area": "guild",
+      "value": 0.33
+    }
+  },
+  "Sylvia": {
+    "meta": {
+      "name": "Sylvia",
+      "element": "dark",
+      "image": "unit_icon_0037_4_1.png"
+    },
+    "stats": {
+      "hp": 11040,
+      "atk": 692,
+      "def": 714,
+      "spd": 104,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": null,
+      "stat": "spd",
+      "area": "guild",
+      "value": 0.33
+    }
+  },
+  "Sin": {
+    "meta": {
+      "name": "Sin",
+      "element": "fire",
+      "image": "unit_icon_0037_1_3.png"
+    },
+    "stats": {
+      "hp": 8400,
+      "atk": 593,
+      "def": 659,
+      "spd": 99,
+      "cr": 15,
+      "cd": 50,
+      "res": 40,
+      "acc": 0
+    },
+    "lead": null
+  },
+  "Luan": {
+    "meta": {
+      "name": "Luan",
+      "element": "water",
+      "image": "unit_icon_0037_0_3.png"
+    },
+    "stats": {
+      "hp": 8400,
+      "atk": 604,
+      "def": 648,
+      "spd": 99,
+      "cr": 15,
+      "cd": 50,
+      "res": 40,
+      "acc": 0
+    },
+    "lead": null
+  },
+  "Lo": {
+    "meta": {
+      "name": "Lo",
+      "element": "wind",
+      "image": "unit_icon_0037_2_3.png"
+    },
+    "stats": {
+      "hp": 9390,
+      "atk": 659,
+      "def": 527,
+      "spd": 114,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": null
+  },
+  "Hiro": {
+    "meta": {
+      "name": "Hiro",
+      "element": "light",
+      "image": "unit_icon_0037_3_3.png"
+    },
+    "stats": {
+      "hp": 10710,
+      "atk": 516,
+      "def": 582,
+      "spd": 99,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 25
+    },
+    "lead": null
+  },
+  "Jackie": {
+    "meta": {
+      "name": "Jackie",
+      "element": "dark",
+      "image": "unit_icon_0037_4_3.png"
+    },
+    "stats": {
+      "hp": 8400,
+      "atk": 538,
+      "def": 714,
+      "spd": 99,
+      "cr": 30,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": null
+  },
+  "Trevor": {
+    "meta": {
+      "name": "Trevor",
+      "element": "fire",
+      "image": "unit_icon_0036_1_0.png"
+    },
+    "stats": {
+      "hp": 8895,
+      "atk": 725,
+      "def": 659,
+      "spd": 107,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": null,
+      "stat": "atk",
+      "area": "arena",
+      "value": 0.33
+    }
+  },
+  "Ryan": {
+    "meta": {
+      "name": "Ryan",
+      "element": "water",
+      "image": "unit_icon_0036_0_0.png"
+    },
+    "stats": {
+      "hp": 10380,
+      "atk": 736,
+      "def": 549,
+      "spd": 107,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": null,
+      "stat": "atk",
+      "area": "dungeon",
+      "value": 0.33
+    }
+  },
+  "Logan": {
+    "meta": {
+      "name": "Logan",
+      "element": "wind",
+      "image": "unit_icon_0036_2_0.png"
+    },
+    "stats": {
+      "hp": 9720,
+      "atk": 725,
+      "def": 604,
+      "spd": 107,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": null,
+      "stat": "atk",
+      "area": "guild",
+      "value": 0.33
+    }
+  },
+  "Lucas": {
+    "meta": {
+      "name": "Lucas",
+      "element": "light",
+      "image": "unit_icon_0036_3_0.png"
+    },
+    "stats": {
+      "hp": 9885,
+      "atk": 780,
+      "def": 538,
+      "spd": 107,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": null,
+      "stat": "atk",
+      "area": null,
+      "value": 0.25
+    }
+  },
+  "Karl": {
+    "meta": {
+      "name": "Karl",
+      "element": "dark",
+      "image": "unit_icon_0036_4_0.png"
+    },
+    "stats": {
+      "hp": 9555,
+      "atk": 703,
+      "def": 637,
+      "spd": 107,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": null,
+      "stat": "atk",
+      "area": null,
+      "value": 0.25
+    }
+  },
+  "Sonora": {
+    "meta": {
+      "name": "Sonora",
+      "element": "fire",
+      "image": "unit_icon_0038_1_3.png"
+    },
+    "stats": {
+      "hp": 10215,
+      "atk": 538,
+      "def": 593,
+      "spd": 97,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": "fire",
+      "stat": "res",
+      "area": "element",
+      "value": 0.38
+    }
+  },
+  "Nubia": {
+    "meta": {
+      "name": "Nubia",
+      "element": "water",
+      "image": "unit_icon_0038_0_3.png"
+    },
+    "stats": {
+      "hp": 10710,
+      "atk": 494,
+      "def": 604,
+      "spd": 97,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": "water",
+      "stat": "res",
+      "area": "element",
+      "value": 0.38
+    }
+  },
+  "Namib": {
+    "meta": {
+      "name": "Namib",
+      "element": "wind",
+      "image": "unit_icon_0038_2_3.png"
+    },
+    "stats": {
+      "hp": 10380,
+      "atk": 549,
+      "def": 571,
+      "spd": 97,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": "wind",
+      "stat": "res",
+      "area": "element",
+      "value": 0.38
+    }
+  },
+  "Sahara": {
+    "meta": {
+      "name": "Sahara",
+      "element": "light",
+      "image": "unit_icon_0038_3_3.png"
+    },
+    "stats": {
+      "hp": 10875,
+      "atk": 472,
+      "def": 615,
+      "spd": 97,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": "light",
+      "stat": "res",
+      "area": "element",
+      "value": 0.38
+    }
+  },
+  "Karakum": {
+    "meta": {
+      "name": "Karakum",
+      "element": "dark",
+      "image": "unit_icon_0038_4_3.png"
+    },
+    "stats": {
+      "hp": 10380,
+      "atk": 571,
+      "def": 549,
+      "spd": 97,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": "dark",
+      "stat": "res",
+      "area": "element",
+      "value": 0.38
+    }
+  },
+  "Thebae": {
+    "meta": {
+      "name": "Thebae",
+      "element": "dark",
+      "image": "unit_icon_0038_4_1.png"
+    },
+    "stats": {
+      "hp": 12675,
+      "atk": 692,
+      "def": 604,
+      "spd": 101,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": null,
+      "stat": "hp",
+      "area": "guild",
+      "value": 0.33
+    }
+  },
+  "Amarna": {
+    "meta": {
+      "name": "Amarna",
+      "element": "light",
+      "image": "unit_icon_0038_3_1.png"
+    },
+    "stats": {
+      "hp": 9885,
+      "atk": 681,
+      "def": 637,
+      "spd": 101,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": null,
+      "stat": "def",
+      "area": "guild",
+      "value": 0.33
+    }
+  },
+  "Iunu": {
+    "meta": {
+      "name": "Iunu",
+      "element": "wind",
+      "image": "unit_icon_0038_2_1.png"
+    },
+    "stats": {
+      "hp": 9225,
+      "atk": 736,
+      "def": 626,
+      "spd": 101,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": null,
+      "stat": "acc",
+      "area": "guild",
+      "value": 0.4
+    }
+  },
+  "Avaris": {
+    "meta": {
+      "name": "Avaris",
+      "element": "water",
+      "image": "unit_icon_0038_0_1.png"
+    },
+    "stats": {
+      "hp": 9555,
+      "atk": 736,
+      "def": 604,
+      "spd": 101,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": null,
+      "stat": "res",
+      "area": "guild",
+      "value": 0.4
+    }
+  },
+  "Khmun": {
+    "meta": {
+      "name": "Khmun",
+      "element": "fire",
+      "image": "unit_icon_0038_1_1.png"
+    },
+    "stats": {
+      "hp": 10710,
+      "atk": 615,
+      "def": 648,
+      "spd": 101,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": null,
+      "stat": "spd",
+      "area": "guild",
+      "value": 0.24
+    }
+  },
+  "Amduat": {
+    "meta": {
+      "name": "Amduat",
+      "element": "dark",
+      "image": "unit_icon_0039_4_0.png"
+    },
+    "stats": {
+      "hp": 10380,
+      "atk": 648,
+      "def": 637,
+      "spd": 102,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": null,
+      "stat": "atk",
+      "area": "arena",
+      "value": 0.33
+    }
+  },
+  "Wedjat": {
+    "meta": {
+      "name": "Wedjat",
+      "element": "light",
+      "image": "unit_icon_0039_3_0.png"
+    },
+    "stats": {
+      "hp": 10710,
+      "atk": 637,
+      "def": 790,
+      "spd": 102,
+      "cr": 15,
+      "cd": 50,
+      "res": 40,
+      "acc": 0
+    },
+    "lead": {
+      "element": null,
+      "stat": "spd",
+      "area": "arena",
+      "value": 0.24
+    }
+  },
+  "Imesety": {
+    "meta": {
+      "name": "Imesety",
+      "element": "wind",
+      "image": "unit_icon_0039_2_0.png"
+    },
+    "stats": {
+      "hp": 10050,
+      "atk": 681,
+      "def": 626,
+      "spd": 102,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": null,
+      "stat": "cr",
+      "area": "arena",
+      "value": 0.24
+    }
+  },
+  "Qebehsenuef": {
+    "meta": {
+      "name": "Qebehsenuef",
+      "element": "water",
+      "image": "unit_icon_0039_0_0.png"
+    },
+    "stats": {
+      "hp": 10545,
+      "atk": 615,
+      "def": 659,
+      "spd": 102,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": null,
+      "stat": "res",
+      "area": "arena",
+      "value": 0.4
+    }
+  },
+  "Duamutef": {
+    "meta": {
+      "name": "Duamutef",
+      "element": "fire",
+      "image": "unit_icon_0039_1_0.png"
+    },
+    "stats": {
+      "hp": 9390,
+      "atk": 626,
+      "def": 725,
+      "spd": 102,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": null,
+      "stat": "hp",
+      "area": "arena",
+      "value": 0.33
+    }
+  },
+  "Nephthys": {
+    "meta": {
+      "name": "Nephthys",
+      "element": "dark",
+      "image": "unit_icon_0039_4_2.png"
+    },
+    "stats": {
+      "hp": 11370,
+      "atk": 725,
+      "def": 659,
+      "spd": 99,
+      "cr": 15,
+      "cd": 50,
+      "res": 40,
+      "acc": 0
+    },
+    "lead": {
+      "element": null,
+      "stat": "spd",
+      "area": null,
+      "value": 0.24
+    }
+  },
+  "Isis": {
+    "meta": {
+      "name": "Isis",
+      "element": "light",
+      "image": "unit_icon_0039_3_2.png"
+    },
+    "stats": {
+      "hp": 11700,
+      "atk": 637,
+      "def": 725,
+      "spd": 99,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 25
+    },
+    "lead": {
+      "element": null,
+      "stat": "atk",
+      "area": null,
+      "value": 0.33
+    }
+  },
+  "Hathor": {
+    "meta": {
+      "name": "Hathor",
+      "element": "wind",
+      "image": "unit_icon_0039_2_2.png"
+    },
+    "stats": {
+      "hp": 11040,
+      "atk": 692,
+      "def": 714,
+      "spd": 99,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 25
+    },
+    "lead": {
+      "element": null,
+      "stat": "res",
+      "area": null,
+      "value": 0.41
+    }
+  },
+  "Bastet": {
+    "meta": {
+      "name": "Bastet",
+      "element": "water",
+      "image": "unit_icon_0039_0_2.png"
+    },
+    "stats": {
+      "hp": 11850,
+      "atk": 637,
+      "def": 714,
+      "spd": 99,
+      "cr": 15,
+      "cd": 50,
+      "res": 40,
+      "acc": 0
+    },
+    "lead": {
+      "element": null,
+      "stat": "def",
+      "area": null,
+      "value": 0.33
+    }
+  },
+  "Sekhmet": {
+    "meta": {
+      "name": "Sekhmet",
+      "element": "fire",
+      "image": "unit_icon_0039_1_2.png"
+    },
+    "stats": {
+      "hp": 11205,
+      "atk": 714,
+      "def": 681,
+      "spd": 99,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 25
+    },
+    "lead": {
+      "element": null,
+      "stat": "hp",
+      "area": null,
+      "value": 0.33
+    }
+  },
+  "Bulldozer": {
+    "meta": {
+      "name": "Bulldozer",
+      "element": "fire",
+      "image": "unit_icon_0039_1_4.png"
+    },
+    "stats": {
+      "hp": 10050,
+      "atk": 527,
+      "def": 615,
+      "spd": 98,
+      "cr": 30,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": null,
+      "stat": "def",
+      "area": "guild",
+      "value": 0.21
+    }
+  },
+  "Tractor": {
+    "meta": {
+      "name": "Tractor",
+      "element": "water",
+      "image": "unit_icon_0039_0_4.png"
+    },
+    "stats": {
+      "hp": 9225,
+      "atk": 516,
+      "def": 681,
+      "spd": 98,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 25
+    },
+    "lead": {
+      "element": null,
+      "stat": "hp",
+      "area": "guild",
+      "value": 0.21
+    }
+  },
+  "Crane": {
+    "meta": {
+      "name": "Crane",
+      "element": "wind",
+      "image": "unit_icon_0039_2_4.png"
+    },
+    "stats": {
+      "hp": 9225,
+      "atk": 505,
+      "def": 692,
+      "spd": 98,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 25
+    },
+    "lead": {
+      "element": null,
+      "stat": "hp",
+      "area": "guild",
+      "value": 0.21
+    }
+  },
+  "Driller": {
+    "meta": {
+      "name": "Driller",
+      "element": "light",
+      "image": "unit_icon_0039_3_4.png"
+    },
+    "stats": {
+      "hp": 10215,
+      "atk": 494,
+      "def": 637,
+      "spd": 98,
+      "cr": 15,
+      "cd": 50,
+      "res": 40,
+      "acc": 0
+    },
+    "lead": {
+      "element": null,
+      "stat": "def",
+      "area": "guild",
+      "value": 0.21
+    }
+  },
+  "Crawler": {
+    "meta": {
+      "name": "Crawler",
+      "element": "dark",
+      "image": "unit_icon_0039_4_4.png"
+    },
+    "stats": {
+      "hp": 9060,
+      "atk": 505,
+      "def": 703,
+      "spd": 98,
+      "cr": 30,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": null,
+      "stat": "res",
+      "area": "guild",
+      "value": 0.26
+    }
+  },
+  "Smokey": {
+    "meta": {
+      "name": "Smokey",
+      "element": "fire",
+      "image": "unit_icon_0040_1_1.png"
+    },
+    "stats": {
+      "hp": 9555,
+      "atk": 747,
+      "def": 593,
+      "spd": 101,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": null,
+      "stat": "hp",
+      "area": "dungeon",
+      "value": 0.33
+    }
+  },
+  "Chilling": {
+    "meta": {
+      "name": "Chilling",
+      "element": "water",
+      "image": "unit_icon_0040_0_1.png"
+    },
+    "stats": {
+      "hp": 9225,
+      "atk": 736,
+      "def": 626,
+      "spd": 101,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": null,
+      "stat": "acc",
+      "area": "dungeon",
+      "value": 0.4
+    }
+  },
+  "Windy": {
+    "meta": {
+      "name": "Windy",
+      "element": "wind",
+      "image": "unit_icon_0040_2_1.png"
+    },
+    "stats": {
+      "hp": 9720,
+      "atk": 692,
+      "def": 637,
+      "spd": 101,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": null,
+      "stat": "def",
+      "area": "dungeon",
+      "value": 0.33
+    }
+  },
+  "Misty": {
+    "meta": {
+      "name": "Misty",
+      "element": "light",
+      "image": "unit_icon_0040_3_1.png"
+    },
+    "stats": {
+      "hp": 9390,
+      "atk": 758,
+      "def": 593,
+      "spd": 101,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": null,
+      "stat": "cr",
+      "area": "dungeon",
+      "value": 0.24
+    }
+  },
+  "Dusky": {
+    "meta": {
+      "name": "Dusky",
+      "element": "dark",
+      "image": "unit_icon_0040_4_1.png"
+    },
+    "stats": {
+      "hp": 9060,
+      "atk": 801,
+      "def": 571,
+      "spd": 101,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": null,
+      "stat": "res",
+      "area": "dungeon",
+      "value": 0.4
+    }
+  },
+  "Adrian": {
+    "meta": {
+      "name": "Adrian",
+      "element": "fire",
+      "image": "unit_icon_0041_1_1.png"
+    },
+    "stats": {
+      "hp": 9060,
+      "atk": 659,
+      "def": 549,
+      "spd": 101,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": null
+  },
+  "Eluin": {
+    "meta": {
+      "name": "Eluin",
+      "element": "water",
+      "image": "unit_icon_0041_0_1.png"
+    },
+    "stats": {
+      "hp": 8235,
+      "atk": 725,
+      "def": 538,
+      "spd": 101,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": null
+  },
+  "Erwin": {
+    "meta": {
+      "name": "Erwin",
+      "element": "wind",
+      "image": "unit_icon_0041_2_1.png"
+    },
+    "stats": {
+      "hp": 8400,
+      "atk": 714,
+      "def": 538,
+      "spd": 101,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": null,
+      "stat": "cr",
+      "area": null,
+      "value": 0.15
+    }
+  },
+  "Lucien": {
+    "meta": {
+      "name": "Lucien",
+      "element": "light",
+      "image": "unit_icon_0041_3_1.png"
+    },
+    "stats": {
+      "hp": 8895,
+      "atk": 692,
+      "def": 527,
+      "spd": 101,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": null,
+      "stat": "spd",
+      "area": null,
+      "value": 0.15
+    }
+  },
+  "Isillen": {
+    "meta": {
+      "name": "Isillen",
+      "element": "dark",
+      "image": "unit_icon_0041_4_1.png"
+    },
+    "stats": {
+      "hp": 8895,
+      "atk": 790,
+      "def": 593,
+      "spd": 101,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": null,
+      "stat": "atk",
+      "area": null,
+      "value": 0.2
+    }
+  },
+  "Kroa": {
+    "meta": {
+      "name": "Kroa",
+      "element": "dark",
+      "image": "unit_icon_0041_4_2.png"
+    },
+    "stats": {
+      "hp": 9390,
+      "atk": 560,
+      "def": 626,
+      "spd": 120,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": null
+  },
+  "Dova": {
+    "meta": {
+      "name": "Dova",
+      "element": "light",
+      "image": "unit_icon_0041_3_2.png"
+    },
+    "stats": {
+      "hp": 10710,
+      "atk": 615,
+      "def": 648,
+      "spd": 105,
+      "cr": 15,
+      "cd": 50,
+      "res": 40,
+      "acc": 0
+    },
+    "lead": {
+      "element": null,
+      "stat": "res",
+      "area": null,
+      "value": 0.25
+    }
+  },
+  "Raviti": {
+    "meta": {
+      "name": "Raviti",
+      "element": "wind",
+      "image": "unit_icon_0041_2_2.png"
+    },
+    "stats": {
+      "hp": 10545,
+      "atk": 527,
+      "def": 747,
+      "spd": 105,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 25
+    },
+    "lead": {
+      "element": null,
+      "stat": "def",
+      "area": null,
+      "value": 0.2
+    }
+  },
+  "Remy": {
+    "meta": {
+      "name": "Remy",
+      "element": "water",
+      "image": "unit_icon_0041_0_2.png"
+    },
+    "stats": {
+      "hp": 9555,
+      "atk": 505,
+      "def": 670,
+      "spd": 105,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 25
+    },
+    "lead": null
+  },
+  "Racuni": {
+    "meta": {
+      "name": "Racuni",
+      "element": "fire",
+      "image": "unit_icon_0041_1_2.png"
+    },
+    "stats": {
+      "hp": 9885,
+      "atk": 571,
+      "def": 582,
+      "spd": 105,
+      "cr": 15,
+      "cd": 50,
+      "res": 40,
+      "acc": 0
+    },
+    "lead": null
+  },
+  "Nyx": {
+    "meta": {
+      "name": "Nyx",
+      "element": "dark",
+      "image": "unit_icon_0040_4_3.png"
+    },
+    "stats": {
+      "hp": 11535,
+      "atk": 681,
+      "def": 692,
+      "spd": 98,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 25
+    },
+    "lead": {
+      "element": null,
+      "stat": "res",
+      "area": "arena",
+      "value": 0.55
+    }
+  },
+  "Oberon": {
+    "meta": {
+      "name": "Oberon",
+      "element": "light",
+      "image": "unit_icon_0040_3_3.png"
+    },
+    "stats": {
+      "hp": 10050,
+      "atk": 790,
+      "def": 681,
+      "spd": 98,
+      "cr": 15,
+      "cd": 50,
+      "res": 40,
+      "acc": 0
+    },
+    "lead": {
+      "element": null,
+      "stat": "atk",
+      "area": "arena",
+      "value": 0.44
+    }
+  },
+  "Ganymede": {
+    "meta": {
+      "name": "Ganymede",
+      "element": "wind",
+      "image": "unit_icon_0040_2_3.png"
+    },
+    "stats": {
+      "hp": 10710,
+      "atk": 736,
+      "def": 692,
+      "spd": 113,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": null,
+      "stat": "acc",
+      "area": "arena",
+      "value": 0.55
+    }
+  },
+  "Psamathe": {
+    "meta": {
+      "name": "Psamathe",
+      "element": "water",
+      "image": "unit_icon_0040_0_3.png"
+    },
+    "stats": {
+      "hp": 9720,
+      "atk": 856,
+      "def": 637,
+      "spd": 98,
+      "cr": 30,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": null,
+      "stat": "spd",
+      "area": "arena",
+      "value": 0.33
+    }
+  },
+  "Daphnis ": {
+    "meta": {
+      "name": "Daphnis ",
+      "element": "fire",
+      "image": "unit_icon_0040_1_3.png"
+    },
+    "stats": {
+      "hp": 9885,
+      "atk": 834,
+      "def": 648,
+      "spd": 98,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 25
+    },
+    "lead": {
+      "element": null,
+      "stat": "cr",
+      "area": "arena",
+      "value": 0.33
+    }
+  },
+  "Xiong Fei": {
+    "meta": {
+      "name": "Xiong Fei",
+      "element": "fire",
+      "image": "unit_icon_0041_1_4.png"
+    },
+    "stats": {
+      "hp": 10545,
+      "atk": 615,
+      "def": 823,
+      "spd": 96,
+      "cr": 15,
+      "cd": 50,
+      "res": 40,
+      "acc": 0
+    },
+    "lead": {
+      "element": null,
+      "stat": "def",
+      "area": null,
+      "value": 0.33
+    }
+  },
+  "Mo Long": {
+    "meta": {
+      "name": "Mo Long",
+      "element": "water",
+      "image": "unit_icon_0041_0_4.png"
+    },
+    "stats": {
+      "hp": 12675,
+      "atk": 648,
+      "def": 648,
+      "spd": 96,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 25
+    },
+    "lead": {
+      "element": null,
+      "stat": "hp",
+      "area": null,
+      "value": 0.33
+    }
+  },
+  "Feng Yan": {
+    "meta": {
+      "name": "Feng Yan",
+      "element": "wind",
+      "image": "unit_icon_0041_2_4.png"
+    },
+    "stats": {
+      "hp": 10215,
+      "atk": 659,
+      "def": 801,
+      "spd": 96,
+      "cr": 30,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": null,
+      "stat": "def",
+      "area": "guild",
+      "value": 0.44
+    }
+  },
+  "Tian Lang": {
+    "meta": {
+      "name": "Tian Lang",
+      "element": "light",
+      "image": "unit_icon_0041_3_4.png"
+    },
+    "stats": {
+      "hp": 12345,
+      "atk": 681,
+      "def": 637,
+      "spd": 96,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 25
+    },
+    "lead": {
+      "element": null,
+      "stat": "hp",
+      "area": "guild",
+      "value": 0.44
+    }
+  },
+  "Mi Ying": {
+    "meta": {
+      "name": "Mi Ying",
+      "element": "dark",
+      "image": "unit_icon_0041_4_4.png"
+    },
+    "stats": {
+      "hp": 10380,
+      "atk": 801,
+      "def": 648,
+      "spd": 111,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": null,
+      "stat": "atk",
+      "area": "guild",
+      "value": 0.44
+    }
+  },
+  "Homunculus(Attack)": {
+    "meta": {
+      "name": "Homunculus(Attack)",
+      "element": "wind",
+      "image": "unit_icon_0042_2_2.png"
+    },
+    "stats": {
+      "hp": 9555,
+      "atk": 845,
+      "def": 659,
+      "spd": 101,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": null
+  },
+  "Ludo": {
+    "meta": {
+      "name": "Ludo",
+      "element": "fire",
+      "image": "unit_icon_0043_1_0.png"
+    },
+    "stats": {
+      "hp": 9060,
+      "atk": 769,
+      "def": 604,
+      "spd": 102,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": null,
+      "stat": "def",
+      "area": "arena",
+      "value": 0.33
+    }
+  },
+  "Reno": {
+    "meta": {
+      "name": "Reno",
+      "element": "water",
+      "image": "unit_icon_0043_0_0.png"
+    },
+    "stats": {
+      "hp": 9060,
+      "atk": 780,
+      "def": 593,
+      "spd": 102,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": null,
+      "stat": "cr",
+      "area": "arena",
+      "value": 0.24
+    }
+  },
+  "Morris": {
+    "meta": {
+      "name": "Morris",
+      "element": "wind",
+      "image": "unit_icon_0043_2_0.png"
+    },
+    "stats": {
+      "hp": 9885,
+      "atk": 692,
+      "def": 626,
+      "spd": 102,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": null,
+      "stat": "acc",
+      "area": "arena",
+      "value": 0.4
+    }
+  },
+  "Tablo": {
+    "meta": {
+      "name": "Tablo",
+      "element": "light",
+      "image": "unit_icon_0043_3_0.png"
+    },
+    "stats": {
+      "hp": 10380,
+      "atk": 692,
+      "def": 593,
+      "spd": 102,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": null,
+      "stat": "spd",
+      "area": "arena",
+      "value": 0.24
+    }
+  },
+  "Monte": {
+    "meta": {
+      "name": "Monte",
+      "element": "dark",
+      "image": "unit_icon_0043_4_0.png"
+    },
+    "stats": {
+      "hp": 9885,
+      "atk": 659,
+      "def": 659,
+      "spd": 102,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": null,
+      "stat": "res",
+      "area": "arena",
+      "value": 0.4
+    }
+  },
+  "Sonnet": {
+    "meta": {
+      "name": "Sonnet",
+      "element": "water",
+      "image": "unit_icon_0043_0_2.png"
+    },
+    "stats": {
+      "hp": 10710,
+      "atk": 604,
+      "def": 659,
+      "spd": 98,
+      "cr": 15,
+      "cd": 50,
+      "res": 40,
+      "acc": 0
+    },
+    "lead": null
+  },
+  "Harmonia": {
+    "meta": {
+      "name": "Harmonia",
+      "element": "fire",
+      "image": "unit_icon_0043_1_2.png"
+    },
+    "stats": {
+      "hp": 11040,
+      "atk": 571,
+      "def": 670,
+      "spd": 98,
+      "cr": 15,
+      "cd": 50,
+      "res": 40,
+      "acc": 0
+    },
+    "lead": null
+  },
+  "Triana": {
+    "meta": {
+      "name": "Triana",
+      "element": "wind",
+      "image": "unit_icon_0043_2_2.png"
+    },
+    "stats": {
+      "hp": 11040,
+      "atk": 560,
+      "def": 681,
+      "spd": 113,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": null
+  },
+  "Celia": {
+    "meta": {
+      "name": "Celia",
+      "element": "light",
+      "image": "unit_icon_0043_3_2.png"
+    },
+    "stats": {
+      "hp": 11700,
+      "atk": 626,
+      "def": 736,
+      "spd": 113,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": null,
+      "stat": "acc",
+      "area": "arena",
+      "value": 0.48
+    }
+  },
+  "Vivachel": {
+    "meta": {
+      "name": "Vivachel",
+      "element": "dark",
+      "image": "unit_icon_0043_4_2.png"
+    },
+    "stats": {
+      "hp": 12015,
+      "atk": 615,
+      "def": 725,
+      "spd": 113,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": null,
+      "stat": "hp",
+      "area": "arena",
+      "value": 0.38
+    }
+  },
+  "Alexandra": {
+    "meta": {
+      "name": "Alexandra",
+      "element": "dark",
+      "image": "unit_icon_0043_4_4.png"
+    },
+    "stats": {
+      "hp": 12510,
+      "atk": 703,
+      "def": 604,
+      "spd": 100,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": null
+  },
+  "Helena": {
+    "meta": {
+      "name": "Helena",
+      "element": "fire",
+      "image": "unit_icon_0043_1_4.png"
+    },
+    "stats": {
+      "hp": 12510,
+      "atk": 692,
+      "def": 615,
+      "spd": 100,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": null
+  },
+  "Eleanor": {
+    "meta": {
+      "name": "Eleanor",
+      "element": "light",
+      "image": "unit_icon_0043_3_4.png"
+    },
+    "stats": {
+      "hp": 12840,
+      "atk": 604,
+      "def": 681,
+      "spd": 100,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": null
+  },
+  "Amelia": {
+    "meta": {
+      "name": "Amelia",
+      "element": "water",
+      "image": "unit_icon_0043_0_4.png"
+    },
+    "stats": {
+      "hp": 12345,
+      "atk": 637,
+      "def": 681,
+      "spd": 100,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": null
+  },
+  "Diana": {
+    "meta": {
+      "name": "Diana",
+      "element": "wind",
+      "image": "unit_icon_0043_2_4.png"
+    },
+    "stats": {
+      "hp": 12840,
+      "atk": 681,
+      "def": 604,
+      "spd": 100,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": null
+  },
+  "Homunculus(Support)": {
+    "meta": {
+      "name": "Homunculus(Support)",
+      "element": "dark",
+      "image": "unit_icon_0044_3_1.png"
+    },
+    "stats": {
+      "hp": 12345,
+      "atk": 692,
+      "def": 626,
+      "spd": 101,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": null
+  },
+  "Josephine": {
+    "meta": {
+      "name": "Josephine",
+      "element": "water",
+      "image": "unit_icon_0044_0_4.png"
+    },
+    "stats": {
+      "hp": 12345,
+      "atk": 659,
+      "def": 659,
+      "spd": 102,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": null,
+      "stat": "acc",
+      "area": "guild",
+      "value": 0.55
+    }
+  },
+  "Ophilia": {
+    "meta": {
+      "name": "Ophilia",
+      "element": "fire",
+      "image": "unit_icon_0044_1_4.png"
+    },
+    "stats": {
+      "hp": 12510,
+      "atk": 637,
+      "def": 670,
+      "spd": 102,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": null,
+      "stat": "def",
+      "area": "guild",
+      "value": 0.44
+    }
+  },
+  "Louise": {
+    "meta": {
+      "name": "Louise",
+      "element": "wind",
+      "image": "unit_icon_0044_2_4.png"
+    },
+    "stats": {
+      "hp": 11700,
+      "atk": 593,
+      "def": 769,
+      "spd": 102,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": null,
+      "stat": "hp",
+      "area": "guild",
+      "value": 0.44
+    }
+  },
+  "Jeanne": {
+    "meta": {
+      "name": "Jeanne",
+      "element": "light",
+      "image": "unit_icon_0044_3_4.png"
+    },
+    "stats": {
+      "hp": 12180,
+      "atk": 615,
+      "def": 714,
+      "spd": 102,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": null,
+      "stat": "res",
+      "area": "guild",
+      "value": 0.55
+    }
+  },
+  "Leona": {
+    "meta": {
+      "name": "Leona",
+      "element": "dark",
+      "image": "unit_icon_0044_4_4.png"
+    },
+    "stats": {
+      "hp": 10710,
+      "atk": 626,
+      "def": 801,
+      "spd": 102,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": null,
+      "stat": "cr",
+      "area": "guild",
+      "value": 0.33
+    }
+  },
+  "Talia": {
+    "meta": {
+      "name": "Talia",
+      "element": "water",
+      "image": "unit_icon_0045_0_1.png"
+    },
+    "stats": {
+      "hp": 9225,
+      "atk": 780,
+      "def": 582,
+      "spd": 103,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": null,
+      "stat": "cr",
+      "area": "arena",
+      "value": 0.24
+    }
+  },
+  "Shaina": {
+    "meta": {
+      "name": "Shaina",
+      "element": "fire",
+      "image": "unit_icon_0045_1_1.png"
+    },
+    "stats": {
+      "hp": 9390,
+      "atk": 747,
+      "def": 604,
+      "spd": 103,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": null,
+      "stat": "spd",
+      "area": "arena",
+      "value": 0.24
+    }
+  },
+  "Melissa": {
+    "meta": {
+      "name": "Melissa",
+      "element": "wind",
+      "image": "unit_icon_0045_2_1.png"
+    },
+    "stats": {
+      "hp": 9060,
+      "atk": 769,
+      "def": 604,
+      "spd": 103,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": null,
+      "stat": "hp",
+      "area": "arena",
+      "value": 0.33
+    }
+  },
+  "Deva": {
+    "meta": {
+      "name": "Deva",
+      "element": "light",
+      "image": "unit_icon_0045_3_1.png"
+    },
+    "stats": {
+      "hp": 9555,
+      "atk": 725,
+      "def": 615,
+      "spd": 103,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": null,
+      "stat": "atk",
+      "area": "arena",
+      "value": 0.33
+    }
+  },
+  "Belita": {
+    "meta": {
+      "name": "Belita",
+      "element": "dark",
+      "image": "unit_icon_0045_4_1.png"
+    },
+    "stats": {
+      "hp": 8895,
+      "atk": 790,
+      "def": 593,
+      "spd": 103,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": null,
+      "stat": "acc",
+      "area": "arena",
+      "value": 0.4
+    }
+  },
+  "Sabrina": {
+    "meta": {
+      "name": "Sabrina",
+      "element": "water",
+      "image": "unit_icon_0045_0_3.png"
+    },
+    "stats": {
+      "hp": 9060,
+      "atk": 780,
+      "def": 593,
+      "spd": 101,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": null,
+      "stat": "acc",
+      "area": "guild",
+      "value": 0.4
+    }
+  },
+  "Maruna": {
+    "meta": {
+      "name": "Maruna",
+      "element": "fire",
+      "image": "unit_icon_0045_1_3.png"
+    },
+    "stats": {
+      "hp": 9225,
+      "atk": 747,
+      "def": 615,
+      "spd": 101,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": null,
+      "stat": "hp",
+      "area": "guild",
+      "value": 0.33
+    }
+  },
+  "Zenobia": {
+    "meta": {
+      "name": "Zenobia",
+      "element": "wind",
+      "image": "unit_icon_0045_2_3.png"
+    },
+    "stats": {
+      "hp": 9390,
+      "atk": 769,
+      "def": 582,
+      "spd": 101,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": null,
+      "stat": "spd",
+      "area": "guild",
+      "value": 0.24
+    }
+  },
+  "Bailey": {
+    "meta": {
+      "name": "Bailey",
+      "element": "light",
+      "image": "unit_icon_0045_3_3.png"
+    },
+    "stats": {
+      "hp": 9060,
+      "atk": 758,
+      "def": 615,
+      "spd": 101,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": null,
+      "stat": "cr",
+      "area": "guild",
+      "value": 0.24
+    }
+  },
+  "Martina": {
+    "meta": {
+      "name": "Martina",
+      "element": "dark",
+      "image": "unit_icon_0045_4_3.png"
+    },
+    "stats": {
+      "hp": 8895,
+      "atk": 780,
+      "def": 604,
+      "spd": 101,
+      "cr": 15,
+      "cd": 50,
+      "res": 15,
+      "acc": 0
+    },
+    "lead": {
+      "element": null,
+      "stat": "atk",
+      "area": "guild",
+      "value": 0.33
+    }
+  }
+}

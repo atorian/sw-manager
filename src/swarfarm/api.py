@@ -1,15 +1,14 @@
-from collections import namedtuple
+import sys
 from enum import Enum
 from typing import NamedTuple, List, Optional, Dict, Union
-
+import simplejson as json
 import requests
 
 URL = 'https://swarfarm.com/api/v2/monsters/'
 
 
-def fetch_units(page=None):
-    params = {'page': page} if page else None
-    response = requests.get(URL, params=params)
+def fetch_units(url):
+    response = requests.get(url)
     data = response.json()
     return data['results'], data['next']
 
@@ -18,7 +17,7 @@ def export_units():
     pass
 
 
-class Element(Enum):
+class Element(str, Enum):
     WIND = 'wind'
     FIRE = 'fire'
     WATER = 'water'
@@ -26,7 +25,7 @@ class Element(Enum):
     DARK = 'dark'
 
 
-class Stat(Enum):
+class Stat(str, Enum):
     HP = 'hp'
     ATK = 'atk'
     DEF = 'def'
@@ -36,8 +35,7 @@ class Stat(Enum):
     RES = 'res'
     ACC = 'acc'
 
-
-class Target(Enum):
+class Target(str, Enum):
     SELF = 'self'
     NOT_SELF = 'not_self'
     ALLY = 'ally'
@@ -45,10 +43,9 @@ class Target(Enum):
     ENEMY = 'enemy'
     AOE_ENEMY = 'aoe_enemy'
 
-
-class Area(Enum):
+class Area(str, Enum):
     ARENA = 'arena'
-    GUILD_WAR = 'guild_war'
+    GUILD = 'guild'
     DUNGEON = 'dungeon'
     ELEMENT = 'element'
 
@@ -85,11 +82,49 @@ class Strip(NamedTuple):
     amount: Union[int, "all"]
 
 
+class Debuf(NamedTuple):
+    duration: int
+    target: Optional[Target] = None
+    irresistible: bool = False
+    chance: Optional[int] = 100
+
+
+class Dot(Debuf):
+    duration: int
+    target: Optional[Target] = None
+    irresistible: bool = False
+    chance: Optional[int] = 100
+    quantity: int = 1
+
+
+class Buf(NamedTuple):
+    duration: int
+    target: Optional[Target] = None
+
+
+class Heal(NamedTuple):
+    amount: int
+    target: Optional[Target] = None
+
+
 class Iteration(NamedTuple):
     enemy_dmg: Optional[Union[PhisicalDmg, str]] = None
-    atb_boost: Optional[AtbBoost] = None
+    atb_boost: Optional[Union[AtbBoost, int]] = None
     cleanse: Optional[Union[Cleanse, "all"]] = None
     strip: Optional[Union[Strip, "all"]] = None
+    haste: Optional[Union[Buf, int]] = None
+    def_break: Optional[Union[Debuf, int]] = None
+    atk_break: Optional[Union[Debuf, int]] = None
+    unrecoverable: Optional[Union[Debuf, int]] = None
+    stun: Optional[Union[Debuf, int]] = None
+    dot: Optional[Debuf] = None
+    heal: Optional[Heal] = None
+    atk_buf: Optional[Buf] = None
+    def_buf: Optional[Buf] = None
+    cr_buf: Optional[Buf] = None
+    anti_cr: Optional[Buf] = None
+    glancing: Optional[Debuf] = None
+    branding: Optional[Debuf] = None
 
 
 class SkillMeta(NamedTuple):
@@ -110,9 +145,14 @@ class Passive(NamedTuple):
 
 
 SWARFARM_LEAD_STAT = {
-    'Attack Power': Stat.ATK,
     'HP': Stat.HP,
-    'Critical Rate': Stat.CR
+    'Attack Power': Stat.ATK,
+    'Defense': Stat.DEF,
+    'Critical Rate': Stat.CR,
+    'Critical DMG': Stat.CD,
+    'Accuracy': Stat.ACC,
+    'Resistance': Stat.RES,
+    'Attack Speed': Stat.SPD,
 }
 
 SWARFARM_TARGET = {
@@ -167,53 +207,197 @@ def map_multiplier(formula: str) -> str:
     return formula
 
 
-def map_interation(skill):
-    target = SWARFARM_TARGET[skill['used_on'][0]]
-    if target == Target.ENEMY and skill['aoe']:
-        target = Target.AOE_ENEMY
+BUFFS ={
+    'Increase SPD': 'haste',
+    "Increase DEF": 'def_buf',
+    'Increase ATK': 'atk_buf',
+    'Increase CRI Rate': 'crit_buf',
+    'Increase CRI Resist': 'anti_crit',
+    'Recovery': 'hot',
+    'Counter': 'counter',
+    'Revenge': 'revenge',
+    'Immunity': 'immunity',
+    'Invincible': 'invincibility',
+    'Reflect DMG': 'reflect',
+    'Shield': 'shield',
+    'Endure': 'endure',
+    'Defend': 'defend',
+    'Protect Soul': 'soul_protection',
+}
+DEBUFFS = {
+    'Decrease ATK': 'atk_break',
+    'Decrease DEF': 'def_break',
+    'Decrease SPD': 'slow',
+    'Disturb HP Recovery': 'unrecoverable',
+    'Continuous DMG': 'dot',
+    'Glancing Hit': 'glancing',
+    'Beneficial Effects Blocked': 'block_buf',
+    'Bomb': 'bomb',
+    'Provoke':'provoke',
+    'Sleep': 'sleep',
+    'Freeze': 'freeze',
+    'Stun': 'stun',
+    'Silence':'silence',
+    'Brand': 'brand',
+    'Oblivious':'oblivious'
+}
 
-    if len(skill['effects']) == 0:
-        return Iteration(
-            enemy_dmg=map_multiplier(skill['multiplier_formula'])
-        )
+attribute = (
+    'Ignore DEF',
+    'AOE',
+)
+
+other = {
+    'Increase ATB': 'atb_boost',
+    'Decrease ATB': 'atb_reduce',
+    'Cleanse': 'cleanse',
+    'Heal': 'heal',
+    'Revive': 'revive',
+    'Remove Buff': 'strip',
+    'Additional Turn': 'grant_turn',
+    'Detonate Bomb': 'detonate',
+    'Steal Buff': 'steal_buf',
+    'Reduce Cooltime': 'reduce_cooltime',
+    'Increase Cooltime': 'increase_cooltime',
+    'Self-Heal': 'heal',
+    # 'Multiple Hits',
+    # 'Auto Effect':,
+    'Anti-Revive': 'anti_revive',
+    'Transfer Debuff': 'transfer_debuf',
+    'Additional Attack': 'extra_hit',
+    'Increase Buff Duration': 'increase_buff_duration',
+    'Decrease Debuff Duration': 'decrease_buff_duration',
+    'Self-Harm',
+    'Elemental Advantage',
+    'Ally Attack',
+    'Destroy HP',
+    'Team Attack',
+    'Decrease Damage',
+    'Increase Debuff Duration',
+    'Reduce incoming DMG',
+    'Redistribute HP',
+    'Prevent Resurrect',
+    'Threat',
+    'Ignore Damage Reduction',
+    'Guaranteed Critical Hit',
+    'Debuff Bonus Damage',
+}
+
+def map_interation(skill):
+    target = Target.ENEMY if not skill['aoe'] else Target.AOE_ENEMY
 
     effects = {}
+
+    if any(skill["scales_with"]):
+        effects['enemy_dmg'] = map_multiplier(skill['multiplier_formula'])
+
     for effect in skill['effects']:
         if effect['effect']['name'] == 'Increase ATB':
-            effects['atb_boost'] = AtbBoost(
-                value=effect['quantity']
-            )
+            effects['atb_boost'] = effect['quantity']
         elif effect['effect']['name'] == 'Cleanse':
             effects['cleanse'] = 'all' if effect['all'] else Cleanse(amount=effect['quantity'])
         elif effect['effect']['name'] == 'Remove Buff':
             effects['strip'] = 'all' if effect['all'] else Strip(amount=effect['quantity'])
+        elif effect['effect']['name'] == 'Increase SPD':
+            effects['haste'] = effect['quantity']
+        elif effect['effect']['name'] == 'Decrease DEF':
+            effects['def_break'] = Debuf(
+                duration=effect['quantity'],
+                chance=None if effect['chance'] == 100 else effect['chance']
+            )
+        elif effect['effect']['name'] == 'Decrease ATK':
+            effects['atk_break'] = Debuf(
+                duration=effect['quantity'],
+                chance=None if effect['chance'] == 100 else effect['chance'],
+                target=target
+            )
+        elif effect['effect']['name'] == 'Continuous DMG':
+            effects['dot'] = Debuf(
+                duration=effect['quantity'],
+                chance=None if effect['chance'] == 100 else effect['chance'],
+                target=target
+            )
+        elif effect['effect']['name'] == 'Stun':
+            effects['stun'] = Debuf(
+                duration=effect['quantity'],
+                chance=None if effect['chance'] == 100 else effect['chance'],
+                target=target
+            )
+        elif effect['effect']['name'] == 'Disturb HP Recovery':
+            effects['unrecoverable'] = Debuf(
+                duration=effect['quantity'],
+                chance=None if effect['chance'] == 100 else effect['chance'],
+                target=target
+            )
+        elif effect['effect']['name'] == 'Heal':
+            effects['heal'] = Heal(
+                amount=effect['quantity'],
+                target=target
+            )
+        elif effect['effect']['name'] == 'Increase ATK':
+            effects['atk_buf'] = Buf(
+                duration=effect['quantity'],
+                target=target
+            )
+        elif effect['effect']['name'] == 'Increase DEF':
+            effects['def_buf'] = Buf(
+                duration=effect['quantity'],
+                target=target
+            )
+        elif effect['effect']['name'] == 'Increase CRI Rate':
+            effects['cr_buf'] = Buf(
+                duration=effect['quantity'],
+                target=target
+            )
+        elif effect['effect']['name'] == 'Glancing Hit':
+            effects['glancing'] = Debuf(
+                duration=effect['quantity'],
+                chance=None if effect['chance'] == 100 else effect['chance'],
+                target=target
+            )
+        elif effect['effect']['name'] == 'Debuff Bonus Damage':
+            effects['branding'] = Debuf(
+                duration=effect['quantity'],
+                chance=None if effect['chance'] == 100 else effect['chance'],
+                target=target
+            )
+        elif effect['effect']['name'] == 'Increase CRI Resist':
+            effects['branding'] = Buf(
+                duration=effect['quantity'],
+                target=target
+            )
+        else:
+            raise Exception('Uknown effect {}'.format(str(effect['effect'])))
 
     return Iteration(**effects)
 
 
 def map_skill(skill: dict) -> Union[Skill, Passive]:
-    target = SWARFARM_TARGET[skill['used_on'][0]]
-    if target == Target.ENEMY and skill['aoe']:
-        target = Target.AOE_ENEMY
+    target = Target.ENEMY if not skill['aoe'] else Target.AOE_ENEMY
 
     cooldown = skill['cooltime'] if skill['cooltime'] else None
     if 'Cooltime Turn -1' in skill['level_progress_description']:
         cooldown -= skill['level_progress_description'].count('Cooltime Turn -1')
 
-    return Skill(
-        meta=SkillMeta(
-            name=skill['name'],
-            description=skill['description'],
-            image=skill['icon_filename']
-        ),
-        cooldown=cooldown,
-        target=target,
-        iterations=[map_interation(skill)] * skill['hits']
-    )
+    try:
+        return Skill(
+            meta=SkillMeta(
+                name=skill['name'],
+                description=skill['description'],
+                image=skill['icon_filename']
+            ),
+            cooldown=cooldown,
+            target=target,
+            iterations=[map_interation(skill)] * skill['hits']
+        )
+    except Exception as e:
+        print(e)
+        print(skill)
+        sys.exit()
 
 
 def fetch_skill(id):
-    return requests.get('https://swarfarm.com/api/v2/skills/{}/'.format(str(id))).json()
+    return requests.get(f"https://swarfarm.com/api/v2/skills/{id}/").json()
 
 
 def map_unit(raw_unit):
@@ -239,8 +423,14 @@ def map_unit(raw_unit):
 
 
 if __name__ == '__main__':
-    data, next = fetch_units()
 
-    units = [map_unit(u) for u in data if u['can_awaken'] and u['is_awakened'] and not u['archetype'] == 'Material']
+    next = URL
+    units = []
 
-    print(units)
+    while next:
+        data, next = fetch_units(next)
+        units.extend(
+            [map_unit(u) for u in data if u['can_awaken'] and u['is_awakened'] and not u['archetype'] == 'Material']
+        )
+
+    print(json.dumps({u.meta.name:u for u in units}, namedtuple_as_object=True))

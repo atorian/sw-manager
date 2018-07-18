@@ -224,7 +224,8 @@ def _count_procs(base_stats, expected_stats, runes246):
     return procs
 
 
-def pick_best(build_a: Build, build_b: Build) -> Build:
+
+def pick_best(build_a: Build, build_b: Build, focus_stat:str = 'avg') -> Build:
     stats_fulfilled_a = sum(1 for v in build_a.stat_value if v >= 1)
     stats_fulfilled_b = sum(1 for v in build_b.stat_value if v >= 1)
 
@@ -233,6 +234,7 @@ def pick_best(build_a: Build, build_b: Build) -> Build:
     elif stats_fulfilled_a < stats_fulfilled_b:
         return build_b
     else:
+
         return build_a if build_a.value > build_b.value else build_b
 
 
@@ -245,11 +247,12 @@ class RuneManager(object):
         builds = []
         # add restrictions
         for preset in presets:
-            try:
+            # try:
                 yield self._find_build(preset)
                 # builds.append(self._find_build(preset))
-            except Exception:
-                pass
+            # except Exception as e:
+            #     print(e)
+            #     pass
         # return builds
 
     def _find_build(self, preset):

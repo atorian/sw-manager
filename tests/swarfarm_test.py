@@ -1,7 +1,7 @@
 import unittest
 
 from swarfarm.api import map_unit, LeadAbility, Unit, Meta, Stat, Element, Area, Skill, map_skill, SkillMeta, Target, \
-    Iteration, PhisicalDmg, AtbBoost, Cleanse, Strip
+    Iteration, PhisicalDmg, AtbBoost, Cleanse, Strip, Debuf
 
 BERNARD = {
     "id": 368,
@@ -141,7 +141,12 @@ class SwarfarmApiTest(unittest.TestCase):
                         image='skill_icon_0002_6_0.png'
                     ),
                     target=Target.ENEMY,
-                    cooldown=None
+                    cooldown=None,
+                    iterations=[
+                        Iteration(
+                            enemy_dmg='self.atk*(self.spd + 90)/55'
+                        )
+                    ]
                 ),
                 Skill(
                     meta=SkillMeta(
@@ -150,7 +155,14 @@ class SwarfarmApiTest(unittest.TestCase):
                         image='skill_icon_0002_2_1.png'
                     ),
                     target=Target.ENEMY,
-                    cooldown=3
+                    cooldown=2,
+                    iterations=[
+                        Iteration(
+                            enemy_dmg='5.1*self.atk',
+                            def_break=2,
+                            atk_break=2
+                        )
+                    ]
                 ),
                 Skill(
                     meta=SkillMeta(
@@ -158,8 +170,14 @@ class SwarfarmApiTest(unittest.TestCase):
                         description='Increases the Attack Bar of all allies by 30%, and also increases their Attack Speed for 2 turns.',
                         image='skill_icon_0002_6_1.png'
                     ),
-                    target=Target.AOE_ALLY,
-                    cooldown=5
+                    target=Target.AOE_ENEMY,
+                    cooldown=3,
+                    iterations=[
+                        Iteration(
+                            atb_boost=30,
+                            haste=2,
+                        )
+                    ]
                 )
             ],
         )
@@ -213,6 +231,103 @@ class SwarfarmApiTest(unittest.TestCase):
         )
 
         self.assertEqual(map_skill(raw_skill), snatch)
+
+    def test_parse_bernard_skill_2(self):
+        raw_skill = {
+            "id": 417,
+            "com2us_id": 2508,
+            "name": "Body Slam",
+            "description": "Attacks the enemy with a body slam and weakens their Attack Power and Defense for 2 turns.",
+            "slot": 2,
+            "cooltime": 3,
+            "hits": 1,
+            "passive": False,
+            "aoe": False,
+            "max_level": 5,
+            "level_progress_description": [
+                "Damage +10%",
+                "Damage +10%",
+                "Damage +10%",
+                "Cooltime Turn -1"
+            ],
+            "effects": [
+                {
+                    "effect": {
+                        "id": 19,
+                        "url": "https://swarfarm.com/api/v2/skill-effects/19/",
+                        "name": "Decrease ATK",
+                        "is_buff": False,
+                        "description": "Attack Power is reduced by 50%",
+                        "icon_filename": "debuff_attack_down.png"
+                    },
+                    "aoe": False,
+                    "single_target": True,
+                    "self_effect": False,
+                    "chance": 100,
+                    "on_crit": False,
+                    "on_death": False,
+                    "random": False,
+                    "quantity": 2,
+                    "all": False,
+                    "self_hp": False,
+                    "target_hp": False,
+                    "damage": False,
+                    "note": ""
+                },
+                {
+                    "effect": {
+                        "id": 20,
+                        "url": "https://swarfarm.com/api/v2/skill-effects/20/",
+                        "name": "Decrease DEF",
+                        "is_buff": False,
+                        "description": "Defense is reduced by 70%",
+                        "icon_filename": "debuff_defence_down.png"
+                    },
+                    "aoe": False,
+                    "single_target": True,
+                    "self_effect": False,
+                    "chance": 100,
+                    "on_crit": False,
+                    "on_death": False,
+                    "random": False,
+                    "quantity": 2,
+                    "all": False,
+                    "self_hp": False,
+                    "target_hp": False,
+                    "damage": False,
+                    "note": ""
+                }
+            ],
+            "multiplier_formula": "5.1*{ATK}",
+            "multiplier_formula_raw": "[[\"ATK\", \"*\", 5.1]]",
+            "scales_with": [
+                "ATK"
+            ],
+            "icon_filename": "skill_icon_0002_2_1.png",
+            "used_on": [
+                368,
+                367
+            ]
+        }
+
+        skill = Skill(
+            meta=SkillMeta(
+                name='Body Slam',
+                description='Attacks the enemy with a body slam and weakens their Attack Power and Defense for 2 turns.',
+                image='skill_icon_0002_2_1.png'
+            ),
+            target=Target.ENEMY,
+            cooldown=2,
+            iterations=[
+                Iteration(
+                    enemy_dmg='5.1*self.atk',
+                    def_break=2,
+                    atk_break=2
+                )
+            ]
+        )
+
+        self.assertEqual(map_skill(raw_skill), skill)
 
     def test_parse_tiana_skill_3(self):
         raw_skill = {
@@ -323,11 +438,9 @@ class SwarfarmApiTest(unittest.TestCase):
                 Iteration(
                     strip='all',
                     cleanse='all',
-                    atb_boost=AtbBoost(
-                        value=30
-                    )
+                    atb_boost=30
                 )
             ]
         )
 
-        self.assertEqual(map_skill(raw_skill), wind_of_change)
+        self.assertEqual(wind_of_change, map_skill(raw_skill))

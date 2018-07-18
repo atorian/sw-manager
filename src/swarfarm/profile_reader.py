@@ -99,7 +99,8 @@ def map_rune(raw) -> Rune:
 
 
 def load_profile(path):
-    with open(path, 'r') as f:
+    print('load profile')
+    with open(path, 'r', encoding="utf8") as f:
         profile = json.load(f)
 
     runes = list(map(map_rune, profile['runes']))

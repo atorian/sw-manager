@@ -1,15 +1,8 @@
-from preset import Preset, Stat, Around, Between, Max
-from rune import RUNE_SETS
-from monster import Monster
+from preset import Preset, Stat, Around, Between
+from rune import RuneSets
 
-theomars = Preset(monster=Monster(name='Theomars', stats={
-    'hp': 10875,
-    'atk': 823,
-    'def': 593,
-    'spd': 100,
-    'cr': 30,
-}))
-theomars.include(RUNE_SETS['Violent'], RUNE_SETS['Will'])
+theomars = Preset('Theomars')
+theomars.include(RuneSets.Violent, RuneSets.Will)
 theomars.expect(
     Stat('spd', Between(min=190, max=210)),
     Stat('cr', Between(min=60, max=70)),

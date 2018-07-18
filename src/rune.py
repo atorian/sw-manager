@@ -1,4 +1,6 @@
+import abc
 import math
+from enum import Enum
 
 MAX_VALUES = {
     '6': {
@@ -31,6 +33,19 @@ MAX_VALUES = {
 
 
 PROCS = {
+    4: {
+        'hp': {'min': 60, 'max': 225},
+        'hp%': {'min': 3, 'max': 6},
+        'atk': {'min': 4, 'max': 10},
+        'atk%': {'min': 3, 'max': 6},
+        'def': {'min': 4, 'max': 10},
+        'def%': {'min': 3, 'max': 6},
+        'spd': {'min': 2, 'max': 4},
+        'cr': {'min': 2, 'max': 4},
+        'cd': {'min': 2, 'max': 5},
+        'acc': {'min': 2, 'max': 5},
+        'res': {'min': 2, 'max': 5},
+    },
     5: {
         'hp': {'min': 90, 'max': 300},
         'hp%': {'min': 4, 'max': 7},
@@ -75,10 +90,13 @@ class RuneSet(object):
         return self._size
 
     def __eq__(self, other):
-        if self._name == '*' or other._name == '*':
-            return True
-        else:
-            return self._name == other.name and self._size == other.size
+        if self.__class__ == other.__class__:
+            if self._name == '*' or other._name == '*':
+                return True
+            else:
+                return self._name == other.name and self._size == other.size
+
+        return NotImplemented
 
     def __hash__(self):
         return hash(self.name)
@@ -86,6 +104,29 @@ class RuneSet(object):
     def __repr__(self):
         return 'RuneSet {} {}'.format(self._name, self._size)
 
+
+class RuneSets:
+    Energy = RuneSet("Energy", 2)
+    Guard = RuneSet("Guard", 2)
+    Swift = RuneSet("Swift", 4)
+    Blade = RuneSet("Blade", 2)
+    Rage = RuneSet("Rage", 4)
+    Focus = RuneSet("Focus", 2)
+    Endure = RuneSet("Endure", 2)
+    Fatal = RuneSet("Fatal", 4)
+    Despair = RuneSet("Despair", 4)
+    Vampire = RuneSet("Vampire", 4)
+    Violent = RuneSet("Violent", 4)
+    Nemesis = RuneSet("Nemesis", 2)
+    Will = RuneSet("Will", 2)
+    Shield = RuneSet("Shield", 2)
+    Revenge = RuneSet("Revenge", 2)
+    Destroy = RuneSet("Destroy", 2)
+    Fight = RuneSet("Fight", 2)
+    Determination = RuneSet("Determination", 2)
+    Enhance = RuneSet("Enhance", 2)
+    Accuracy = RuneSet("Accuracy", 2)
+    Tolerance = RuneSet("Tolerance", 2)
 
 RUNE_SETS = {
     "Energy": RuneSet("Energy", 2),
