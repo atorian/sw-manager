@@ -12,7 +12,7 @@ clean:
 	rm -rf ./build/*
 
 run:
-	python ./src/optimize.py
+	python  ./src/optimize.py
 
 test:
 	PYTHONPATH=src pipenv run pytest

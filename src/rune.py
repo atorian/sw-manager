@@ -329,6 +329,7 @@ class Rune(object):
         self._meta = meta
         self._stats = stats
         self._is_locked = False
+        self._procs = None
 
     def lock(self):
         self._is_locked = True
@@ -376,7 +377,9 @@ class Rune(object):
 
     @property
     def procs(self):
-        return {stat.name: self._num_procs(stat.name) for stat in self._stats.__it__() if stat != self.primary}
+        if not self._procs:
+            self._procs = {stat.name: self._num_procs(stat.name) for stat in self._stats.__it__() if stat != self.primary}
+        return self._procs
 
     @property
     def primary(self):

@@ -1,10 +1,10 @@
-from itertools import permutations
-from concurrent.futures import ProcessPoolExecutor, as_completed
+import traceback
 import logging
 import math
+from concurrent.futures import ProcessPoolExecutor, as_completed
+from itertools import permutations
 from functools import reduce
-from typing import List
-import traceback
+from typing import List, Dict
 from preset import Preset
 from build import Build
 from rune import Rune, PROCS, MAX_VALUES
@@ -22,7 +22,6 @@ class NotAvailableSets(Exception):
 
 
 BUILD_DIRECTIONS = list(permutations((2, 4, 6, 1, 3, 5)))
-
 
 def assemble(runes, slots, build: Build) -> Build:
     slot = slots[0]
@@ -49,7 +48,7 @@ def assemble(runes, slots, build: Build) -> Build:
         # if no broken sets ????
         # max_sets
         for rune_set, next_build in next_builds:
-            if builds_by_sets.get(rune_set) is None and sets_count > 0:
+            if rune_set not in builds_by_sets and sets_count > 0:
                 builds_by_sets[rune_set] = next_build
 
             if len(builds_by_sets.keys()) >= sets_count:
@@ -78,6 +77,27 @@ def assemble(runes, slots, build: Build) -> Build:
             )
 
     raise NoAvailableRunes('No suitable runes for slot {}'.format(slot))
+
+
+def directions(strategy_runes: Dict[int, list]):
+    available_runes = {
+        1: len(strategy_runes[1]),
+        2: len(strategy_runes[2]),
+        3: len(strategy_runes[3]),
+        4: len(strategy_runes[4]),
+        5: len(strategy_runes[5]),
+        6: len(strategy_runes[6]),
+    }
+    print('available_runes', available_runes)
+    slots = range(1, 6)
+
+    limited = [s for s, amount in available_runes.items() if amount == 1]
+
+    if len(limited):
+        rest = list(set(slots) - set(limited))
+        return [limited + list(p) for p in permutations(rest)]
+
+    return BUILD_DIRECTIONS
 
 
 class BuildStrategy(object):
@@ -128,12 +148,14 @@ class BuildStrategy(object):
             5: list([r for r in runes[5] if self.is_suitable(r)]),
             6: list([r for r in runes[6] if self.is_suitable(r)]),
         }
+
         best_build = Build(preset)
 
         if self.can_build(strategy_runes):
 
             futures = []
-            for build_order in BUILD_DIRECTIONS:
+
+            for build_order in directions(strategy_runes):
                 futures.append(
                     thread_pool.submit(
                         assemble,
@@ -153,12 +175,7 @@ class BuildStrategy(object):
         return best_build
 
     def can_build(self, runes):
-        return bool(len(runes[2])) and \
-               bool(len(runes[4])) and \
-               bool(len(runes[6])) and \
-               bool(len(runes[1])) and \
-               bool(len(runes[3])) and \
-               bool(len(runes[5]))
+        return all(len(runes[slot]) > 0 for slot in range(1, 6))
 
     def is_suitable(self, rune: Rune):
         if rune.slot in (2, 4, 6):
@@ -224,8 +241,7 @@ def _count_procs(base_stats, expected_stats, runes246):
     return procs
 
 
-
-def pick_best(build_a: Build, build_b: Build, focus_stat:str = 'avg') -> Build:
+def pick_best(build_a: Build, build_b: Build) -> Build:
     stats_fulfilled_a = sum(1 for v in build_a.stat_value if v >= 1)
     stats_fulfilled_b = sum(1 for v in build_b.stat_value if v >= 1)
 
@@ -234,7 +250,6 @@ def pick_best(build_a: Build, build_b: Build, focus_stat:str = 'avg') -> Build:
     elif stats_fulfilled_a < stats_fulfilled_b:
         return build_b
     else:
-
         return build_a if build_a.value > build_b.value else build_b
 
 
@@ -244,16 +259,8 @@ class RuneManager(object):
         self._restrictions = {}
 
     def optimize(self, presets=()):
-        builds = []
-        # add restrictions
         for preset in presets:
-            # try:
-                yield self._find_build(preset)
-                # builds.append(self._find_build(preset))
-            # except Exception as e:
-            #     print(e)
-            #     pass
-        # return builds
+            yield self._find_build(preset)
 
     def _find_build(self, preset):
 

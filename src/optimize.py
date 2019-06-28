@@ -1,3 +1,5 @@
+import yappi
+
 from rune_manager import RuneManager
 from swarfarm import load_profile
 import units
@@ -14,9 +16,9 @@ if __name__ == "__main__":
 
     start = time.time()
     presets = [
-        units.searra,
+        # units.searra,
         units.theomars,
-        units.copper,
+        # units.copper,
     ]
 
     for build in manager.optimize(presets):

@@ -8,12 +8,16 @@ from rune import Rune, EquippedRune
 values = {}
 
 class Build(object):
+
     def __init__(self, preset: Preset, runes: List[Rune] = None):
         self._monster = preset.monster
         self._preset = preset
-        self._runes = runes if runes is not None else [None, ] * 6
+        self._runes = runes or [None, ] * 6
         self._stats = {}
         self._v_id = '.'.join(str(r.id) for r in self.runes)
+
+    def fingerprint(self):
+        return '-'.join([r.id for r in self._runes])
 
     @property
     def preset(self):

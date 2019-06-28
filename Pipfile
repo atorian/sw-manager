@@ -9,6 +9,9 @@ requests = "*"
 pymysql = "*"
 simplejson = "*"
 jsonpickle = "*"
+numpy = "*"
+pandas = "*"
+cprofilev = "*"
 
 [dev-packages]
 
